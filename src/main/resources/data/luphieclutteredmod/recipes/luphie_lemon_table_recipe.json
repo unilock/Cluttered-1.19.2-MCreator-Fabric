@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "1": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "2": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "4": {
+      "item": "minecraft:lime_concrete"
+    },
+    "6": {
+      "item": "minecraft:lime_concrete"
+    },
+    "7": {
+      "item": "minecraft:lime_concrete"
+    },
+    "8": {
+      "item": "minecraft:lime_concrete"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_lemon_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_cardboard_box_filled"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_cardboard_box_filled",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_cardboard_box_filled",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_cardboard_box_filled",
+      "y": 270
+    }
+  }
+}

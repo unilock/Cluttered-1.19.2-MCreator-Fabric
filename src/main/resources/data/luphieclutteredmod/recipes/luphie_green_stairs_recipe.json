@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_green_planks"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_green_planks"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_green_planks"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_green_planks"
+    },
+    "7": {
+      "item": "luphieclutteredmod:luphie_green_planks"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_green_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_green_stairs",
+    "count": 4
+  }
+}

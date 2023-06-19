@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/hangingplanta",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/hangingplantatext",
+    "particle": "luphieclutteredmod:blocks/hangingplantatext",
+    "0": "luphieclutteredmod:blocks/hangingplantatext"
+  }
+}

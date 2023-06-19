@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowWoodSetFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurpleFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkFenceGate"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomFenceGate"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "wooden_fence_gates",
+    "namespace": "minecraft"
+  }
+}

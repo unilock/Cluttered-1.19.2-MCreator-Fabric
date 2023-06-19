@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/bluemushroomdoorbottom",
+    "top": "luphieclutteredmod:blocks/bluemushroomdoortop"
+  },
+  "render_type": "solid"
+}

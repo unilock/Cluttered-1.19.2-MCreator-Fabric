@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LuphieYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieYellowDoor"
+    },
+    "name": "luphie_yellow_door_recipe",
+    "namespace": "mod"
+  }
+}

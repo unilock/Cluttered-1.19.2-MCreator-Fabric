@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#5"
+      },
+      {
+        "value": "Blocks.TALLGRASS"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieDryingHerbs"
+    },
+    "name": "luphie_drying_herbs_recipe",
+    "namespace": "mod"
+  }
+}

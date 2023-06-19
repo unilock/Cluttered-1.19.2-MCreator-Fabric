@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.HONEYCOMB"
+      },
+      {
+        "value": "Items.HONEYCOMB"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.HONEYCOMB"
+      },
+      {
+        "value": "Items.HONEYCOMB"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieHoneycombLamp"
+    },
+    "name": "luphie_honeycomb_lamp_recipe",
+    "namespace": "mod"
+  }
+}

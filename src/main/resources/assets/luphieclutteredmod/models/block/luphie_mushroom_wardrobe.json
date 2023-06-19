@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/mushroomwardrobe",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/mushwardrobetext",
+    "particle": "luphieclutteredmod:blocks/mushwardrobetext",
+    "0": "luphieclutteredmod:blocks/mushwardrobetext"
+  }
+}

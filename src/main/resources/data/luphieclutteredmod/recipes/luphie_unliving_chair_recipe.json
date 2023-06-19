@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:white_wool"
+    },
+    "3": {
+      "item": "minecraft:white_wool"
+    },
+    "4": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "5": {
+      "item": "minecraft:white_wool"
+    },
+    "6": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_unliving_chair",
+    "count": 1
+  }
+}

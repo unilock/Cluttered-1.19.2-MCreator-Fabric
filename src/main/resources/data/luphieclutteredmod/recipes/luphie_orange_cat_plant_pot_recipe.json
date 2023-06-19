@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:fern"
+    },
+    "3": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "4": {
+      "item": "minecraft:dirt"
+    },
+    "5": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "6": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "7": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "8": {
+      "item": "minecraft:orange_terracotta"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_orange_cat_plant_pot",
+    "count": 1
+  }
+}

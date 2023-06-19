@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "mushroombedheadtext",
+        "2": "mushroombedfoottext"
+      },
+      "name": "default"
+    }
+  }
+}

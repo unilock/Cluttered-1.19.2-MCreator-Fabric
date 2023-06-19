@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lunarobservatorytable1"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_wool"
+    },
+    "1": {
+      "item": "minecraft:white_wool"
+    },
+    "2": {
+      "item": "minecraft:green_wool"
+    },
+    "3": {
+      "item": "minecraft:white_wool"
+    },
+    "4": {
+      "item": "minecraft:green_wool"
+    },
+    "5": {
+      "item": "minecraft:white_wool"
+    },
+    "6": {
+      "item": "minecraft:green_wool"
+    },
+    "7": {
+      "item": "minecraft:white_wool"
+    },
+    "8": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_green_checkered_block",
+    "count": 9
+  }
+}

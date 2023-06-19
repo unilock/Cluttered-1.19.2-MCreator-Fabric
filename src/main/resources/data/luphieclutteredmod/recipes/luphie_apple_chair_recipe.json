@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:apple"
+    },
+    "3": {
+      "item": "minecraft:apple"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "minecraft:apple"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_apple_chair",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_glowing_moon"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_glowing_moon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_glowing_moon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_glowing_moon",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "luphieclutteredmod:block/luphie_glowing_moon",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "luphieclutteredmod:block/luphie_glowing_moon",
+      "x": 90
+    }
+  }
+}

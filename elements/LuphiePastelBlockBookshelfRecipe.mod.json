@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      },
+      {
+        "value": "Items.DYE#12"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      },
+      {
+        "value": "Items.BOOK"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      },
+      {
+        "value": "Items.DYE#18"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphiePastelBlockBookshelf"
+    },
+    "name": "luphie_pastel_block_bookshelf_recipe",
+    "namespace": "mod"
+  }
+}

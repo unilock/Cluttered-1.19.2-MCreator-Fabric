@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:blocks/catwindow",
+    "up": "luphieclutteredmod:blocks/catwindow",
+    "north": "luphieclutteredmod:blocks/catwindow",
+    "east": "luphieclutteredmod:blocks/catwindow",
+    "south": "luphieclutteredmod:blocks/catwindow",
+    "west": "luphieclutteredmod:blocks/catwindow",
+    "particle": "luphieclutteredmod:blocks/catwindow"
+  }
+}

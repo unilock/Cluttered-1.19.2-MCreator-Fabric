@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/lightgreensinkcounter",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/greensinkcountertext",
+    "particle": "luphieclutteredmod:blocks/greensinkcountertext",
+    "0": "luphieclutteredmod:blocks/greensinkcountertext"
+  }
+}

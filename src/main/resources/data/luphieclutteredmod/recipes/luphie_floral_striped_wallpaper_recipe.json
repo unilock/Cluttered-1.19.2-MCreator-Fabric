@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_wool"
+    },
+    "1": {
+      "item": "minecraft:pink_wool"
+    },
+    "2": {
+      "item": "minecraft:pink_wool"
+    },
+    "3": {
+      "item": "minecraft:red_tulip"
+    },
+    "4": {
+      "item": "minecraft:pink_tulip"
+    },
+    "5": {
+      "item": "minecraft:orange_tulip"
+    },
+    "6": {
+      "item": "minecraft:white_wool"
+    },
+    "7": {
+      "item": "minecraft:white_wool"
+    },
+    "8": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_floral_striped_wallpaper",
+    "count": 1
+  }
+}

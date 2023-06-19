@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_art_academy_box_of_paint"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_art_academy_box_of_paint",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_art_academy_box_of_paint",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_art_academy_box_of_paint",
+      "y": 270
+    }
+  }
+}

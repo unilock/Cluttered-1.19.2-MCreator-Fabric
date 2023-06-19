@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glass_pane"
+    },
+    "2": {
+      "item": "minecraft:glass_pane"
+    },
+    "3": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "5": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_glowing_moon",
+    "count": 1
+  }
+}

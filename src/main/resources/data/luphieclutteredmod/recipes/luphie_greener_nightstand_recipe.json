@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_nightstand"
+    },
+    "2": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_greener_nightstand",
+    "count": 1
+  }
+}

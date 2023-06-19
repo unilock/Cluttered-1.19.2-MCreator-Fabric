@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/dryingherbgarland",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/dryingherbgarlandtext",
+    "particle": "luphieclutteredmod:blocks/dryingherbgarlandtext",
+    "0": "luphieclutteredmod:blocks/dryingherbgarlandtext"
+  }
+}

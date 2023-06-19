@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/purplegumballmachine",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/purplegumballmachinetext",
+    "particle": "luphieclutteredmod:blocks/purplegumballmachinetext",
+    "0": "luphieclutteredmod:blocks/purplegumballmachinetext"
+  }
+}

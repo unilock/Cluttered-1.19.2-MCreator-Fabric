@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_sewing_table_clutter"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_sewing_table_clutter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_sewing_table_clutter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_sewing_table_clutter",
+      "y": 270
+    }
+  }
+}

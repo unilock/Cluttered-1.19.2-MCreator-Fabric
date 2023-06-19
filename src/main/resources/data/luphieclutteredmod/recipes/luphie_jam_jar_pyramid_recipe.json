@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "luphieclutteredmod:luphie_assorted_jam_jars"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_assorted_jam_jars"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_assorted_jam_jars"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_assorted_jam_jars"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_jam_jar_pyramid",
+    "count": 1
+  }
+}

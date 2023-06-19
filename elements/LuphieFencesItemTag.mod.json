@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetFence"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowWoodSetFence"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurpleFence"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenFence"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowFence"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowFence"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkFence"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkFence"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomFence"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

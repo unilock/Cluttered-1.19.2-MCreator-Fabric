@@ -1,0 +1,12 @@
+{
+  "starboundmusicbox": {
+    "category": "record",
+    "subtitle": "subtitles.starboundmusicbox",
+    "sounds": [
+      {
+        "name": "luphieclutteredmod:trimmedstarboundmusicbox",
+        "stream": true
+      }
+    ]
+  }
+}

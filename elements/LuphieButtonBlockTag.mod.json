@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetButton"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowWoodSetButton"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurpleButton"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenButton"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowButton"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowButton"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkButton"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkButton"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomButton"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "buttons",
+    "namespace": "minecraft"
+  }
+}

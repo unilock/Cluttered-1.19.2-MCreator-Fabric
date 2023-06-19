@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/confectionarywall2block",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/confectionarywall2",
+    "particle": "luphieclutteredmod:blocks/confectionarywall2",
+    "0": "luphieclutteredmod:blocks/confectionarywall2"
+  }
+}

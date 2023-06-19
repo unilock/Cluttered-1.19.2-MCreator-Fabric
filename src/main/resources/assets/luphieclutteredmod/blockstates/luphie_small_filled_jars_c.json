@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_small_filled_jars_c"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_small_filled_jars_c",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_small_filled_jars_c",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_small_filled_jars_c",
+      "y": 270
+    }
+  }
+}

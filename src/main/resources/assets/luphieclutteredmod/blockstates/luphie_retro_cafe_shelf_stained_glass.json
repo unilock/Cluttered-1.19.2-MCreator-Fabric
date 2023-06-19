@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_retro_cafe_shelf_stained_glass"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_retro_cafe_shelf_stained_glass",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_retro_cafe_shelf_stained_glass",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_retro_cafe_shelf_stained_glass",
+      "y": 270
+    }
+  }
+}

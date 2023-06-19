@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/smallfilledjarsc",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/smallfilledjarsc",
+    "particle": "luphieclutteredmod:blocks/smallfilledjarsc",
+    "0": "luphieclutteredmod:blocks/smallfilledjarsc"
+  }
+}

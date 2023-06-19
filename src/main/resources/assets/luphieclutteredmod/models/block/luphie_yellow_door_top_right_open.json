@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/yellowdoorbot",
+    "top": "luphieclutteredmod:blocks/yellowdoortop"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/floweryyellowplanksretext",
+    "top": "luphieclutteredmod:blocks/floweryyellowplanksretext",
+    "side": "luphieclutteredmod:blocks/floweryyellowplanksretext"
+  },
+  "render_type": "solid"
+}

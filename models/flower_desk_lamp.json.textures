@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "flower_desk_lamp"
+      },
+      "name": "default"
+    }
+  }
+}

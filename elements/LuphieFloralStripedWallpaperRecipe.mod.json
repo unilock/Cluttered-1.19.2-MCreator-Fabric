@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#6"
+      },
+      {
+        "value": "Blocks.WOOL#6"
+      },
+      {
+        "value": "Blocks.WOOL#6"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#4"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#7"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#5"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieFloralStripedWallpaper"
+    },
+    "name": "luphie_floral_striped_wallpaper_recipe",
+    "namespace": "mod"
+  }
+}

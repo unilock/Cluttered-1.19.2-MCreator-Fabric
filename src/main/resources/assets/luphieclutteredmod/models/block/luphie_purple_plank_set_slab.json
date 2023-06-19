@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/purpleplankretext",
+    "top": "luphieclutteredmod:blocks/purpleplankretext",
+    "side": "luphieclutteredmod:blocks/purpleplankretext"
+  }
+}

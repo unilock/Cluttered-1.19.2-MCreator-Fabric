@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "3": {
+      "item": "minecraft:book"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:book"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "7": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_pink_bookshelf",
+    "count": 1
+  }
+}

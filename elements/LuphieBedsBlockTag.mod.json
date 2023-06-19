@@ -1,0 +1,27 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LuphieMushroomBed"
+      },
+      {
+        "value": "CUSTOM:LuphieDarkwoodSoutherFlairBed"
+      },
+      {
+        "value": "CUSTOM:LuphieDarkwoodGeometricBed"
+      },
+      {
+        "value": "CUSTOM:LuphieDarkwoodQuiltedBed"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "beds",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_filled_picnic_basket"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_filled_picnic_basket",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_filled_picnic_basket",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_filled_picnic_basket",
+      "y": 270
+    }
+  }
+}

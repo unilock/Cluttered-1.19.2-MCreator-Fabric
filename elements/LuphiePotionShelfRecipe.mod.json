@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetSlab"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetSlab"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetSlab"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "Items.EXPERIENCE_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetSlab"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetSlab"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphiePotionShelf"
+    },
+    "name": "luphie_potion_shelf_recipe",
+    "namespace": "mod"
+  }
+}

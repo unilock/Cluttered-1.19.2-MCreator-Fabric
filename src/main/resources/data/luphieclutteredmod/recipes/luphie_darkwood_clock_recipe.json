@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:spruce_planks"
+    },
+    "3": {
+      "item": "minecraft:spruce_planks"
+    },
+    "4": {
+      "item": "minecraft:clock"
+    },
+    "5": {
+      "item": "minecraft:spruce_planks"
+    },
+    "7": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_darkwood_clock",
+    "count": 1
+  }
+}

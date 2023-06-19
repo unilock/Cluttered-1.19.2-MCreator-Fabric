@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/lightgrayarmchair",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/lightgrayarmchair",
+    "particle": "luphieclutteredmod:blocks/lightgrayarmchair",
+    "0": "luphieclutteredmod:blocks/lightgrayarmchair"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "luphieclutteredmod:luphie_empty_bulletin_board"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_bulletin_board",
+    "count": 1
+  }
+}

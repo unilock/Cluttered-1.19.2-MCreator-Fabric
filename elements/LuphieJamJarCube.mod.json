@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LuphieAssortedJamJars"
+      },
+      {
+        "value": "CUSTOM:LuphieAssortedJamJars"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieAssortedJamJars"
+      },
+      {
+        "value": "CUSTOM:LuphieAssortedJamJars"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieMiniJamJarCube"
+    },
+    "name": "luphie_jam_jar_cube",
+    "namespace": "mod"
+  }
+}

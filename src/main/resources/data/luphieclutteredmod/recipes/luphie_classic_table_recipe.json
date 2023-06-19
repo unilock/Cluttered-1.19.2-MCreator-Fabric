@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "1": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "2": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_classic_mini_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_wool"
+    },
+    "1": {
+      "item": "minecraft:purple_wool"
+    },
+    "2": {
+      "item": "minecraft:gold_nugget"
+    },
+    "3": {
+      "item": "minecraft:orange_wool"
+    },
+    "4": {
+      "item": "minecraft:purple_wool"
+    },
+    "5": {
+      "item": "minecraft:gold_nugget"
+    },
+    "6": {
+      "item": "minecraft:purple_wool"
+    },
+    "7": {
+      "item": "minecraft:gold_nugget"
+    },
+    "8": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_halloween_wallpaper_a",
+    "count": 9
+  }
+}

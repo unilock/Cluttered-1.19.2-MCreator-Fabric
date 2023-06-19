@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/platedblueberrymuffin",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/platedblueberrymuffintext",
+    "particle": "luphieclutteredmod:blocks/platedblueberrymuffintext",
+    "3": "luphieclutteredmod:blocks/platedblueberrymuffintext"
+  }
+}

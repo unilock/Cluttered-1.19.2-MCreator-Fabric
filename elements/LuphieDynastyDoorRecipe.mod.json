@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": "Blocks.WARPED_PLANKS"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieDynastyDoor"
+    },
+    "name": "luphie_dynasty_door_recipe",
+    "namespace": "mod"
+  }
+}

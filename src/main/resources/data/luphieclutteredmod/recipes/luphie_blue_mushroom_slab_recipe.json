@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_blue_mushroom_slab",
+    "count": 6
+  }
+}

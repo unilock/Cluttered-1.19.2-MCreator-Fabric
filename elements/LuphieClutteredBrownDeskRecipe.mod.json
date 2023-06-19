@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CANDLE"
+      },
+      {
+        "value": "Items.BOOK"
+      },
+      {
+        "value": "Blocks.FLOWER_POT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieBrownDesk"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieClutteredDesk"
+    },
+    "name": "luphie_cluttered_brown_desk_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "Blocks.CAULDRON"
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieSweetheartKitchenSink"
+    },
+    "name": "luphie_sweetheart_sink_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_jam_jar_pyramid"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_jam_jar_pyramid",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_jam_jar_pyramid",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_jam_jar_pyramid",
+      "y": 270
+    }
+  }
+}

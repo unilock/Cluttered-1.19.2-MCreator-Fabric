@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.RED_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.RED_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.RED_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.RED_MUSHROOM_BLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.RED_MUSHROOM_BLOCK"
+      },
+      {
+        "value": "Blocks.MUSHROOM_STEM"
+      },
+      {
+        "value": "Blocks.MUSHROOM_STEM"
+      },
+      {
+        "value": "Blocks.MUSHROOM_STEM"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieMushroomChest"
+    },
+    "name": "luphie_mushroom_chest_recip",
+    "namespace": "mod"
+  }
+}

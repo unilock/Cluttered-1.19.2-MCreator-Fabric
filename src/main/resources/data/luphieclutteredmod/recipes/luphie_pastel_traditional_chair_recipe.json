@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_concrete"
+    },
+    "3": {
+      "item": "minecraft:pink_concrete"
+    },
+    "4": {
+      "item": "minecraft:magenta_concrete"
+    },
+    "5": {
+      "item": "minecraft:pink_concrete"
+    },
+    "6": {
+      "item": "minecraft:pink_concrete"
+    },
+    "8": {
+      "item": "minecraft:pink_concrete"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_pastel_traditional_chair",
+    "count": 1
+  }
+}

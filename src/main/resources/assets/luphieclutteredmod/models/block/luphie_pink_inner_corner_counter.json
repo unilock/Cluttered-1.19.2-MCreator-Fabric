@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/pinkinnercornercounter",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/pinkinnercornercountertext",
+    "particle": "luphieclutteredmod:blocks/pinkinnercornercountertext",
+    "0": "luphieclutteredmod:blocks/pinkinnercornercountertext"
+  }
+}

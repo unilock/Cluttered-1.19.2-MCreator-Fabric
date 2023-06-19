@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/yellowplanks",
+    "top": "luphieclutteredmod:blocks/yellowplanks",
+    "side": "luphieclutteredmod:blocks/yellowplanks"
+  }
+}

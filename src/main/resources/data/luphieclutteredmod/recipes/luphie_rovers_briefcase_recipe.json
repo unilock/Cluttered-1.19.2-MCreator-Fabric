@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "luphieclutteredmod:luphie_briefcase"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_rovers_briefcase",
+    "count": 1
+  }
+}

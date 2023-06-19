@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_concrete"
+    },
+    "1": {
+      "item": "minecraft:purple_concrete"
+    },
+    "2": {
+      "item": "minecraft:purple_concrete"
+    },
+    "3": {
+      "item": "minecraft:chest"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    },
+    "5": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_cat_counter_a",
+    "count": 1
+  }
+}

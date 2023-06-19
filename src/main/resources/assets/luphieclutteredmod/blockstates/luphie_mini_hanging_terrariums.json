@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_mini_hanging_terrariums"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_mini_hanging_terrariums",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_mini_hanging_terrariums",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_mini_hanging_terrariums",
+      "y": 270
+    }
+  }
+}

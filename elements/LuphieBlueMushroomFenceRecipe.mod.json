@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieBlueMushroomFence"
+    },
+    "name": "luphie_blue_mushroom_fence_recipe",
+    "namespace": "mod"
+  }
+}

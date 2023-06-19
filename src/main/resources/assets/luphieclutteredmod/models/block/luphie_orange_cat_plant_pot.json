@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/catpot",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/catpottext",
+    "particle": "luphieclutteredmod:blocks/catpottext",
+    "0": "luphieclutteredmod:blocks/catpottext"
+  }
+}

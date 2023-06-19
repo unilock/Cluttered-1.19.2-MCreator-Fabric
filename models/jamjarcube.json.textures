@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "jamjarcube",
+        "9": "jamjarcube"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "luphieclutteredmod:block/luphie_flowering_purple_slab"
+    },
+    "type=top": {
+      "model": "luphieclutteredmod:block/luphie_flowering_purple_slab_top"
+    },
+    "type=double": {
+      "model": "luphieclutteredmod:block/luphie_flowering_purple_slab_full"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:grass"
+    },
+    "1": {
+      "tag": "minecraft:small_flowers"
+    },
+    "2": {
+      "tag": "minecraft:small_flowers"
+    },
+    "3": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_flowering_carpet",
+    "count": 4
+  }
+}

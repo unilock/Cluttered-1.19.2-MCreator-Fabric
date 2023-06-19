@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:blocks/floralstripedwallpaper",
+    "up": "luphieclutteredmod:blocks/floralstripedwallpaper",
+    "north": "luphieclutteredmod:blocks/floralstripedwallpaper",
+    "east": "luphieclutteredmod:blocks/floralstripedwallpaper",
+    "south": "luphieclutteredmod:blocks/floralstripedwallpaper",
+    "west": "luphieclutteredmod:blocks/floralstripedwallpaper",
+    "particle": "luphieclutteredmod:blocks/floralstripedwallpaper"
+  }
+}

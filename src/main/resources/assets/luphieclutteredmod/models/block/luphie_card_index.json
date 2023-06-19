@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/cardindex",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/cardindextext",
+    "particle": "luphieclutteredmod:blocks/cardindextext",
+    "0": "luphieclutteredmod:blocks/cardindextext"
+  }
+}

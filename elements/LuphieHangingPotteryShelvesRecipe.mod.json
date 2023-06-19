@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.FLOWER_POT"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieHangingPotteryShelves"
+    },
+    "name": "luphie_hanging_pottery_shelves_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:blocks/mushbookshelftop",
+    "up": "luphieclutteredmod:blocks/mushbookshelftop",
+    "north": "luphieclutteredmod:blocks/mushbookshelf",
+    "east": "luphieclutteredmod:blocks/mushbookshelf",
+    "south": "luphieclutteredmod:blocks/mushbookshelf",
+    "west": "luphieclutteredmod:blocks/mushbookshelf",
+    "particle": "luphieclutteredmod:blocks/mushbookshelftop"
+  }
+}

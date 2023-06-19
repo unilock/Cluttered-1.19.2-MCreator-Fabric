@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_green_gumball_machine"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_green_gumball_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_green_gumball_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_green_gumball_machine",
+      "y": 270
+    }
+  }
+}

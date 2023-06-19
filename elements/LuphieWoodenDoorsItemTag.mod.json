@@ -1,0 +1,51 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphieMushroomDoor"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkHeartDoor"
+      },
+      {
+        "value": "CUSTOM:LuphiePurpleIronDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkHeartDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowshroomDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieDynastyDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenDoor"
+      },
+      {
+        "value": "CUSTOM:LuphiePurpleDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurpleDoor"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowDoor"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "wooden_doors",
+    "namespace": "minecraft"
+  }
+}

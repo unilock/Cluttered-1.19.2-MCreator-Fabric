@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_slab"
+    },
+    "1": {
+      "item": "minecraft:spruce_slab"
+    },
+    "2": {
+      "item": "minecraft:spruce_slab"
+    },
+    "3": {
+      "item": "minecraft:spruce_planks"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_small_filled_jars_c"
+    },
+    "5": {
+      "item": "minecraft:spruce_planks"
+    },
+    "6": {
+      "item": "minecraft:spruce_log"
+    },
+    "7": {
+      "item": "minecraft:spruce_log"
+    },
+    "8": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_darkwood_cabinet",
+    "count": 1
+  }
+}

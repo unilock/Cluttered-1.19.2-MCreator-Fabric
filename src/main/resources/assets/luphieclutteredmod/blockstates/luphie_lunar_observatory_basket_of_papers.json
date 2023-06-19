@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_basket_of_papers"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_basket_of_papers",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_basket_of_papers",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_basket_of_papers",
+      "y": 270
+    }
+  }
+}

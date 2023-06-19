@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "jamjarpyramidtext",
+        "9": "jamjarpyramidtext"
+      },
+      "name": "default"
+    }
+  }
+}

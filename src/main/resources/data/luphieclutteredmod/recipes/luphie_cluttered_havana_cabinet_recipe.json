@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_bottle"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_havana_cabinet"
+    },
+    "2": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_cluttered_havana_cabinet",
+    "count": 1
+  }
+}

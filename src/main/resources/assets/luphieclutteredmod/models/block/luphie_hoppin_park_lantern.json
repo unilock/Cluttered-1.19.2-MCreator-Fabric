@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/hoppinparklantern",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/hoppinparklanterntext",
+    "particle": "luphieclutteredmod:blocks/hoppinparklanterntext",
+    "0": "luphieclutteredmod:blocks/hoppinparklanterntext"
+  }
+}

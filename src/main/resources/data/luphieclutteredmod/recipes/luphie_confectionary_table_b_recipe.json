@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "1": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "2": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "5": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "item": "minecraft:pink_dye"
+    },
+    "8": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_confectionary_table_b",
+    "count": 1
+  }
+}

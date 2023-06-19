@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphiePinkTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphiePurpleTrapdoor"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurpleTrapdoor"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "wooden_trapdoors",
+    "namespace": "minecraft"
+  }
+}

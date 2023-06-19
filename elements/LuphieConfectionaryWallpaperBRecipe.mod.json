@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 9,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#6"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Blocks.WOOL#6"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Blocks.WOOL#6"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieConfectionaryWallpaperB"
+    },
+    "name": "luphie_confectionary_wallpaper_b_recipe",
+    "namespace": "mod"
+  }
+}

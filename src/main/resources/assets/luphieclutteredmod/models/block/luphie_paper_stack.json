@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/paperstack",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/paperstack",
+    "particle": "luphieclutteredmod:blocks/paperstack",
+    "0": "luphieclutteredmod:blocks/paperstack"
+  }
+}

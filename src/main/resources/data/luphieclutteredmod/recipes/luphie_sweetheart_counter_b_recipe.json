@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "1": {
+      "item": "minecraft:white_concrete"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:chest"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "5": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_sweetheart_counter_b",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/bunnygarland",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/bunnygarlandtext",
+    "particle": "luphieclutteredmod:blocks/bunnygarlandtext",
+    "0": "luphieclutteredmod:blocks/bunnygarlandtext"
+  }
+}

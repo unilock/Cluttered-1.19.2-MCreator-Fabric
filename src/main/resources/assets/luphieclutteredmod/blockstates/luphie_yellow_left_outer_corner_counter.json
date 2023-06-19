@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_yellow_left_outer_corner_counter"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_yellow_left_outer_corner_counter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_yellow_left_outer_corner_counter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_yellow_left_outer_corner_counter",
+      "y": 270
+    }
+  }
+}

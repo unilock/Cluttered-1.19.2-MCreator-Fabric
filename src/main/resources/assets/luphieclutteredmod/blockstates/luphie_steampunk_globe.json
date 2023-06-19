@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_steampunk_globe"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_steampunk_globe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_steampunk_globe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_steampunk_globe",
+      "y": 270
+    }
+  }
+}

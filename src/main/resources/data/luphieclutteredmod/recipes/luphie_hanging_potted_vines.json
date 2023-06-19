@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:vine"
+    },
+    "2": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_hanging_plant_b",
+    "count": 1
+  }
+}

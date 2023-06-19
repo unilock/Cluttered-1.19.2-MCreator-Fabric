@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cauldron"
+    },
+    "1": {
+      "item": "minecraft:glass_bottle"
+    },
+    "2": {
+      "item": "minecraft:gold_nugget"
+    },
+    "3": {
+      "item": "minecraft:fern"
+    },
+    "4": {
+      "item": "minecraft:red_carpet"
+    },
+    "5": {
+      "item": "minecraft:red_carpet"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_small_cauldron_set",
+    "count": 1
+  }
+}

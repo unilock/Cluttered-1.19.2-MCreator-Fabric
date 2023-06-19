@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieGlowPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieGlowWoodSetFence"
+    },
+    "name": "luphie_glow_wood_set_fence_recipe",
+    "namespace": "mod"
+  }
+}

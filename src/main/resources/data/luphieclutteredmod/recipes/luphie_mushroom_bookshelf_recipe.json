@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "1": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "2": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "3": {
+      "item": "minecraft:book"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:book"
+    },
+    "6": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "7": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "8": {
+      "item": "minecraft:red_mushroom_block"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_mushroom_bookshelf",
+    "count": 1
+  }
+}

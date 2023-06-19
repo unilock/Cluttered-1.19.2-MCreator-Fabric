@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/confectionarytablea",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/confectionarytablea",
+    "particle": "luphieclutteredmod:blocks/confectionarytablea",
+    "0": "luphieclutteredmod:blocks/confectionarytablea"
+  }
+}

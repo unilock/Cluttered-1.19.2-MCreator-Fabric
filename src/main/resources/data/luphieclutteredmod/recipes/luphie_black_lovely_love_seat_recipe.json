@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:pink_concrete"
+    },
+    "3": {
+      "item": "minecraft:black_concrete"
+    },
+    "4": {
+      "item": "minecraft:pink_concrete"
+    },
+    "5": {
+      "item": "minecraft:black_concrete"
+    },
+    "6": {
+      "item": "minecraft:black_concrete"
+    },
+    "7": {
+      "item": "minecraft:black_concrete"
+    },
+    "8": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_black_lovely_love_seat",
+    "count": 1
+  }
+}

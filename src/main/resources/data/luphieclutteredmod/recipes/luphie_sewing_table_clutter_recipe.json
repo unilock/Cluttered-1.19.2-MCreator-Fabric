@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "tag": "minecraft:carpets"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_sewing_table_clutter",
+    "count": 1
+  }
+}

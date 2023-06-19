@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/pinkarmchair",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/pinkarmchairtext",
+    "particle": "luphieclutteredmod:blocks/pinkarmchairtext",
+    "0": "luphieclutteredmod:blocks/pinkarmchairtext"
+  }
+}

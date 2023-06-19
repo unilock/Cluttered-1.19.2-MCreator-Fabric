@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_plated_blueberry_muffin"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_plated_blueberry_muffin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_plated_blueberry_muffin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_plated_blueberry_muffin",
+      "y": 270
+    }
+  }
+}

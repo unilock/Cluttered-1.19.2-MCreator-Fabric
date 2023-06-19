@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "luphieclutteredmod:blocks/floweringyellowtrapdoor",
+    "particle": "luphieclutteredmod:blocks/floweringyellowtrapdoor"
+  }
+}

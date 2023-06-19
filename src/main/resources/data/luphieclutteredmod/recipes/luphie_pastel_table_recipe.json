@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_wool"
+    },
+    "1": {
+      "item": "minecraft:pink_wool"
+    },
+    "2": {
+      "item": "minecraft:pink_wool"
+    },
+    "3": {
+      "item": "minecraft:purple_wool"
+    },
+    "4": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "5": {
+      "item": "minecraft:purple_wool"
+    },
+    "6": {
+      "item": "minecraft:purple_wool"
+    },
+    "8": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_pastel_table",
+    "count": 1
+  }
+}

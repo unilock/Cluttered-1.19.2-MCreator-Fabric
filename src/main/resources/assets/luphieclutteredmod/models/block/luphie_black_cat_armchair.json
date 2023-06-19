@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/catarmchair",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/catarmchairtext",
+    "particle": "luphieclutteredmod:blocks/catarmchairtext",
+    "2": "luphieclutteredmod:blocks/catarmchairtext"
+  }
+}

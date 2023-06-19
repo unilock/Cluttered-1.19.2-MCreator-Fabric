@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/coffeegrinder",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/coffeegrindertext",
+    "particle": "luphieclutteredmod:blocks/coffeegrindertext",
+    "0": "luphieclutteredmod:blocks/coffeegrindertext"
+  }
+}

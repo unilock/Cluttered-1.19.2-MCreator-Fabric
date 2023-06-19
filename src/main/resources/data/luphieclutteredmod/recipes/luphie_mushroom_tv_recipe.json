@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "1": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "2": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "3": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "6": {
+      "item": "minecraft:mushroom_stem"
+    },
+    "7": {
+      "item": "minecraft:mushroom_stem"
+    },
+    "8": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_mushroom_tv",
+    "count": 1
+  }
+}

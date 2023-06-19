@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "1": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "2": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "3": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "4": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "5": {
+      "item": "minecraft:red_mushroom_block"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_mushroom_door",
+    "count": 3
+  }
+}

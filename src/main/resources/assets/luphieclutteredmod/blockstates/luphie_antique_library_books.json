@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_antique_library_books"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_antique_library_books",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_antique_library_books",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_antique_library_books",
+      "y": 270
+    }
+  }
+}

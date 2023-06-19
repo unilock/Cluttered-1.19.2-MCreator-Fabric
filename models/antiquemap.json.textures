@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "antiquemaptext"
+      },
+      "name": "default"
+    }
+  }
+}

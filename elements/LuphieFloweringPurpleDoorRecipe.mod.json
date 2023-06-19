@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LuphieFloweringPurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurplePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurplePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurplePlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieFloweringPurpleDoor"
+    },
+    "name": "luphie_flowering_purple_door_recipe",
+    "namespace": "mod"
+  }
+}

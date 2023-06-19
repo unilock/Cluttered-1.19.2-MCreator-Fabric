@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "luphieclutteredmod:block/luphie_blue_mushroom_slab"
+    },
+    "type=top": {
+      "model": "luphieclutteredmod:block/luphie_blue_mushroom_slab_top"
+    },
+    "type=double": {
+      "model": "luphieclutteredmod:block/luphie_blue_mushroom_slab_full"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/ancientcodex",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/ancientcodextext",
+    "particle": "luphieclutteredmod:blocks/ancientcodextext",
+    "0": "luphieclutteredmod:blocks/ancientcodextext"
+  }
+}

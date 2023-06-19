@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flower_pot"
+    },
+    "1": {
+      "item": "minecraft:flower_pot"
+    },
+    "3": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_cluttered_cat_mugs",
+    "count": 1
+  }
+}

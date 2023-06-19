@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/yellownotepad",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/yellownotepadtext",
+    "particle": "luphieclutteredmod:blocks/yellownotepadtext",
+    "0": "luphieclutteredmod:blocks/yellownotepadtext"
+  }
+}

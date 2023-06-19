@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:luphie_flowering_purple_planks"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "luphieclutteredmod:luphie_flowering_purple_planks"
+    },
+    {
+      "item": "luphieclutteredmod:luphie_flowering_purple_planks"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "luphieclutteredmod:luphie_flowering_purple_planks"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_flowering_purple_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_black_lovely_love_seat"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_black_lovely_love_seat",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_black_lovely_love_seat",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_black_lovely_love_seat",
+      "y": 270
+    }
+  }
+}

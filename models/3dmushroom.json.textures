@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "3dmushroomtext"
+      },
+      "name": "default"
+    }
+  }
+}

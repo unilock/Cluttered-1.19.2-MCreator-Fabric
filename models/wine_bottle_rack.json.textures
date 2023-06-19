@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "wine_bottle_rack"
+      },
+      "name": "default"
+    }
+  }
+}

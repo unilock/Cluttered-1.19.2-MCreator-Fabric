@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/lightgreenleftoutercornercounter",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/greenleftoutercornercountertext",
+    "particle": "luphieclutteredmod:blocks/greenleftoutercornercountertext",
+    "0": "luphieclutteredmod:blocks/greenleftoutercornercountertext"
+  }
+}

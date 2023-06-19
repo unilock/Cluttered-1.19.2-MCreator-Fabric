@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/sketchbook",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/sketchbooktext",
+    "particle": "luphieclutteredmod:blocks/sketchbooktext",
+    "2": "luphieclutteredmod:blocks/sketchbooktext"
+  }
+}

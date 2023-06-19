@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetButton"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowWoodSetButton"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurpleButton"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenButton"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowButton"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowButton"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkButton"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkButton"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomButton"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "wooden_buttons",
+    "namespace": "minecraft"
+  }
+}

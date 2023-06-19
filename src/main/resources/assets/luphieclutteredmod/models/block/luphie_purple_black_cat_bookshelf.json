@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:blocks/purpleplankretext",
+    "up": "luphieclutteredmod:blocks/purpleplankretext",
+    "north": "luphieclutteredmod:blocks/blackcatpurplebookshelfretext",
+    "east": "luphieclutteredmod:blocks/blackcatpurplebookshelfretext",
+    "south": "luphieclutteredmod:blocks/blackcatpurplebookshelfretext",
+    "west": "luphieclutteredmod:blocks/blackcatpurplebookshelfretext",
+    "particle": "luphieclutteredmod:blocks/purpleplankretext"
+  }
+}

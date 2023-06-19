@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_jack_o_lantern_bookshelf"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_jack_o_lantern_bookshelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_jack_o_lantern_bookshelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_jack_o_lantern_bookshelf",
+      "y": 270
+    }
+  }
+}

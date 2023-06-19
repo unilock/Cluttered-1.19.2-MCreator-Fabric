@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_globe"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_globe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_globe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_globe",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_globe",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "luphieclutteredmod:block/luphie_lunar_observatory_globe",
+      "x": 90
+    }
+  }
+}

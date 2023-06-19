@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_glow_wood_set_button",
+    "count": 1
+  }
+}

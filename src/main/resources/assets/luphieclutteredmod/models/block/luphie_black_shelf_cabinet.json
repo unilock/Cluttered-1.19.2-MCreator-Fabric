@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/blackshelfcabinet",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/blackshelfcabinettext",
+    "particle": "luphieclutteredmod:blocks/blackshelfcabinettext",
+    "0": "luphieclutteredmod:blocks/blackshelfcabinettext"
+  }
+}

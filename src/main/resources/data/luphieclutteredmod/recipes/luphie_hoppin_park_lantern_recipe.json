@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "1": {
+      "item": "minecraft:lantern"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_hoppin_park_lantern",
+    "count": 1
+  }
+}

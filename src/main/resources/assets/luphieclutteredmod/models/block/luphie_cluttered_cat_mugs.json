@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/clutteredcatmugs",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/clutteredcatmugstext",
+    "particle": "luphieclutteredmod:blocks/clutteredcatmugstext",
+    "2": "luphieclutteredmod:blocks/clutteredcatmugstext"
+  }
+}

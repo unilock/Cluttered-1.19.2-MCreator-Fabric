@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_wool"
+    },
+    "1": {
+      "item": "minecraft:gold_nugget"
+    },
+    "2": {
+      "item": "minecraft:black_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
+      "item": "minecraft:black_wool"
+    },
+    "5": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_office_box",
+    "count": 1
+  }
+}

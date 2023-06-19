@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/fullpicnicbasket",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/fullpicnicbaskettext",
+    "particle": "luphieclutteredmod:blocks/fullpicnicbaskettext",
+    "3": "luphieclutteredmod:blocks/fullpicnicbaskettext"
+  }
+}

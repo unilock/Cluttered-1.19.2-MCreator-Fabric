@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CAULDRON"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Blocks.TALLGRASS#2"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CARPET#14"
+      },
+      {
+        "value": "Blocks.CARPET#14"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieSmallCauldronSet"
+    },
+    "name": "luphie_small_cauldron_set_recipe",
+    "namespace": "mod"
+  }
+}

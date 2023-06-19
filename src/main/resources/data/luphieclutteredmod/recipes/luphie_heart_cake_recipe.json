@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:egg"
+    },
+    "1": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "2": {
+      "item": "minecraft:milk_bucket"
+    },
+    "3": {
+      "item": "minecraft:wheat"
+    },
+    "4": {
+      "item": "minecraft:wheat"
+    },
+    "5": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_heart_cake",
+    "count": 1
+  }
+}

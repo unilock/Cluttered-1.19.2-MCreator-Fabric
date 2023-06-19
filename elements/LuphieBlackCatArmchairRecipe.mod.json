@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#10"
+      },
+      {
+        "value": "Blocks.WOOL#10"
+      },
+      {
+        "value": "Blocks.WOOL#10"
+      },
+      {
+        "value": "Blocks.WITHER_ROSE"
+      },
+      {
+        "value": "Blocks.WOOL#10"
+      },
+      {
+        "value": "Blocks.WITHER_ROSE"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieBlackCatArmchair"
+    },
+    "name": "luphie_black_cat_armchair_recipe",
+    "namespace": "mod"
+  }
+}

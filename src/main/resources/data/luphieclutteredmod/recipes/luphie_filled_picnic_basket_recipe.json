@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "luphieclutteredmod:luphie_picnic_basket"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_filled_picnic_basket",
+    "count": 1
+  }
+}

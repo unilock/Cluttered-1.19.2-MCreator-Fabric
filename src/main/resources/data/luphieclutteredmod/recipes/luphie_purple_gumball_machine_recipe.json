@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "minecraft:iron_bars"
+    },
+    "6": {
+      "item": "minecraft:purple_dye"
+    },
+    "7": {
+      "item": "minecraft:iron_bars"
+    },
+    "8": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_purple_gumball_machine",
+    "count": 1
+  }
+}

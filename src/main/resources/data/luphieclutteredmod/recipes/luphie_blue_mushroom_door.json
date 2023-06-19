@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_glowshroom_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/whiteretrofridge",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/whiteretrofridge",
+    "particle": "luphieclutteredmod:blocks/whiteretrofridge",
+    "0": "luphieclutteredmod:blocks/whiteretrofridge"
+  }
+}

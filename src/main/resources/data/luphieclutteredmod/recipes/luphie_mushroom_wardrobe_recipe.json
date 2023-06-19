@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "1": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "2": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "3": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "7": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_mushroom_wardrobe",
+    "count": 1
+  }
+}

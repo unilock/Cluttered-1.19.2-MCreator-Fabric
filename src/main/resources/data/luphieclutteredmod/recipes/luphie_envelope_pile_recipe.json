@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ink_sac"
+    },
+    "1": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_envelope_stack",
+    "count": 1
+  }
+}

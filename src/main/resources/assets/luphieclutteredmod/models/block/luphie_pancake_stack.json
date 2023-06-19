@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/pancakestack",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/pancakestacktext",
+    "particle": "luphieclutteredmod:blocks/pancakestacktext",
+    "0": "luphieclutteredmod:blocks/pancakestacktext"
+  }
+}

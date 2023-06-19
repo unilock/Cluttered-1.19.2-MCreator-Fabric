@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sweet_berries"
+    },
+    "1": {
+      "item": "minecraft:bread"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_empty_plate"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_pancake_stack",
+    "count": 1
+  }
+}

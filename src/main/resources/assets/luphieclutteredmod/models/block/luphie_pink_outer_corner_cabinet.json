@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/pinkoutercornercabinet",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/pinkoutercornercabinettext",
+    "particle": "luphieclutteredmod:blocks/pinkoutercornercabinettext",
+    "0": "luphieclutteredmod:blocks/pinkoutercornercabinettext"
+  }
+}

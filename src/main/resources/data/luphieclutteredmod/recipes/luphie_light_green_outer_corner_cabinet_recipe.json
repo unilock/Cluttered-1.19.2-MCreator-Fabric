@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_light_green_glass_cabinet"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_light_green_outer_corner_cabinet",
+    "count": 2
+  }
+}

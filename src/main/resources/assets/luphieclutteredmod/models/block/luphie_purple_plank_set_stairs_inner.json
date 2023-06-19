@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/purpleplankretext",
+    "top": "luphieclutteredmod:blocks/purpleplankretext",
+    "side": "luphieclutteredmod:blocks/purpleplankretext"
+  },
+  "render_type": "solid"
+}

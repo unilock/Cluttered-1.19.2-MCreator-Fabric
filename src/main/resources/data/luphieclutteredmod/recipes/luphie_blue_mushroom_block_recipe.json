@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_decorative_blue_mushroom"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_decorative_blue_mushroom"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_decorative_blue_mushroom"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_decorative_blue_mushroom"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_blue_mushroom_block",
+    "count": 4
+  }
+}

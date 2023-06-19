@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/pasteltraditionaltable",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/pasteltraditionaltabletext",
+    "particle": "luphieclutteredmod:blocks/pasteltraditionaltabletext",
+    "0": "luphieclutteredmod:blocks/pasteltraditionaltabletext"
+  }
+}

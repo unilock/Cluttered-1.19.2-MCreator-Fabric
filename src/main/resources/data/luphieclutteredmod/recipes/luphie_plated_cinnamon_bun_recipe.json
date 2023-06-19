@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:bread"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_empty_plate"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_plated_cinnamon_bun",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.DYE#6"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieDoradoCabinet"
+    },
+    "name": "luphie_dorado_cabinet_recipe",
+    "namespace": "mod"
+  }
+}

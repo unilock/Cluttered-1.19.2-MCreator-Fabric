@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "minecraft:iron_nugget"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_salt_and_pepper_shakers",
+    "count": 1
+  }
+}

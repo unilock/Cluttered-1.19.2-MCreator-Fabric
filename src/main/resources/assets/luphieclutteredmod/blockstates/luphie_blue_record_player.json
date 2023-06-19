@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_blue_record_player"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_blue_record_player",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_blue_record_player",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_blue_record_player",
+      "y": 270
+    }
+  }
+}

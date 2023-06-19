@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/bunnybookendssims4",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/bunnybookendssims4text",
+    "particle": "luphieclutteredmod:blocks/bunnybookendssims4text",
+    "0": "luphieclutteredmod:blocks/bunnybookendssims4text"
+  }
+}

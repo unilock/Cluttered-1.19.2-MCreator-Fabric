@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/hamsandwich",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/hamsandwichtext",
+    "particle": "luphieclutteredmod:blocks/hamsandwichtext",
+    "1": "luphieclutteredmod:blocks/hamsandwichtext"
+  }
+}

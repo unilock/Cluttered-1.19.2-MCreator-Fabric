@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/floweringpinkdoorbottomtext",
+    "top": "luphieclutteredmod:blocks/floweringpinkdoortoptext"
+  }
+}

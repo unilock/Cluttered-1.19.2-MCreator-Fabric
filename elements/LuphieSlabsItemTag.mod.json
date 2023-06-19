@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphiePurplePlankSetSlab"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowWoodSetSlab"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurpleSlab"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenSlab"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowSlab"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowSlab"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkSlab"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkSlab"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomSlab"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "slab",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Items.CLOCK"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieDarkwoodClock"
+    },
+    "name": "luphie_darkwood_clock_recipe",
+    "namespace": "mod"
+  }
+}

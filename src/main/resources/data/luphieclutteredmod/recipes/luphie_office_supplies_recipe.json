@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:paper"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:ink_sac"
+    },
+    "3": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_office_supplies_clutter",
+    "count": 1
+  }
+}

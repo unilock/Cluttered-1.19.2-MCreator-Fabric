@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#4"
+      },
+      {
+        "value": "Blocks.CONCRETE#6"
+      },
+      {
+        "value": "Blocks.CONCRETE#4"
+      },
+      {
+        "value": "Blocks.CONCRETE#6"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#6"
+      },
+      {
+        "value": "Blocks.CONCRETE#6"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#6"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphiePastelTraditionalTable"
+    },
+    "name": "luphie_pastel_traditional_table_recipe",
+    "namespace": "mod"
+  }
+}

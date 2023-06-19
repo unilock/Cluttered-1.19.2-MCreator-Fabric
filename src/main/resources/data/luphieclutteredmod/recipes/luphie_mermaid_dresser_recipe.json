@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "4": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "7": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_mermaid_dresser",
+    "count": 1
+  }
+}

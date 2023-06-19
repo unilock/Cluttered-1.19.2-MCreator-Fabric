@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/tallpaperstack",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/tallpaperstacktext",
+    "particle": "luphieclutteredmod:blocks/tallpaperstacktext",
+    "0": "luphieclutteredmod:blocks/tallpaperstacktext"
+  }
+}

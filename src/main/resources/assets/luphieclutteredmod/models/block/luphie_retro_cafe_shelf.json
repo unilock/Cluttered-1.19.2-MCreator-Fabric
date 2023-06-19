@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/retrocafeshelf",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/retrocafeshelftext",
+    "particle": "luphieclutteredmod:blocks/retrocafeshelftext",
+    "2": "luphieclutteredmod:blocks/retrocafeshelftext"
+  }
+}

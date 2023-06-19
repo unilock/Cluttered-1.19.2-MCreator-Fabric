@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WHITE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.WHITE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WHITE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.WHITE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieTeaKettle"
+    },
+    "name": "luphie_tea_kettle_recipe",
+    "namespace": "mod"
+  }
+}

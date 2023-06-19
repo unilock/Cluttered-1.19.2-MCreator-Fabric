@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "1": {
+      "item": "minecraft:white_concrete"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_sweetheart_kitchen_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_pane"
+    },
+    "1": {
+      "item": "minecraft:brown_dye"
+    },
+    "2": {
+      "item": "minecraft:glass_pane"
+    },
+    "3": {
+      "item": "minecraft:spruce_planks"
+    },
+    "4": {
+      "item": "minecraft:spruce_planks"
+    },
+    "5": {
+      "item": "minecraft:spruce_planks"
+    },
+    "6": {
+      "item": "minecraft:spruce_planks"
+    },
+    "8": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_havana_cabinet",
+    "count": 1
+  }
+}

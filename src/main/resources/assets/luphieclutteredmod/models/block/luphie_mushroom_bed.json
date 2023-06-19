@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/mushroombedremake",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/mushroombedremakestitchedtext",
+    "particle": "luphieclutteredmod:blocks/mushroombedremakestitchedtext",
+    "1": "luphieclutteredmod:blocks/mushroombedheadtext",
+    "2": "luphieclutteredmod:blocks/mushroombedfoottext"
+  }
+}

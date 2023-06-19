@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "minecraft:peony"
+    },
+    "4": {
+      "item": "minecraft:grass"
+    },
+    "5": {
+      "item": "minecraft:peony"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_drying_herbs",
+    "count": 1
+  }
+}

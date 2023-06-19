@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/rowofsmallbooks",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/rowofsmallbookstext",
+    "particle": "luphieclutteredmod:blocks/rowofsmallbookstext",
+    "0": "luphieclutteredmod:blocks/rowofsmallbookstext"
+  }
+}

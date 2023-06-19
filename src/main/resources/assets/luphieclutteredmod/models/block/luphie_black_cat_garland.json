@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/catgarland",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/catgarlandtext",
+    "particle": "luphieclutteredmod:blocks/catgarlandtext",
+    "0": "luphieclutteredmod:blocks/catgarlandtext"
+  }
+}

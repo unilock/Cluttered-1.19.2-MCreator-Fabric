@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:blue_carpet"
+    },
+    "2": {
+      "item": "minecraft:orange_carpet"
+    },
+    "3": {
+      "item": "minecraft:spruce_log"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:spruce_log"
+    },
+    "6": {
+      "item": "minecraft:spruce_log"
+    },
+    "7": {
+      "item": "minecraft:book"
+    },
+    "8": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_darkwood_geometric_decorative_shelves",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/yellowshelfcabinet",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/yellowshelfcabinettext",
+    "particle": "luphieclutteredmod:blocks/yellowshelfcabinettext",
+    "0": "luphieclutteredmod:blocks/yellowshelfcabinettext"
+  }
+}

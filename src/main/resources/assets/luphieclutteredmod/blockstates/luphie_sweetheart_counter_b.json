@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_sweetheart_counter_b"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_sweetheart_counter_b",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_sweetheart_counter_b",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_sweetheart_counter_b",
+      "y": 270
+    }
+  }
+}

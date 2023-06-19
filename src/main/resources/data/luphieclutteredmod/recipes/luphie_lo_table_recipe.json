@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_planks"
+    },
+    "1": {
+      "item": "minecraft:oak_planks"
+    },
+    "2": {
+      "item": "minecraft:oak_planks"
+    },
+    "3": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "4": {
+      "item": "minecraft:oak_planks"
+    },
+    "5": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "6": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "8": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_lunar_observatory_table",
+    "count": 1
+  }
+}

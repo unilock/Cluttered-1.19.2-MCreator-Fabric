@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "minecraft:red_terracotta"
+    },
+    "3": {
+      "item": "minecraft:compass"
+    },
+    "4": {
+      "item": "minecraft:red_terracotta"
+    },
+    "5": {
+      "item": "minecraft:red_terracotta"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_analog_kitchen_scale",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.clutteredmod.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"LuphieclutteredmodModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

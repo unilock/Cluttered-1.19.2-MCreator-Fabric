@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:blocks/greenplanksretext",
+    "up": "luphieclutteredmod:blocks/greenplanksretext",
+    "north": "luphieclutteredmod:blocks/greenbookshelfretext",
+    "east": "luphieclutteredmod:blocks/greenbookshelfretext",
+    "south": "luphieclutteredmod:blocks/greenbookshelfretext",
+    "west": "luphieclutteredmod:blocks/greenbookshelfretext",
+    "particle": "luphieclutteredmod:blocks/greenplanksretext"
+  }
+}

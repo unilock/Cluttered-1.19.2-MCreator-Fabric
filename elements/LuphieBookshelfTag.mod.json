@@ -1,0 +1,54 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphiePurpleJarBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphiePurpleBlackCatBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieCobwebPurpleBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieCalicoCatPurpleBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieVasePurpleBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieJackOLanternBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieMushroomBookshelf"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomBookshelf"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "bookshelf",
+    "namespace": "minecraft"
+  }
+}

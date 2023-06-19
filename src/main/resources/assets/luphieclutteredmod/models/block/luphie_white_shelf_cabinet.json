@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/whiteshelfcabinet",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/whiteshelfcabinettext",
+    "particle": "luphieclutteredmod:blocks/whiteshelfcabinettext",
+    "7": "luphieclutteredmod:blocks/whiteshelfcabinettext"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_dye"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_empty_small_jars"
+    },
+    "2": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_small_filled_jars_c",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_bottle"
+    },
+    "2": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_empty_small_jars",
+    "count": 1
+  }
+}

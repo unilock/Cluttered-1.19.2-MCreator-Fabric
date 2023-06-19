@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_plated_croissant"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_plated_croissant",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_plated_croissant",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_plated_croissant",
+      "y": 270
+    }
+  }
+}

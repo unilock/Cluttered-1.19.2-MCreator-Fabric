@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_hanging_dish_towel"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_hanging_dish_towel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_hanging_dish_towel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_hanging_dish_towel",
+      "y": 270
+    }
+  }
+}

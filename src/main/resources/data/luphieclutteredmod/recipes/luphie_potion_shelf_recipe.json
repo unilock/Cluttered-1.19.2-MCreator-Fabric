@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_purple_plank_set_slab"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_purple_plank_set_slab"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_purple_plank_set_slab"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    },
+    "4": {
+      "item": "minecraft:experience_bottle"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_purple_plank_set_slab"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_purple_plank_set_slab"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_potion_shelf",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_star_string"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_pink_heart_door"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    },
+    "7": {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_glow_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_pastel_wardrobe",
+    "count": 1
+  }
+}

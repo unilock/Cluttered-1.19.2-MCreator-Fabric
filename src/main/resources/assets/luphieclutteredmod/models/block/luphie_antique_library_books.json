@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/antiquelibrarybooks",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/antiquelibrarybooks",
+    "particle": "luphieclutteredmod:blocks/antiquelibrarybooks",
+    "0": "luphieclutteredmod:blocks/antiquelibrarybooks"
+  }
+}

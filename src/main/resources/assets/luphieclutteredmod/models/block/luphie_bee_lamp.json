@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/beelamp",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/beelamptext",
+    "particle": "luphieclutteredmod:blocks/beelamptext",
+    "0": "luphieclutteredmod:blocks/beelamptext"
+  }
+}

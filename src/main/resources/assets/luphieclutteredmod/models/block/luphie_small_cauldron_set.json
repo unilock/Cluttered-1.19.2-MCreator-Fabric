@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/smallcauldronset",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/smallcauldronset",
+    "particle": "luphieclutteredmod:blocks/smallcauldronset",
+    "0": "luphieclutteredmod:blocks/smallcauldronset"
+  }
+}

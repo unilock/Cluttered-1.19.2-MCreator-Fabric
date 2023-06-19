@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_berry_cake"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_berry_cake",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_berry_cake",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_berry_cake",
+      "y": 270
+    }
+  }
+}

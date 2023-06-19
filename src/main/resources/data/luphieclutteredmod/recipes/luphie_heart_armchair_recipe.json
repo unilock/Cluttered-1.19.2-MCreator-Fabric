@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_wool"
+    },
+    "1": {
+      "item": "minecraft:pink_wool"
+    },
+    "2": {
+      "item": "minecraft:pink_wool"
+    },
+    "3": {
+      "item": "minecraft:peony"
+    },
+    "4": {
+      "item": "minecraft:pink_wool"
+    },
+    "5": {
+      "item": "minecraft:peony"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_pink_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_heart_armchair",
+    "count": 1
+  }
+}

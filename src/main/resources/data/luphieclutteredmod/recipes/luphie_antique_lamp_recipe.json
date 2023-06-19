@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "2": {
+      "item": "minecraft:cyan_stained_glass_pane"
+    },
+    "4": {
+      "item": "minecraft:spruce_fence"
+    },
+    "6": {
+      "item": "minecraft:gold_nugget"
+    },
+    "7": {
+      "item": "minecraft:spruce_fence"
+    },
+    "8": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_antique_lamp",
+    "count": 1
+  }
+}

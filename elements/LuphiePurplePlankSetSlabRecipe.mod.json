@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphiePurplePlankSetSlab"
+    },
+    "name": "luphie_purple_plank_set_slab_recipe",
+    "namespace": "mod"
+  }
+}

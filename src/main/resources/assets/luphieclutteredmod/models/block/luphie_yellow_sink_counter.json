@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/yellowsinkcounter",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/yellowsinkcountertext",
+    "particle": "luphieclutteredmod:blocks/yellowsinkcountertext",
+    "0": "luphieclutteredmod:blocks/yellowsinkcountertext"
+  }
+}

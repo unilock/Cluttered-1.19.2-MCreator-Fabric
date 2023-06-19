@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:map"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_antique_map",
+    "count": 1
+  }
+}

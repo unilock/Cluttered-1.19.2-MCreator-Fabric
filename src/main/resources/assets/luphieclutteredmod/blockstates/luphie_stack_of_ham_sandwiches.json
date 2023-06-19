@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_stack_of_ham_sandwiches"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_stack_of_ham_sandwiches",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_stack_of_ham_sandwiches",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_stack_of_ham_sandwiches",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "luphieclutteredmod:block/luphie_flowering_pink_pressure_plate"
+    },
+    "powered=true": {
+      "model": "luphieclutteredmod:block/luphie_flowering_pink_pressure_plate_down"
+    }
+  }
+}

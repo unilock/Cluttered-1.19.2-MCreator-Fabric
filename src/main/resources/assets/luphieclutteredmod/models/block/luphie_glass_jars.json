@@ -1,0 +1,8 @@
+{
+  "parent": "luphieclutteredmod:custom/glassjars",
+  "textures": {
+    "all": "luphieclutteredmod:blocks/glassjartext",
+    "particle": "luphieclutteredmod:blocks/glassjartext",
+    "0": "luphieclutteredmod:blocks/glassjartext"
+  }
+}
