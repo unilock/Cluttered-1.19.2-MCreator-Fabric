@@ -22,9 +22,9 @@ public class LuphieclutteredmodModMenus {
 	public static void load() {
 		LUPHIE_SMALL_STORAGE_GUI = ScreenHandlerRegistry
 				.registerExtended(new ResourceLocation(LuphieclutteredmodMod.MODID, "luphie_small_storage_gui"), LuphieSmallStorageGuiMenu::new);
-		LuphieSmallStorageGuiScreen.screenInit();
+	
 		LUPHIE_LARGE_STORAGE_GUI = ScreenHandlerRegistry
 				.registerExtended(new ResourceLocation(LuphieclutteredmodMod.MODID, "luphie_large_storage_gui"), LuphieLargeStorageGuiMenu::new);
-		LuphieLargeStorageGuiScreen.screenInit();
+	
 	}
 }
