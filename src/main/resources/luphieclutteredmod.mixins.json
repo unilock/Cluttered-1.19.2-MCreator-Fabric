@@ -4,7 +4,8 @@
   "package": "net.mcreator.clutteredmod.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-	"LuphieclutteredmodModRepairItemRecipeMixin"  ],
+	"LuphieclutteredmodModRepairItemRecipeMixin"
+  ],
   "injectors": {
 	"defaultRequire": 1
   }
