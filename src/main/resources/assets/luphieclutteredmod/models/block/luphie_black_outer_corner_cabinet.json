@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/blackoutercornercabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/blackoutercornercabinettext",
-    "particle": "luphieclutteredmod:blocks/blackoutercornercabinettext",
-    "0": "luphieclutteredmod:blocks/blackoutercornercabinettext"
-  }
+    "all": "luphieclutteredmod:block/blackoutercornercabinettext",
+    "particle": "luphieclutteredmod:block/blackoutercornercabinettext",
+    "0": "luphieclutteredmod:block/blackoutercornercabinettext"
+  },
+  "render_type": "cutout"
 }

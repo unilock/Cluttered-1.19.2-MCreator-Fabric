@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/whitearmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/whitearmchair",
-    "particle": "luphieclutteredmod:blocks/whitearmchair",
-    "0": "luphieclutteredmod:blocks/whitearmchair"
-  }
+    "all": "luphieclutteredmod:block/whitearmchair",
+    "particle": "luphieclutteredmod:block/whitearmchair",
+    "0": "luphieclutteredmod:block/whitearmchair"
+  },
+  "render_type": "solid"
 }

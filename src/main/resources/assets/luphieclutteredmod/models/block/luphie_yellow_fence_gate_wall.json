@@ -1,6 +1,7 @@
 {
   "parent": "block/template_fence_gate_wall",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/yellowplanks"
-  }
+    "texture": "luphieclutteredmod:block/yellowplanks"
+  },
+  "render_type": "solid"
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/door_top_rh",
   "textures": {
-    "bottom": "luphieclutteredmod:blocks/greendoorbot",
-    "top": "luphieclutteredmod:blocks/greendoortop"
+    "bottom": "luphieclutteredmod:block/greendoorbot",
+    "top": "luphieclutteredmod:block/greendoortop"
   }
 }

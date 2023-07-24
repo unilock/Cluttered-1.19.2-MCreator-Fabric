@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/heartarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/heartarmchairtext",
-    "particle": "luphieclutteredmod:blocks/heartarmchairtext",
-    "0": "luphieclutteredmod:blocks/heartarmchairtext"
-  }
+    "all": "luphieclutteredmod:block/heartarmchairtext",
+    "particle": "luphieclutteredmod:block/heartarmchairtext",
+    "0": "luphieclutteredmod:block/heartarmchairtext"
+  },
+  "render_type": "solid"
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_side",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/floweringpurpleplanks",
-    "particle": "luphieclutteredmod:blocks/floweringpurpleplanks"
+    "texture": "luphieclutteredmod:block/floweringpurpleplanks",
+    "particle": "luphieclutteredmod:block/floweringpurpleplanks"
   }
 }

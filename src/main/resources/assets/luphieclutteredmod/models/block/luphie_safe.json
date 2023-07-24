@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/safestarbound",
   "textures": {
-    "all": "luphieclutteredmod:blocks/safestarbound",
-    "particle": "luphieclutteredmod:blocks/safestarbound",
-    "0": "luphieclutteredmod:blocks/safestarbound"
-  }
+    "all": "luphieclutteredmod:block/safestarbound",
+    "particle": "luphieclutteredmod:block/safestarbound",
+    "0": "luphieclutteredmod:block/safestarbound"
+  },
+  "render_type": "solid"
 }

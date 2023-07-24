@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/greengumballmachine",
   "textures": {
-    "all": "luphieclutteredmod:blocks/greengumballmachinetext",
-    "particle": "luphieclutteredmod:blocks/greengumballmachinetext",
-    "0": "luphieclutteredmod:blocks/greengumballmachinetext"
-  }
+    "all": "luphieclutteredmod:block/greengumballmachinetext",
+    "particle": "luphieclutteredmod:block/greengumballmachinetext",
+    "0": "luphieclutteredmod:block/greengumballmachinetext"
+  },
+  "render_type": "cutout"
 }

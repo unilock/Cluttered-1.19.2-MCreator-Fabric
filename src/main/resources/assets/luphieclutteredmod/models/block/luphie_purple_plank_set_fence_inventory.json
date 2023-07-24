@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_inventory",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/purpleplankretext",
-    "particle": "luphieclutteredmod:blocks/purpleplankretext"
+    "texture": "luphieclutteredmod:block/purpleplankretext",
+    "particle": "luphieclutteredmod:block/purpleplankretext"
   }
 }

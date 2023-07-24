@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lightgreenshelfcabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/greenshelfcabinettext",
-    "particle": "luphieclutteredmod:blocks/greenshelfcabinettext",
-    "0": "luphieclutteredmod:blocks/greenshelfcabinettext"
-  }
+    "all": "luphieclutteredmod:block/greenshelfcabinettext",
+    "particle": "luphieclutteredmod:block/greenshelfcabinettext",
+    "0": "luphieclutteredmod:block/greenshelfcabinettext"
+  },
+  "render_type": "solid"
 }

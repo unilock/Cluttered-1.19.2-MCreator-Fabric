@@ -1,6 +1,7 @@
 {
   "parent": "block/template_fence_gate_open",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/purpleplankretext"
-  }
+    "texture": "luphieclutteredmod:block/purpleplankretext"
+  },
+  "render_type": "solid"
 }

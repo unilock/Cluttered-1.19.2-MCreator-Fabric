@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/floweringcarpet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/floweringcarpettext",
-    "particle": "luphieclutteredmod:blocks/floweringcarpettext",
-    "0": "luphieclutteredmod:blocks/floweringcarpettext"
-  }
+    "all": "luphieclutteredmod:block/floweringcarpettext",
+    "particle": "luphieclutteredmod:block/floweringcarpettext",
+    "0": "luphieclutteredmod:block/floweringcarpettext"
+  },
+  "render_type": "cutout"
 }

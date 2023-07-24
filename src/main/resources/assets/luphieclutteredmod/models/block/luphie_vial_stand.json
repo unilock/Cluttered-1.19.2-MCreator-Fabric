@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/vialstand",
   "textures": {
-    "all": "luphieclutteredmod:blocks/vialstandtext",
-    "particle": "luphieclutteredmod:blocks/vialstandtext",
-    "2": "luphieclutteredmod:blocks/vialstandtext"
-  }
+    "all": "luphieclutteredmod:block/vialstandtext",
+    "particle": "luphieclutteredmod:block/vialstandtext",
+    "2": "luphieclutteredmod:block/vialstandtext"
+  },
+  "render_type": "cutout"
 }

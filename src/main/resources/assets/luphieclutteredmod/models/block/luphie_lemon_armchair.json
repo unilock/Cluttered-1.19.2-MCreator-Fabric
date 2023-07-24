@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lemonarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/lemonarmchair",
-    "particle": "luphieclutteredmod:blocks/lemonarmchair",
-    "0": "luphieclutteredmod:blocks/lemonarmchair"
-  }
+    "all": "luphieclutteredmod:block/lemonarmchair",
+    "particle": "luphieclutteredmod:block/lemonarmchair",
+    "0": "luphieclutteredmod:block/lemonarmchair"
+  },
+  "render_type": "solid"
 }

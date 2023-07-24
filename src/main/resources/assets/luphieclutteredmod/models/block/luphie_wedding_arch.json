@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/weddingarch",
   "textures": {
-    "all": "luphieclutteredmod:blocks/weddingarchtext",
-    "particle": "luphieclutteredmod:blocks/weddingarchtext",
-    "0": "luphieclutteredmod:blocks/weddingarchretext"
-  }
+    "all": "luphieclutteredmod:block/weddingarchtext",
+    "particle": "luphieclutteredmod:block/weddingarchtext",
+    "0": "luphieclutteredmod:block/weddingarchretext"
+  },
+  "render_type": "cutout"
 }

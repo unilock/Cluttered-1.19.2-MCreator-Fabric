@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/pastelwardrobe",
   "textures": {
-    "all": "luphieclutteredmod:blocks/pastelwardrobettext",
-    "particle": "luphieclutteredmod:blocks/pastelwardrobettext",
-    "0": "luphieclutteredmod:blocks/pastelwardrobettext"
-  }
+    "all": "luphieclutteredmod:block/pastelwardrobettext",
+    "particle": "luphieclutteredmod:block/pastelwardrobettext",
+    "0": "luphieclutteredmod:block/pastelwardrobettext"
+  },
+  "render_type": "cutout"
 }

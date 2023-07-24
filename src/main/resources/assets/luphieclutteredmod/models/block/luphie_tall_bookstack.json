@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/stackablebookstack",
   "textures": {
-    "all": "luphieclutteredmod:blocks/bookstackabletext",
-    "particle": "luphieclutteredmod:blocks/bookstackabletext",
-    "2": "luphieclutteredmod:blocks/bookstackabletext"
-  }
+    "all": "luphieclutteredmod:block/bookstackabletext",
+    "particle": "luphieclutteredmod:block/bookstackabletext",
+    "2": "luphieclutteredmod:block/bookstackabletext"
+  },
+  "render_type": "solid"
 }

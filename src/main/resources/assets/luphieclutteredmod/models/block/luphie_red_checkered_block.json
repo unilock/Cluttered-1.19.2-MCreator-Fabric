@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "luphieclutteredmod:blocks/redpicnicblanketblocktextcropped",
-    "up": "luphieclutteredmod:blocks/redpicnicblanketblocktextcropped",
-    "north": "luphieclutteredmod:blocks/redpicnicblanketblocktextcropped",
-    "east": "luphieclutteredmod:blocks/redpicnicblanketblocktextcropped",
-    "south": "luphieclutteredmod:blocks/redpicnicblanketblocktextcropped",
-    "west": "luphieclutteredmod:blocks/redpicnicblanketblocktextcropped",
-    "particle": "luphieclutteredmod:blocks/redpicnicblanketblocktextcropped"
-  }
+    "down": "luphieclutteredmod:block/redpicnicblanketblocktextcropped",
+    "up": "luphieclutteredmod:block/redpicnicblanketblocktextcropped",
+    "north": "luphieclutteredmod:block/redpicnicblanketblocktextcropped",
+    "east": "luphieclutteredmod:block/redpicnicblanketblocktextcropped",
+    "south": "luphieclutteredmod:block/redpicnicblanketblocktextcropped",
+    "west": "luphieclutteredmod:block/redpicnicblanketblocktextcropped",
+    "particle": "luphieclutteredmod:block/redpicnicblanketblocktextcropped"
+  },
+  "render_type": "solid"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/halloweenstripedwallpaperblockone",
   "textures": {
-    "all": "luphieclutteredmod:blocks/halloweenwallpaperblockonetext",
-    "particle": "luphieclutteredmod:blocks/halloweenwallpaperblockonetext",
-    "2": "luphieclutteredmod:blocks/halloweenwallpaperblockonetext"
-  }
+    "all": "luphieclutteredmod:block/halloweenwallpaperblockonetext",
+    "particle": "luphieclutteredmod:block/halloweenwallpaperblockonetext",
+    "2": "luphieclutteredmod:block/halloweenwallpaperblockonetext"
+  },
+  "render_type": "solid"
 }

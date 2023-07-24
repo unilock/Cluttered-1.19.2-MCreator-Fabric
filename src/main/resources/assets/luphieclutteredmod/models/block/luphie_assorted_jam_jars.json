@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/assortedjamjars",
   "textures": {
-    "all": "luphieclutteredmod:blocks/assortedjamjarstext",
-    "particle": "luphieclutteredmod:blocks/assortedjamjarstext",
-    "9": "luphieclutteredmod:blocks/assortedjamjarstext"
-  }
+    "all": "luphieclutteredmod:block/assortedjamjarstext",
+    "particle": "luphieclutteredmod:block/assortedjamjarstext",
+    "9": "luphieclutteredmod:block/assortedjamjarstext"
+  },
+  "render_type": "solid"
 }

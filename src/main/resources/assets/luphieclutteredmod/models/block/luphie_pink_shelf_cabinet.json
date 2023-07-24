@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/pinkshelfcabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/pinkshelfcabinettext",
-    "particle": "luphieclutteredmod:blocks/pinkshelfcabinettext",
-    "0": "luphieclutteredmod:blocks/pinkshelfcabinettext"
-  }
+    "all": "luphieclutteredmod:block/pinkshelfcabinettext",
+    "particle": "luphieclutteredmod:block/pinkshelfcabinettext",
+    "0": "luphieclutteredmod:block/pinkshelfcabinettext"
+  },
+  "render_type": "solid"
 }

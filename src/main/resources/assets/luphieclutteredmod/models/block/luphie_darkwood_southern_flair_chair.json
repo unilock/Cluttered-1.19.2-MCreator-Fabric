@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/darkwoodsouthernflairchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/darkwoodsouthernflairchairtext",
-    "particle": "luphieclutteredmod:blocks/darkwoodsouthernflairchairtext",
-    "2": "luphieclutteredmod:blocks/darkwoodsouthernflairchairtext"
-  }
+    "all": "luphieclutteredmod:block/darkwoodsouthernflairchairtext",
+    "particle": "luphieclutteredmod:block/darkwoodsouthernflairchairtext",
+    "2": "luphieclutteredmod:block/darkwoodsouthernflairchairtext"
+  },
+  "render_type": "solid"
 }

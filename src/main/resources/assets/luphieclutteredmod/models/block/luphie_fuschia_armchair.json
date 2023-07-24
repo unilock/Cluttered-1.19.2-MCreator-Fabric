@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/fuchsiaarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/fuchsianarmchair",
-    "particle": "luphieclutteredmod:blocks/fuchsianarmchair",
-    "0": "luphieclutteredmod:blocks/fuchsianarmchair"
-  }
+    "all": "luphieclutteredmod:block/fuchsianarmchair",
+    "particle": "luphieclutteredmod:block/fuchsianarmchair",
+    "0": "luphieclutteredmod:block/fuchsianarmchair"
+  },
+  "render_type": "solid"
 }

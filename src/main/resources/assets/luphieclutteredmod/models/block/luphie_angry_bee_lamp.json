@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/angrybeelamp",
   "textures": {
-    "all": "luphieclutteredmod:blocks/angrybeelamptext",
-    "particle": "luphieclutteredmod:blocks/angrybeelamptext",
-    "0": "luphieclutteredmod:blocks/angrybeelamptext"
-  }
+    "all": "luphieclutteredmod:block/angrybeelamptext",
+    "particle": "luphieclutteredmod:block/angrybeelamptext",
+    "0": "luphieclutteredmod:block/angrybeelamptext"
+  },
+  "render_type": "cutout"
 }

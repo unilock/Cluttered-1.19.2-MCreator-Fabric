@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/pastelchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/pastelchairtext",
-    "particle": "luphieclutteredmod:blocks/pastelchairtext",
-    "0": "luphieclutteredmod:blocks/pastelchairtext"
-  }
+    "all": "luphieclutteredmod:block/pastelchairtext",
+    "particle": "luphieclutteredmod:block/pastelchairtext",
+    "0": "luphieclutteredmod:block/pastelchairtext"
+  },
+  "render_type": "solid"
 }

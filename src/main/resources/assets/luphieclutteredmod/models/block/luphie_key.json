@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/key",
   "textures": {
-    "all": "luphieclutteredmod:blocks/keytext",
-    "particle": "luphieclutteredmod:blocks/keytext",
-    "0": "luphieclutteredmod:blocks/keytext"
-  }
+    "all": "luphieclutteredmod:block/keytext",
+    "particle": "luphieclutteredmod:block/keytext",
+    "0": "luphieclutteredmod:block/keytext"
+  },
+  "render_type": "cutout"
 }

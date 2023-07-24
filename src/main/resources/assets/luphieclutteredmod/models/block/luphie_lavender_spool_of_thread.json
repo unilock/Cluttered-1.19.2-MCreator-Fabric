@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lavenderspoolofthread",
   "textures": {
-    "all": "luphieclutteredmod:blocks/lavenderspoolofthreadtext",
-    "particle": "luphieclutteredmod:blocks/lavenderspoolofthreadtext",
-    "0": "luphieclutteredmod:blocks/lavenderspoolofthreadtext"
-  }
+    "all": "luphieclutteredmod:block/lavenderspoolofthreadtext",
+    "particle": "luphieclutteredmod:block/lavenderspoolofthreadtext",
+    "0": "luphieclutteredmod:block/lavenderspoolofthreadtext"
+  },
+  "render_type": "cutout"
 }

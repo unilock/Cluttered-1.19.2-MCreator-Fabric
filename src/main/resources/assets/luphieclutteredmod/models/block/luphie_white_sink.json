@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/whitesinkcounter",
   "textures": {
-    "all": "luphieclutteredmod:blocks/whitesinkcountertext",
-    "particle": "luphieclutteredmod:blocks/whitesinkcountertext",
-    "3": "luphieclutteredmod:blocks/whitesinkcountertext"
-  }
+    "all": "luphieclutteredmod:block/whitesinkcountertext",
+    "particle": "luphieclutteredmod:block/whitesinkcountertext",
+    "3": "luphieclutteredmod:block/whitesinkcountertext"
+  },
+  "render_type": "solid"
 }

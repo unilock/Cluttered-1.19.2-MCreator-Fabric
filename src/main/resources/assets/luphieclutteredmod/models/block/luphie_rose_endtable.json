@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/roseendtable",
   "textures": {
-    "all": "luphieclutteredmod:blocks/roseendtable",
-    "particle": "luphieclutteredmod:blocks/roseendtable",
-    "0": "luphieclutteredmod:blocks/roseendtable"
-  }
+    "all": "luphieclutteredmod:block/roseendtable",
+    "particle": "luphieclutteredmod:block/roseendtable",
+    "0": "luphieclutteredmod:block/roseendtable"
+  },
+  "render_type": "solid"
 }

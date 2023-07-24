@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/pinkplanksredonetext",
-    "particle": "luphieclutteredmod:blocks/pinkplanksredonetext"
+    "texture": "luphieclutteredmod:block/pinkplanksredonetext",
+    "particle": "luphieclutteredmod:block/pinkplanksredonetext"
   }
 }

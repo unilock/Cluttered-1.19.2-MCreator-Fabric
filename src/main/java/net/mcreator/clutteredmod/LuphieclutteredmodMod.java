@@ -12,18 +12,11 @@
  */
 package net.mcreator.clutteredmod;
 
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
-
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModTabs;
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModSounds;
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModPaintings;
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModMenus;
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModItems;
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlockEntities;
-
 import net.fabricmc.api.ModInitializer;
+import net.mcreator.clutteredmod.init.*;
+import net.minecraft.util.Identifier;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class LuphieclutteredmodMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
@@ -32,16 +25,18 @@ public class LuphieclutteredmodMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing LuphieclutteredmodMod");
-		LuphieclutteredmodModTabs.load();
 
 		LuphieclutteredmodModBlocks.load();
-		LuphieclutteredmodModItems.load();
 		LuphieclutteredmodModBlockEntities.load();
-
-		LuphieclutteredmodModPaintings.load();
-
+		LuphieclutteredmodModItems.load();
 		LuphieclutteredmodModMenus.load();
-
+		LuphieclutteredmodModPaintings.load();
 		LuphieclutteredmodModSounds.load();
+
+		LuphieclutteredmodModTabs.load();
+	}
+
+	public static Identifier id(String path) {
+		return new Identifier(MODID, path);
 	}
 }

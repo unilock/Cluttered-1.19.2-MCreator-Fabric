@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/hangingplantshelves",
   "textures": {
-    "all": "luphieclutteredmod:blocks/hangingplantshelvestext",
-    "particle": "luphieclutteredmod:blocks/hangingplantshelvestext",
-    "2": "luphieclutteredmod:blocks/hangingplantshelvestext"
-  }
+    "all": "luphieclutteredmod:block/hangingplantshelvestext",
+    "particle": "luphieclutteredmod:block/hangingplantshelvestext",
+    "2": "luphieclutteredmod:block/hangingplantshelvestext"
+  },
+  "render_type": "cutout"
 }

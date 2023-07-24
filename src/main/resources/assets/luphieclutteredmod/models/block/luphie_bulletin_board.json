@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/bulletinboard",
   "textures": {
-    "all": "luphieclutteredmod:blocks/bulletinboardtext",
-    "particle": "luphieclutteredmod:blocks/bulletinboardtext",
-    "0": "luphieclutteredmod:blocks/bulletinboardtext"
-  }
+    "all": "luphieclutteredmod:block/bulletinboardtext",
+    "particle": "luphieclutteredmod:block/bulletinboardtext",
+    "0": "luphieclutteredmod:block/bulletinboardtext"
+  },
+  "render_type": "cutout"
 }

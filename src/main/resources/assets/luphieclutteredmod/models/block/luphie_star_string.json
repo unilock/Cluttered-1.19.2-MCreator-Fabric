@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/starstring",
   "textures": {
-    "all": "luphieclutteredmod:blocks/starstringtext",
-    "particle": "luphieclutteredmod:blocks/starstringtext",
-    "0": "luphieclutteredmod:blocks/starstringtext"
-  }
+    "all": "luphieclutteredmod:block/starstringtext",
+    "particle": "luphieclutteredmod:block/starstringtext",
+    "0": "luphieclutteredmod:block/starstringtext"
+  },
+  "render_type": "cutout"
 }

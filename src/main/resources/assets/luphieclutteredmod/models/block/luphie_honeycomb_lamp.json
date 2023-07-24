@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/honeycomblamp",
   "textures": {
-    "all": "luphieclutteredmod:blocks/honeycomblamptext",
-    "particle": "luphieclutteredmod:blocks/honeycomblamptext",
-    "0": "luphieclutteredmod:blocks/honeycomblamptext"
-  }
+    "all": "luphieclutteredmod:block/honeycomblamptext",
+    "particle": "luphieclutteredmod:block/honeycomblamptext",
+    "0": "luphieclutteredmod:block/honeycomblamptext"
+  },
+  "render_type": "solid"
 }

@@ -1,6 +1,7 @@
 {
   "parent": "block/pressure_plate_down",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/yellowplanks"
-  }
+    "texture": "luphieclutteredmod:block/yellowplanks"
+  },
+  "render_type": "solid"
 }

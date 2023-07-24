@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/worndoradocabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/worndoradocabinettext",
-    "particle": "luphieclutteredmod:blocks/worndoradocabinettext",
-    "0": "luphieclutteredmod:blocks/worndoradocabinettext"
-  }
+    "all": "luphieclutteredmod:block/worndoradocabinettext",
+    "particle": "luphieclutteredmod:block/worndoradocabinettext",
+    "0": "luphieclutteredmod:block/worndoradocabinettext"
+  },
+  "render_type": "cutout"
 }

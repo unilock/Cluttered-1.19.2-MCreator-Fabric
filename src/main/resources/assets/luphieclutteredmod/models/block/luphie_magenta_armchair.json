@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/magentaarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/magentaarmchair",
-    "particle": "luphieclutteredmod:blocks/magentaarmchair",
-    "0": "luphieclutteredmod:blocks/magentaarmchair"
-  }
+    "all": "luphieclutteredmod:block/magentaarmchair",
+    "particle": "luphieclutteredmod:block/magentaarmchair",
+    "0": "luphieclutteredmod:block/magentaarmchair"
+  },
+  "render_type": "solid"
 }

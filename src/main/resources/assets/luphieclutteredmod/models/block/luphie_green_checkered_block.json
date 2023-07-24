@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "luphieclutteredmod:blocks/greenpicnicblanketblocktext_cropped2",
-    "up": "luphieclutteredmod:blocks/greenpicnicblanketblocktext_cropped2",
-    "north": "luphieclutteredmod:blocks/greenpicnicblanketblocktext_cropped2",
-    "east": "luphieclutteredmod:blocks/greenpicnicblanketblocktext_cropped2",
-    "south": "luphieclutteredmod:blocks/greenpicnicblanketblocktext_cropped2",
-    "west": "luphieclutteredmod:blocks/greenpicnicblanketblocktext_cropped2",
-    "particle": "luphieclutteredmod:blocks/greenpicnicblanketblocktext_cropped2"
-  }
+    "down": "luphieclutteredmod:block/greenpicnicblanketblocktext_cropped2",
+    "up": "luphieclutteredmod:block/greenpicnicblanketblocktext_cropped2",
+    "north": "luphieclutteredmod:block/greenpicnicblanketblocktext_cropped2",
+    "east": "luphieclutteredmod:block/greenpicnicblanketblocktext_cropped2",
+    "south": "luphieclutteredmod:block/greenpicnicblanketblocktext_cropped2",
+    "west": "luphieclutteredmod:block/greenpicnicblanketblocktext_cropped2",
+    "particle": "luphieclutteredmod:block/greenpicnicblanketblocktext_cropped2"
+  },
+  "render_type": "solid"
 }

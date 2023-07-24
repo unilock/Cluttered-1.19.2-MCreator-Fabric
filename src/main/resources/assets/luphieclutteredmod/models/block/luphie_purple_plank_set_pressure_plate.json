@@ -1,6 +1,7 @@
 {
   "parent": "block/pressure_plate_up",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/purpleplankretext"
-  }
+    "texture": "luphieclutteredmod:block/purpleplankretext"
+  },
+  "render_type": "solid"
 }

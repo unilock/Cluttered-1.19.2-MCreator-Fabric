@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/pastrydisplay",
   "textures": {
-    "all": "luphieclutteredmod:blocks/pastrydisplaytext",
-    "particle": "luphieclutteredmod:blocks/pastrydisplaytext",
-    "6": "luphieclutteredmod:blocks/pastrydisplaytext"
-  }
+    "all": "luphieclutteredmod:block/pastrydisplaytext",
+    "particle": "luphieclutteredmod:block/pastrydisplaytext",
+    "6": "luphieclutteredmod:block/pastrydisplaytext"
+  },
+  "render_type": "cutout"
 }

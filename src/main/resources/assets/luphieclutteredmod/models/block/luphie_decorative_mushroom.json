@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/3dmushroom",
   "textures": {
-    "all": "luphieclutteredmod:blocks/3dmushroomtext",
-    "particle": "luphieclutteredmod:blocks/3dmushroomtext",
-    "1": "luphieclutteredmod:blocks/3dmushroomtext"
-  }
+    "all": "luphieclutteredmod:block/3dmushroomtext",
+    "particle": "luphieclutteredmod:block/3dmushroomtext",
+    "1": "luphieclutteredmod:block/3dmushroomtext"
+  },
+  "render_type": "solid"
 }

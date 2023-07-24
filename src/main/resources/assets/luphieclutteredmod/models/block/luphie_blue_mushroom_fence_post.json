@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/bluemushroomplanks",
-    "particle": "luphieclutteredmod:blocks/bluemushroomplanks"
+    "texture": "luphieclutteredmod:block/bluemushroomplanks",
+    "particle": "luphieclutteredmod:block/bluemushroomplanks"
   }
 }

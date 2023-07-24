@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/platedcinnamonbun",
   "textures": {
-    "all": "luphieclutteredmod:blocks/platedcinnamonbuntexture",
-    "particle": "luphieclutteredmod:blocks/platedcinnamonbuntexture",
-    "2": "luphieclutteredmod:blocks/platedcinnamonbuntexture"
-  }
+    "all": "luphieclutteredmod:block/platedcinnamonbuntexture",
+    "particle": "luphieclutteredmod:block/platedcinnamonbuntexture",
+    "2": "luphieclutteredmod:block/platedcinnamonbuntexture"
+  },
+  "render_type": "cutout"
 }

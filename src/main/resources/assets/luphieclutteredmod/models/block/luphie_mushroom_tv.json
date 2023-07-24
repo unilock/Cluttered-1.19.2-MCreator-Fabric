@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/accfmushtv",
   "textures": {
-    "all": "luphieclutteredmod:blocks/mushtvtext",
-    "particle": "luphieclutteredmod:blocks/mushtvtext",
-    "2": "luphieclutteredmod:blocks/mushtvtext"
-  }
+    "all": "luphieclutteredmod:block/mushtvtext",
+    "particle": "luphieclutteredmod:block/mushtvtext",
+    "2": "luphieclutteredmod:block/mushtvtext"
+  },
+  "render_type": "solid"
 }

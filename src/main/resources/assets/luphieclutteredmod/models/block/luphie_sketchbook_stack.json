@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/sketchbookstack",
   "textures": {
-    "all": "luphieclutteredmod:blocks/sketchbookstacktext",
-    "particle": "luphieclutteredmod:blocks/sketchbookstacktext",
-    "0": "luphieclutteredmod:blocks/sketchbookstacktext"
-  }
+    "all": "luphieclutteredmod:block/sketchbookstacktext",
+    "particle": "luphieclutteredmod:block/sketchbookstacktext",
+    "0": "luphieclutteredmod:block/sketchbookstacktext"
+  },
+  "render_type": "solid"
 }

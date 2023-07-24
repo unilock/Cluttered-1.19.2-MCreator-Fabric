@@ -12,20 +12,15 @@
 */
 package net.mcreator.clutteredmod;
 
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModScreens;
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
 
 @Environment(EnvType.CLIENT)
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-
 		LuphieclutteredmodModBlocks.clientLoad();
-		LuphieclutteredmodModScreens.load();
-
 	}
 }

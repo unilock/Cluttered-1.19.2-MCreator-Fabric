@@ -1,6 +1,7 @@
 {
   "parent": "block/pressure_plate_down",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/pinkplanksredonetext"
-  }
+    "texture": "luphieclutteredmod:block/pinkplanksredonetext"
+  },
+  "render_type": "solid"
 }

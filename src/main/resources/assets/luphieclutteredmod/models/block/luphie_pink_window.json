@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "luphieclutteredmod:blocks/pinkplanksredonetext",
-    "up": "luphieclutteredmod:blocks/pinkplanksredonetext",
-    "north": "luphieclutteredmod:blocks/pinkwindowtext",
-    "east": "luphieclutteredmod:blocks/pinkwindowtext",
-    "south": "luphieclutteredmod:blocks/pinkwindowtext",
-    "west": "luphieclutteredmod:blocks/pinkwindowtext",
-    "particle": "luphieclutteredmod:blocks/pinkplanksredonetext"
-  }
+    "down": "luphieclutteredmod:block/pinkplanksredonetext",
+    "up": "luphieclutteredmod:block/pinkplanksredonetext",
+    "north": "luphieclutteredmod:block/pinkwindowtext",
+    "east": "luphieclutteredmod:block/pinkwindowtext",
+    "south": "luphieclutteredmod:block/pinkwindowtext",
+    "west": "luphieclutteredmod:block/pinkwindowtext",
+    "particle": "luphieclutteredmod:block/pinkplanksredonetext"
+  },
+  "render_type": "cutout"
 }

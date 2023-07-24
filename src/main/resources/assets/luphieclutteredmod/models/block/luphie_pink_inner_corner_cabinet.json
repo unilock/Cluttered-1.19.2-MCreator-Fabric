@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/pinkinnercornercabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/pinkinnercornercabinettext",
-    "particle": "luphieclutteredmod:blocks/pinkinnercornercabinettext",
-    "0": "luphieclutteredmod:blocks/pinkinnercornercabinettext"
-  }
+    "all": "luphieclutteredmod:block/pinkinnercornercabinettext",
+    "particle": "luphieclutteredmod:block/pinkinnercornercabinettext",
+    "0": "luphieclutteredmod:block/pinkinnercornercabinettext"
+  },
+  "render_type": "cutout"
 }

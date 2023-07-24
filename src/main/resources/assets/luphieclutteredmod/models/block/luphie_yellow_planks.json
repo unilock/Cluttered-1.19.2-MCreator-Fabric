@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "luphieclutteredmod:blocks/yellowplanks",
-    "up": "luphieclutteredmod:blocks/yellowplanks",
-    "north": "luphieclutteredmod:blocks/yellowplanks",
-    "east": "luphieclutteredmod:blocks/yellowplanks",
-    "south": "luphieclutteredmod:blocks/yellowplanks",
-    "west": "luphieclutteredmod:blocks/yellowplanks",
-    "particle": "luphieclutteredmod:blocks/yellowplanks"
-  }
+    "down": "luphieclutteredmod:block/yellowplanks",
+    "up": "luphieclutteredmod:block/yellowplanks",
+    "north": "luphieclutteredmod:block/yellowplanks",
+    "east": "luphieclutteredmod:block/yellowplanks",
+    "south": "luphieclutteredmod:block/yellowplanks",
+    "west": "luphieclutteredmod:block/yellowplanks",
+    "particle": "luphieclutteredmod:block/yellowplanks"
+  },
+  "render_type": "solid"
 }

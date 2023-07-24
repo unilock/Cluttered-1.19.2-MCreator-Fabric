@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/minihangingterrariums",
   "textures": {
-    "all": "luphieclutteredmod:blocks/minihangingterrariumtext",
-    "particle": "luphieclutteredmod:blocks/minihangingterrariumtext",
-    "0": "luphieclutteredmod:blocks/minihangingterrariumtext"
-  }
+    "all": "luphieclutteredmod:block/minihangingterrariumtext",
+    "particle": "luphieclutteredmod:block/minihangingterrariumtext",
+    "0": "luphieclutteredmod:block/minihangingterrariumtext"
+  },
+  "render_type": "cutout"
 }

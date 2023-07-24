@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "luphieclutteredmod:blocks/mushbookshelftop",
-    "up": "luphieclutteredmod:blocks/mushbookshelftop",
-    "north": "luphieclutteredmod:blocks/mushbookshelf",
-    "east": "luphieclutteredmod:blocks/mushbookshelf",
-    "south": "luphieclutteredmod:blocks/mushbookshelf",
-    "west": "luphieclutteredmod:blocks/mushbookshelf",
-    "particle": "luphieclutteredmod:blocks/mushbookshelftop"
-  }
+    "down": "luphieclutteredmod:block/mushbookshelftop",
+    "up": "luphieclutteredmod:block/mushbookshelftop",
+    "north": "luphieclutteredmod:block/mushbookshelf",
+    "east": "luphieclutteredmod:block/mushbookshelf",
+    "south": "luphieclutteredmod:block/mushbookshelf",
+    "west": "luphieclutteredmod:block/mushbookshelf",
+    "particle": "luphieclutteredmod:block/mushbookshelftop"
+  },
+  "render_type": "solid"
 }

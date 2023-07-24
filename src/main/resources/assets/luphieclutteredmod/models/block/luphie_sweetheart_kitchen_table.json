@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/sweethearttable",
   "textures": {
-    "all": "luphieclutteredmod:blocks/sweethearttabletext",
-    "particle": "luphieclutteredmod:blocks/sweethearttabletext",
-    "0": "luphieclutteredmod:blocks/sweethearttabletext"
-  }
+    "all": "luphieclutteredmod:block/sweethearttabletext",
+    "particle": "luphieclutteredmod:block/sweethearttabletext",
+    "0": "luphieclutteredmod:block/sweethearttabletext"
+  },
+  "render_type": "solid"
 }

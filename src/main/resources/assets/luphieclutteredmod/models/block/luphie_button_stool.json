@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/buttonstool",
   "textures": {
-    "all": "luphieclutteredmod:blocks/buttonstooltext",
-    "particle": "luphieclutteredmod:blocks/buttonstooltext",
-    "0": "luphieclutteredmod:blocks/buttonstooltext"
-  }
+    "all": "luphieclutteredmod:block/buttonstooltext",
+    "particle": "luphieclutteredmod:block/buttonstooltext",
+    "0": "luphieclutteredmod:block/buttonstooltext"
+  },
+  "render_type": "cutout"
 }

@@ -1,32 +1,31 @@
 
 package net.mcreator.clutteredmod.world.inventory;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.SimpleContainer;
-import net.minecraft.world.Container;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.BlockPos;
-
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModMenus;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.inventory.Inventory;
+import net.minecraft.inventory.SimpleInventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.network.PacketByteBuf;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.slot.Slot;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 
 import java.util.HashMap;
 
-public class LuphieLargeStorageGuiMenu extends AbstractContainerMenu {
+public class LuphieLargeStorageGuiMenu extends ScreenHandler {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
-	public final Level world;
-	public final Player entity;
+	public final World world;
+	public final PlayerEntity entity;
 	public int x, y, z;
 	private BlockPos pos;
-	private final Container inventory;
+	private final Inventory inventory;
 	private boolean bound = false;
 
-	public LuphieLargeStorageGuiMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		this(id, inv, new SimpleContainer(54));
+	public LuphieLargeStorageGuiMenu(int id, PlayerInventory inv, PacketByteBuf extraData) {
+		this(id, inv, new SimpleInventory(54));
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
 			this.x = pos.getX();
@@ -35,10 +34,10 @@ public class LuphieLargeStorageGuiMenu extends AbstractContainerMenu {
 		}
 	}
 
-	public LuphieLargeStorageGuiMenu(int id, Inventory inv, Container container) {
+	public LuphieLargeStorageGuiMenu(int id, PlayerInventory inv, Inventory container) {
 		super(LuphieclutteredmodModMenus.LUPHIE_LARGE_STORAGE_GUI, id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.getWorld();
 		this.inventory = container;
 		this.addSlot(new Slot(inventory, 0, 7, 17) {
 		});
@@ -156,44 +155,44 @@ public class LuphieLargeStorageGuiMenu extends AbstractContainerMenu {
 	}
 
 	@Override
-	public boolean stillValid(Player player) {
-		return this.inventory.stillValid(player);
+	public boolean canUse(PlayerEntity player) {
+		return this.inventory.canPlayerUse(player);
 	}
 
 	@Override
-	public ItemStack quickMoveStack(Player player, int index) {
+	public ItemStack quickMove(PlayerEntity player, int index) {
 		ItemStack itemstack = ItemStack.EMPTY;
 		Slot slot = (Slot) this.slots.get(index);
-		if (slot != null && slot.hasItem()) {
-			ItemStack itemstack1 = slot.getItem();
+		if (slot != null && slot.hasStack()) {
+			ItemStack itemstack1 = slot.getStack();
 			itemstack = itemstack1.copy();
 			if (index < 54) {
-				if (!this.moveItemStackTo(itemstack1, 54, this.slots.size(), true))
+				if (!this.insertItem(itemstack1, 54, this.slots.size(), true))
 					return ItemStack.EMPTY;
-				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 54, false)) {
+				slot.onQuickTransfer(itemstack1, itemstack);
+			} else if (!this.insertItem(itemstack1, 0, 54, false)) {
 				if (index < 54 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 54 + 27, this.slots.size(), true))
+					if (!this.insertItem(itemstack1, 54 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 54, 54 + 27, false))
+					if (!this.insertItem(itemstack1, 54, 54 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
 			}
 			if (itemstack1.isEmpty())
-				slot.set(ItemStack.EMPTY);
+				slot.setStackNoCallbacks(ItemStack.EMPTY);
 			else
-				slot.setChanged();
+				slot.markDirty();
 			if (itemstack1.getCount() == itemstack.getCount())
 				return ItemStack.EMPTY;
-			slot.onTake(player, itemstack1);
+			slot.onTakeItem(player, itemstack1);
 		}
 		return itemstack;
 	}
 
 	@Override
-	public void removed(Player playerIn) {
-		super.removed(playerIn);
+	public void onClosed(PlayerEntity playerIn) {
+		super.onClosed(playerIn);
 	}
 }

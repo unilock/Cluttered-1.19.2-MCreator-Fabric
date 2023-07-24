@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/blackinnercornercounter",
   "textures": {
-    "all": "luphieclutteredmod:blocks/blackinnercornercountertext",
-    "particle": "luphieclutteredmod:blocks/blackinnercornercountertext",
-    "0": "luphieclutteredmod:blocks/blackinnercornercountertext"
-  }
+    "all": "luphieclutteredmod:block/blackinnercornercountertext",
+    "particle": "luphieclutteredmod:block/blackinnercornercountertext",
+    "0": "luphieclutteredmod:block/blackinnercornercountertext"
+  },
+  "render_type": "solid"
 }

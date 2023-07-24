@@ -4,17 +4,35 @@
  */
 package net.mcreator.clutteredmod.init;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.resources.ResourceLocation;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.mcreator.clutteredmod.LuphieclutteredmodMod;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import java.lang.reflect.Field;
 
 public class LuphieclutteredmodModTabs {
-	public static CreativeModeTab TAB_CLUTTER_MOD;
+	public static final ItemGroup TAB_CLUTTER_MOD = FabricItemGroup.builder()
+			.icon(() -> new ItemStack(LuphieclutteredmodModBlocks.LUPHIE_PURPLE_BLACK_CAT_BOOKSHELF))
+			.displayName(Text.literal("Cluttered"))
+			.entries(((displayContext, entries) -> {
+				for (Field field : LuphieclutteredmodModItems.class.getDeclaredFields()) {
+					if (Item.class.isAssignableFrom(field.getType())) {
+						try {
+							entries.add((Item) field.get(null));
+						} catch (Exception e) {
+							throw new RuntimeException(e);
+						}
+					}
+				}
+			}))
+			.build();
 
 	public static void load() {
-		TAB_CLUTTER_MOD = FabricItemGroupBuilder.create(new ResourceLocation("luphieclutteredmod", "clutter_mod"))
-				.icon(() -> new ItemStack(LuphieclutteredmodModBlocks.LUPHIE_PURPLE_BLACK_CAT_BOOKSHELF)).build();
+		Registry.register(Registries.ITEM_GROUP, LuphieclutteredmodMod.id("cluttered"), TAB_CLUTTER_MOD);
 	}
 }

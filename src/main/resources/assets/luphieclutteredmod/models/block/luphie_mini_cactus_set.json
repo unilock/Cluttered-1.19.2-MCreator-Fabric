@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/minicactusset",
   "textures": {
-    "all": "luphieclutteredmod:blocks/minicactussettext",
-    "particle": "luphieclutteredmod:blocks/minicactussettext",
-    "0": "luphieclutteredmod:blocks/minicactussettext"
-  }
+    "all": "luphieclutteredmod:block/minicactussettext",
+    "particle": "luphieclutteredmod:block/minicactussettext",
+    "0": "luphieclutteredmod:block/minicactussettext"
+  },
+  "render_type": "cutout"
 }

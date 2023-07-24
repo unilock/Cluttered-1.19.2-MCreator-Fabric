@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/greennightstandretextured",
   "textures": {
-    "all": "luphieclutteredmod:blocks/nightstandgreenredonetext",
-    "particle": "luphieclutteredmod:blocks/nightstandgreenredonetext",
-    "0": "luphieclutteredmod:blocks/nightstandgreenredonetext"
-  }
+    "all": "luphieclutteredmod:block/nightstandgreenredonetext",
+    "particle": "luphieclutteredmod:block/nightstandgreenredonetext",
+    "0": "luphieclutteredmod:block/nightstandgreenredonetext"
+  },
+  "render_type": "solid"
 }

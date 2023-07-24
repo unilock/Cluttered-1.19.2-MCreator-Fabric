@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/darkwoodcabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/darkwoodcabinettext",
-    "particle": "luphieclutteredmod:blocks/darkwoodcabinettext",
-    "6": "luphieclutteredmod:blocks/darkwoodcabinettext"
-  }
+    "all": "luphieclutteredmod:block/darkwoodcabinettext",
+    "particle": "luphieclutteredmod:block/darkwoodcabinettext",
+    "6": "luphieclutteredmod:block/darkwoodcabinettext"
+  },
+  "render_type": "cutout"
 }

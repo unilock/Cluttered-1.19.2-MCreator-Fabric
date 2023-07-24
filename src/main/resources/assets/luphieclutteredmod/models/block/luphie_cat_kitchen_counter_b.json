@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/catkitchencounterb",
   "textures": {
-    "all": "luphieclutteredmod:blocks/catkitchencounterbtext",
-    "particle": "luphieclutteredmod:blocks/catkitchencounterbtext",
-    "3": "luphieclutteredmod:blocks/catkitchencounterbtext"
-  }
+    "all": "luphieclutteredmod:block/catkitchencounterbtext",
+    "particle": "luphieclutteredmod:block/catkitchencounterbtext",
+    "3": "luphieclutteredmod:block/catkitchencounterbtext"
+  },
+  "render_type": "solid"
 }

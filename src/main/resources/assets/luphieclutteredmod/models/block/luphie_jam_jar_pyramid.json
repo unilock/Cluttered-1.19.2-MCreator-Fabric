@@ -1,9 +1,10 @@
 {
   "parent": "luphieclutteredmod:custom/jamjarpyramid",
   "textures": {
-    "all": "luphieclutteredmod:blocks/jamjarpyramidtext",
-    "particle": "luphieclutteredmod:blocks/jamjarpyramidtext",
-    "missing": "luphieclutteredmod:blocks/jamjarpyramidtext",
-    "9": "luphieclutteredmod:blocks/jamjarpyramidtext"
-  }
+    "all": "luphieclutteredmod:block/jamjarpyramidtext",
+    "particle": "luphieclutteredmod:block/jamjarpyramidtext",
+    "missing": "luphieclutteredmod:block/jamjarpyramidtext",
+    "9": "luphieclutteredmod:block/jamjarpyramidtext"
+  },
+  "render_type": "solid"
 }

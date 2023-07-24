@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/mushroomtable",
   "textures": {
-    "all": "luphieclutteredmod:blocks/mushroomtabletext",
-    "particle": "luphieclutteredmod:blocks/mushroomtabletext",
-    "2": "luphieclutteredmod:blocks/mushroomtabletext"
-  }
+    "all": "luphieclutteredmod:block/mushroomtabletext",
+    "particle": "luphieclutteredmod:block/mushroomtabletext",
+    "2": "luphieclutteredmod:block/mushroomtabletext"
+  },
+  "render_type": "solid"
 }

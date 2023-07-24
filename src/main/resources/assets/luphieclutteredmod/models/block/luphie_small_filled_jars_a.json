@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/smallfilledjarsa",
   "textures": {
-    "all": "luphieclutteredmod:blocks/smallfilledjarsatext",
-    "particle": "luphieclutteredmod:blocks/smallfilledjarsatext",
-    "2": "luphieclutteredmod:blocks/smallfilledjarsatext"
-  }
+    "all": "luphieclutteredmod:block/smallfilledjarsatext",
+    "particle": "luphieclutteredmod:block/smallfilledjarsatext",
+    "2": "luphieclutteredmod:block/smallfilledjarsatext"
+  },
+  "render_type": "cutout"
 }

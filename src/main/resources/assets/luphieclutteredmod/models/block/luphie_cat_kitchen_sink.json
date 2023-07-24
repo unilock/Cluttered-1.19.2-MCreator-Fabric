@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/catkitchensink",
   "textures": {
-    "all": "luphieclutteredmod:blocks/catkitchensinktext",
-    "particle": "luphieclutteredmod:blocks/catkitchensinktext",
-    "1": "luphieclutteredmod:blocks/catkitchensinktext"
-  }
+    "all": "luphieclutteredmod:block/catkitchensinktext",
+    "particle": "luphieclutteredmod:block/catkitchensinktext",
+    "1": "luphieclutteredmod:block/catkitchensinktext"
+  },
+  "render_type": "cutout"
 }

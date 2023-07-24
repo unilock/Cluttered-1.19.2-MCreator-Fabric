@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lunarobservatoryglobe",
   "textures": {
-    "all": "luphieclutteredmod:blocks/lunarobservatorygloberetext",
-    "particle": "luphieclutteredmod:blocks/lunarobservatorygloberetext",
-    "3": "luphieclutteredmod:blocks/lunarobservatorygloberetext"
-  }
+    "all": "luphieclutteredmod:block/lunarobservatorygloberetext",
+    "particle": "luphieclutteredmod:block/lunarobservatorygloberetext",
+    "3": "luphieclutteredmod:block/lunarobservatorygloberetext"
+  },
+  "render_type": "solid"
 }

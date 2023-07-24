@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/hoppinparklantern",
   "textures": {
-    "all": "luphieclutteredmod:blocks/hoppinparklanterntext",
-    "particle": "luphieclutteredmod:blocks/hoppinparklanterntext",
-    "0": "luphieclutteredmod:blocks/hoppinparklanterntext"
-  }
+    "all": "luphieclutteredmod:block/hoppinparklanterntext",
+    "particle": "luphieclutteredmod:block/hoppinparklanterntext",
+    "0": "luphieclutteredmod:block/hoppinparklanterntext"
+  },
+  "render_type": "cutout"
 }

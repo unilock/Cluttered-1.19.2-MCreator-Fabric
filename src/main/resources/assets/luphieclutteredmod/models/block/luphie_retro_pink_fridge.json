@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/retropinkfridge",
   "textures": {
-    "all": "luphieclutteredmod:blocks/retropinkfridgetext",
-    "particle": "luphieclutteredmod:blocks/retropinkfridgetext",
-    "0": "luphieclutteredmod:blocks/retropinkfridgetext"
-  }
+    "all": "luphieclutteredmod:block/retropinkfridgetext",
+    "particle": "luphieclutteredmod:block/retropinkfridgetext",
+    "0": "luphieclutteredmod:block/retropinkfridgetext"
+  },
+  "render_type": "solid"
 }

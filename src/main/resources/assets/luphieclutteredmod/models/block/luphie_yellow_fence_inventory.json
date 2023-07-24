@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_inventory",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/yellowplanks",
-    "particle": "luphieclutteredmod:blocks/yellowplanks"
+    "texture": "luphieclutteredmod:block/yellowplanks",
+    "particle": "luphieclutteredmod:block/yellowplanks"
   }
 }

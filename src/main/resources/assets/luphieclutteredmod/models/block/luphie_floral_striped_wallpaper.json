@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "luphieclutteredmod:blocks/floralstripedwallpaper",
-    "up": "luphieclutteredmod:blocks/floralstripedwallpaper",
-    "north": "luphieclutteredmod:blocks/floralstripedwallpaper",
-    "east": "luphieclutteredmod:blocks/floralstripedwallpaper",
-    "south": "luphieclutteredmod:blocks/floralstripedwallpaper",
-    "west": "luphieclutteredmod:blocks/floralstripedwallpaper",
-    "particle": "luphieclutteredmod:blocks/floralstripedwallpaper"
-  }
+    "down": "luphieclutteredmod:block/floralstripedwallpaper",
+    "up": "luphieclutteredmod:block/floralstripedwallpaper",
+    "north": "luphieclutteredmod:block/floralstripedwallpaper",
+    "east": "luphieclutteredmod:block/floralstripedwallpaper",
+    "south": "luphieclutteredmod:block/floralstripedwallpaper",
+    "west": "luphieclutteredmod:block/floralstripedwallpaper",
+    "particle": "luphieclutteredmod:block/floralstripedwallpaper"
+  },
+  "render_type": "solid"
 }

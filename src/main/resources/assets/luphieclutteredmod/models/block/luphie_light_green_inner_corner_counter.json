@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lightgreeninnercornercounter",
   "textures": {
-    "all": "luphieclutteredmod:blocks/greeninnercornercountertext",
-    "particle": "luphieclutteredmod:blocks/greeninnercornercountertext",
-    "0": "luphieclutteredmod:blocks/greeninnercornercountertext"
-  }
+    "all": "luphieclutteredmod:block/greeninnercornercountertext",
+    "particle": "luphieclutteredmod:block/greeninnercornercountertext",
+    "0": "luphieclutteredmod:block/greeninnercornercountertext"
+  },
+  "render_type": "solid"
 }

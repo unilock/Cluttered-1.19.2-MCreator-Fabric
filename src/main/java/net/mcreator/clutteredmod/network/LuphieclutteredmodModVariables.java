@@ -1,24 +1,23 @@
 package net.mcreator.clutteredmod.network;
 
-import net.minecraft.world.level.saveddata.SavedData;
-import net.minecraft.world.level.ServerLevelAccessor;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.nbt.CompoundTag;
-
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.entity.event.v1.ServerEntityWorldChangeEvents;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.network.PacketByteBuf;
+import net.minecraft.server.world.ServerWorld;
+import net.minecraft.world.PersistentState;
+import net.minecraft.world.ServerWorldAccess;
+import net.minecraft.world.World;
+import net.minecraft.world.WorldAccess;
 
 public class LuphieclutteredmodModVariables {
 	public static void SyncJoin() {
 		ServerEntityEvents.ENTITY_LOAD.register((entity, world) -> {
-			if (entity instanceof Player) {
-				if (!world.isClientSide()) {
-					SavedData mapdata = MapVariables.get(world);
-					SavedData worlddata = WorldVariables.get(world);
+			if (entity instanceof PlayerEntity) {
+				if (!world.isClient()) {
+					PersistentState mapdata = MapVariables.get(world);
+					PersistentState worlddata = WorldVariables.get(world);
 				}
 			}
 		});
@@ -26,76 +25,76 @@ public class LuphieclutteredmodModVariables {
 
 	public static void SyncChangeWorld() {
 		ServerEntityWorldChangeEvents.AFTER_PLAYER_CHANGE_WORLD.register((player, origin, destination) -> {
-			if (!destination.isClientSide()) {
-				SavedData worlddata = WorldVariables.get(destination);
+			if (!destination.isClient()) {
+				PersistentState worlddata = WorldVariables.get(destination);
 			}
 		});
 	}
 
-	public static class WorldVariables extends SavedData {
+	public static class WorldVariables extends PersistentState {
 		public static final String DATA_NAME = "luphieclutteredmod_worldvars";
 		public double bedTimer = 0;
 		public boolean bedTimerEnabled = false;
 
-		public static WorldVariables load(CompoundTag tag) {
+		public static WorldVariables load(NbtCompound tag) {
 			WorldVariables data = new WorldVariables();
 			data.read(tag);
 			return data;
 		}
 
-		public void read(CompoundTag nbt) {
+		public void read(NbtCompound nbt) {
 			bedTimer = nbt.getDouble("bedTimer");
 			bedTimerEnabled = nbt.getBoolean("bedTimerEnabled");
 		}
 
 		@Override
-		public CompoundTag save(CompoundTag nbt) {
+		public NbtCompound writeNbt(NbtCompound nbt) {
 			nbt.putDouble("bedTimer", bedTimer);
 			nbt.putBoolean("bedTimerEnabled", bedTimerEnabled);
 			return nbt;
 		}
 
-		public void syncData(LevelAccessor world) {
-			this.setDirty();
+		public void syncData(WorldAccess world) {
+			this.markDirty();
 		}
 
 		static WorldVariables clientSide = new WorldVariables();
 
-		public static WorldVariables get(LevelAccessor world) {
-			if (world instanceof ServerLevel level) {
-				return level.getDataStorage().computeIfAbsent(e -> WorldVariables.load(e), WorldVariables::new, DATA_NAME);
+		public static WorldVariables get(WorldAccess world) {
+			if (world instanceof ServerWorld level) {
+				return level.getPersistentStateManager().getOrCreate(e -> WorldVariables.load(e), WorldVariables::new, DATA_NAME);
 			} else {
 				return clientSide;
 			}
 		}
 	}
 
-	public static class MapVariables extends SavedData {
+	public static class MapVariables extends PersistentState {
 		public static final String DATA_NAME = "luphieclutteredmod_mapvars";
 
-		public static MapVariables load(CompoundTag tag) {
+		public static MapVariables load(NbtCompound tag) {
 			MapVariables data = new MapVariables();
 			data.read(tag);
 			return data;
 		}
 
-		public void read(CompoundTag nbt) {
+		public void read(NbtCompound nbt) {
 		}
 
 		@Override
-		public CompoundTag save(CompoundTag nbt) {
+		public NbtCompound writeNbt(NbtCompound nbt) {
 			return nbt;
 		}
 
-		public void syncData(LevelAccessor world) {
-			this.setDirty();
+		public void syncData(WorldAccess world) {
+			this.markDirty();
 		}
 
 		static MapVariables clientSide = new MapVariables();
 
-		public static MapVariables get(LevelAccessor world) {
-			if (world instanceof ServerLevelAccessor serverLevelAcc) {
-				return serverLevelAcc.getLevel().getServer().getLevel(Level.OVERWORLD).getDataStorage().computeIfAbsent(e -> MapVariables.load(e),
+		public static MapVariables get(WorldAccess world) {
+			if (world instanceof ServerWorldAccess serverLevelAcc) {
+				return serverLevelAcc.toServerWorld().getServer().getWorld(World.OVERWORLD).getPersistentStateManager().getOrCreate(e -> MapVariables.load(e),
 						MapVariables::new, DATA_NAME);
 			} else {
 				return clientSide;
@@ -105,9 +104,9 @@ public class LuphieclutteredmodModVariables {
 
 	public static class SavedDataSyncMessage {
 		public int type;
-		public SavedData data;
+		public PersistentState data;
 
-		public SavedDataSyncMessage(FriendlyByteBuf buffer) {
+		public SavedDataSyncMessage(PacketByteBuf buffer) {
 			this.type = buffer.readInt();
 			this.data = this.type == 0 ? new MapVariables() : new WorldVariables();
 			if (this.data instanceof MapVariables _mapvars)
@@ -116,14 +115,14 @@ public class LuphieclutteredmodModVariables {
 				_worldvars.read(buffer.readNbt());
 		}
 
-		public SavedDataSyncMessage(int type, SavedData data) {
+		public SavedDataSyncMessage(int type, PersistentState data) {
 			this.type = type;
 			this.data = data;
 		}
 
-		public static void buffer(SavedDataSyncMessage message, FriendlyByteBuf buffer) {
+		public static void buffer(SavedDataSyncMessage message, PacketByteBuf buffer) {
 			buffer.writeInt(message.type);
-			buffer.writeNbt(message.data.save(new CompoundTag()));
+			buffer.writeNbt(message.data.writeNbt(new NbtCompound()));
 		}
 	}
 }

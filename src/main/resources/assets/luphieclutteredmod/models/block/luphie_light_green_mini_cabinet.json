@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lightgreenminicabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/greenminicabinettext",
-    "particle": "luphieclutteredmod:blocks/greenminicabinettext",
-    "0": "luphieclutteredmod:blocks/greenminicabinettext"
-  }
+    "all": "luphieclutteredmod:block/greenminicabinettext",
+    "particle": "luphieclutteredmod:block/greenminicabinettext",
+    "0": "luphieclutteredmod:block/greenminicabinettext"
+  },
+  "render_type": "solid"
 }

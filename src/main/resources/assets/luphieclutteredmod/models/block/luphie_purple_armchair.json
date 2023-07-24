@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/purplearmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/purplearmchair",
-    "particle": "luphieclutteredmod:blocks/purplearmchair",
-    "1": "luphieclutteredmod:blocks/purplearmchair"
-  }
+    "all": "luphieclutteredmod:block/purplearmchair",
+    "particle": "luphieclutteredmod:block/purplearmchair",
+    "1": "luphieclutteredmod:block/purplearmchair"
+  },
+  "render_type": "solid"
 }

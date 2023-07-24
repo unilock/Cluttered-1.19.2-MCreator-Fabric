@@ -1,7 +1,7 @@
 {
   "parent": "block/template_orientable_trapdoor_top",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/purpletrapdoor",
-    "particle": "luphieclutteredmod:blocks/purpletrapdoor"
+    "texture": "luphieclutteredmod:block/purpletrapdoor",
+    "particle": "luphieclutteredmod:block/purpletrapdoor"
   }
 }

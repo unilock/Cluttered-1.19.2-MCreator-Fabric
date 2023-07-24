@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/blackcatpot",
   "textures": {
-    "all": "luphieclutteredmod:blocks/blackcatpottext",
-    "particle": "luphieclutteredmod:blocks/blackcatpottext",
-    "0": "luphieclutteredmod:blocks/blackcatpottext"
-  }
+    "all": "luphieclutteredmod:block/blackcatpottext",
+    "particle": "luphieclutteredmod:block/blackcatpottext",
+    "0": "luphieclutteredmod:block/blackcatpottext"
+  },
+  "render_type": "cutout"
 }

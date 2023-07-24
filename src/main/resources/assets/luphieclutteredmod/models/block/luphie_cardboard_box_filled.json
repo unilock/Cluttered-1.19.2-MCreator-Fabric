@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/cardboardboxfilled",
   "textures": {
-    "all": "luphieclutteredmod:blocks/cardboardboxfilledtext",
-    "particle": "luphieclutteredmod:blocks/cardboardboxfilledtext",
-    "2": "luphieclutteredmod:blocks/cardboardboxfilledtext"
-  }
+    "all": "luphieclutteredmod:block/cardboardboxfilledtext",
+    "particle": "luphieclutteredmod:block/cardboardboxfilledtext",
+    "2": "luphieclutteredmod:block/cardboardboxfilledtext"
+  },
+  "render_type": "solid"
 }

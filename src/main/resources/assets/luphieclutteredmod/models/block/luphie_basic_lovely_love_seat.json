@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lovelyloveseatbasic",
   "textures": {
-    "all": "luphieclutteredmod:blocks/lovelyloveseatbasictext",
-    "particle": "luphieclutteredmod:blocks/lovelyloveseatbasictext",
-    "0": "luphieclutteredmod:blocks/lovelyloveseatbasictext"
-  }
+    "all": "luphieclutteredmod:block/lovelyloveseatbasictext",
+    "particle": "luphieclutteredmod:block/lovelyloveseatbasictext",
+    "0": "luphieclutteredmod:block/lovelyloveseatbasictext"
+  },
+  "render_type": "solid"
 }

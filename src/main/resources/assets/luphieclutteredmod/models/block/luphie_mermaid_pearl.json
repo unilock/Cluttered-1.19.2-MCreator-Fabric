@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/mermaidshelfpearl",
   "textures": {
-    "all": "luphieclutteredmod:blocks/mermaidpearltext",
-    "particle": "luphieclutteredmod:blocks/mermaidpearltext",
-    "2": "luphieclutteredmod:blocks/mermaidpearltext"
-  }
+    "all": "luphieclutteredmod:block/mermaidpearltext",
+    "particle": "luphieclutteredmod:block/mermaidpearltext",
+    "2": "luphieclutteredmod:block/mermaidpearltext"
+  },
+  "render_type": "cutout"
 }

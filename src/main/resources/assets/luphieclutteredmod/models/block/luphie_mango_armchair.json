@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/mangoarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/mangoarmchair",
-    "particle": "luphieclutteredmod:blocks/mangoarmchair",
-    "0": "luphieclutteredmod:blocks/mangoarmchair"
-  }
+    "all": "luphieclutteredmod:block/mangoarmchair",
+    "particle": "luphieclutteredmod:block/mangoarmchair",
+    "0": "luphieclutteredmod:block/mangoarmchair"
+  },
+  "render_type": "solid"
 }

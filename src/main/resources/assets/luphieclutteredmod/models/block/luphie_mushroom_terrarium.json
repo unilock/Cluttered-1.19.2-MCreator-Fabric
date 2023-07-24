@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/redmushroomterrarium",
   "textures": {
-    "all": "luphieclutteredmod:blocks/redshroomterrariumretext",
-    "particle": "luphieclutteredmod:blocks/redshroomterrariumretext",
-    "2": "luphieclutteredmod:blocks/redmushroomterrariumtext"
-  }
+    "all": "luphieclutteredmod:block/redshroomterrariumretext",
+    "particle": "luphieclutteredmod:block/redshroomterrariumretext",
+    "2": "luphieclutteredmod:block/redmushroomterrariumtext"
+  },
+  "render_type": "cutout"
 }

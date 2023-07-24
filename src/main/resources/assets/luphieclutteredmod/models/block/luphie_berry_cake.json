@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/berrycake",
   "textures": {
-    "all": "luphieclutteredmod:blocks/berrycaketext",
-    "particle": "luphieclutteredmod:blocks/berrycaketext",
-    "0": "luphieclutteredmod:blocks/berrycaketext"
-  }
+    "all": "luphieclutteredmod:block/berrycaketext",
+    "particle": "luphieclutteredmod:block/berrycaketext",
+    "0": "luphieclutteredmod:block/berrycaketext"
+  },
+  "render_type": "cutout"
 }

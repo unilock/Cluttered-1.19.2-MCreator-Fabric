@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "luphieclutteredmod:blocks/purpleplankretext",
-    "up": "luphieclutteredmod:blocks/purpleplankretext",
-    "north": "luphieclutteredmod:blocks/calicocatpurplebookshelfretext",
-    "east": "luphieclutteredmod:blocks/calicocatpurplebookshelfretext",
-    "south": "luphieclutteredmod:blocks/calicocatpurplebookshelfretext",
-    "west": "luphieclutteredmod:blocks/calicocatpurplebookshelfretext",
-    "particle": "luphieclutteredmod:blocks/purpleplankretext"
-  }
+    "down": "luphieclutteredmod:block/purpleplankretext",
+    "up": "luphieclutteredmod:block/purpleplankretext",
+    "north": "luphieclutteredmod:block/calicocatpurplebookshelfretext",
+    "east": "luphieclutteredmod:block/calicocatpurplebookshelfretext",
+    "south": "luphieclutteredmod:block/calicocatpurplebookshelfretext",
+    "west": "luphieclutteredmod:block/calicocatpurplebookshelfretext",
+    "particle": "luphieclutteredmod:block/purpleplankretext"
+  },
+  "render_type": "solid"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/briefcaseretext",
   "textures": {
-    "all": "luphieclutteredmod:blocks/briefcaseretext",
-    "particle": "luphieclutteredmod:blocks/briefcaseretext",
-    "0": "luphieclutteredmod:blocks/briefcaseretext"
-  }
+    "all": "luphieclutteredmod:block/briefcaseretext",
+    "particle": "luphieclutteredmod:block/briefcaseretext",
+    "0": "luphieclutteredmod:block/briefcaseretext"
+  },
+  "render_type": "solid"
 }

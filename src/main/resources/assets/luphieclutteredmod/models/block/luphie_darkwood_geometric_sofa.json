@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/darkwoodgeometricsofa",
   "textures": {
-    "all": "luphieclutteredmod:blocks/darkwoodgeometricsofatext",
-    "particle": "luphieclutteredmod:blocks/darkwoodgeometricsofatext",
-    "3": "luphieclutteredmod:blocks/darkwoodgeometricsofatext"
-  }
+    "all": "luphieclutteredmod:block/darkwoodgeometricsofatext",
+    "particle": "luphieclutteredmod:block/darkwoodgeometricsofatext",
+    "3": "luphieclutteredmod:block/darkwoodgeometricsofatext"
+  },
+  "render_type": "solid"
 }

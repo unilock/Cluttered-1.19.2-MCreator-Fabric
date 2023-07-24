@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/darkwoodstool",
   "textures": {
-    "all": "luphieclutteredmod:blocks/darkwoodstooltext",
-    "particle": "luphieclutteredmod:blocks/darkwoodstooltext",
-    "1": "luphieclutteredmod:blocks/darkwoodstooltext"
-  }
+    "all": "luphieclutteredmod:block/darkwoodstooltext",
+    "particle": "luphieclutteredmod:block/darkwoodstooltext",
+    "1": "luphieclutteredmod:block/darkwoodstooltext"
+  },
+  "render_type": "solid"
 }

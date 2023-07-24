@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/coffeegrinder",
   "textures": {
-    "all": "luphieclutteredmod:blocks/coffeegrindertext",
-    "particle": "luphieclutteredmod:blocks/coffeegrindertext",
-    "0": "luphieclutteredmod:blocks/coffeegrindertext"
-  }
+    "all": "luphieclutteredmod:block/coffeegrindertext",
+    "particle": "luphieclutteredmod:block/coffeegrindertext",
+    "0": "luphieclutteredmod:block/coffeegrindertext"
+  },
+  "render_type": "solid"
 }

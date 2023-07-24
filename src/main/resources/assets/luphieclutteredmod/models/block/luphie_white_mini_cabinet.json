@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/whiteminicabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/whiteminicabinettext",
-    "particle": "luphieclutteredmod:blocks/whiteminicabinettext",
-    "5": "luphieclutteredmod:blocks/whiteminicabinettext"
-  }
+    "all": "luphieclutteredmod:block/whiteminicabinettext",
+    "particle": "luphieclutteredmod:block/whiteminicabinettext",
+    "5": "luphieclutteredmod:block/whiteminicabinettext"
+  },
+  "render_type": "solid"
 }

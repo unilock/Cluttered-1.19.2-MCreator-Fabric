@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/sunflowergarland",
   "textures": {
-    "all": "luphieclutteredmod:blocks/sunflowergarlandtext",
-    "particle": "luphieclutteredmod:blocks/sunflowergarlandtext",
-    "0": "luphieclutteredmod:blocks/sunflowergarlandtext"
-  }
+    "all": "luphieclutteredmod:block/sunflowergarlandtext",
+    "particle": "luphieclutteredmod:block/sunflowergarlandtext",
+    "0": "luphieclutteredmod:block/sunflowergarlandtext"
+  },
+  "render_type": "cutout"
 }

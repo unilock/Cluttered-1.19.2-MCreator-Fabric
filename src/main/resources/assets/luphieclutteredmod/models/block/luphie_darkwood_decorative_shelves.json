@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/darkwooddecorativeshelves",
   "textures": {
-    "all": "luphieclutteredmod:blocks/darkwooddecorativeshelvestext",
-    "particle": "luphieclutteredmod:blocks/darkwooddecorativeshelvestext",
-    "0": "luphieclutteredmod:blocks/darkwooddecorativeshelvestext"
-  }
+    "all": "luphieclutteredmod:block/darkwooddecorativeshelvestext",
+    "particle": "luphieclutteredmod:block/darkwooddecorativeshelvestext",
+    "0": "luphieclutteredmod:block/darkwooddecorativeshelvestext"
+  },
+  "render_type": "cutout"
 }

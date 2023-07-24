@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/roversbriefcaseretext",
   "textures": {
-    "all": "luphieclutteredmod:blocks/roversbriefcaseretext",
-    "particle": "luphieclutteredmod:blocks/roversbriefcaseretext",
-    "0": "luphieclutteredmod:blocks/roversbriefcaseretext"
-  }
+    "all": "luphieclutteredmod:block/roversbriefcaseretext",
+    "particle": "luphieclutteredmod:block/roversbriefcaseretext",
+    "0": "luphieclutteredmod:block/roversbriefcaseretext"
+  },
+  "render_type": "solid"
 }

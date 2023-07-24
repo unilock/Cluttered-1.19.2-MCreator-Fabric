@@ -1,6 +1,7 @@
 {
   "parent": "block/button",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/floweringpurpleplanks"
-  }
+    "texture": "luphieclutteredmod:block/floweringpurpleplanks"
+  },
+  "render_type": "solid"
 }

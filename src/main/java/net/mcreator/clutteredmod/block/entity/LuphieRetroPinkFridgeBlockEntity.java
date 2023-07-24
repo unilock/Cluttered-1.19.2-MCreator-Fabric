@@ -1,64 +1,59 @@
 package net.mcreator.clutteredmod.block.entity;
 
-import org.jetbrains.annotations.Nullable;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.WorldlyContainer;
-import net.minecraft.world.ContainerHelper;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.NonNullList;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.clutteredmod.world.inventory.LuphieLargeStorageGuiMenu;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlockEntities;
-
-import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.LootableContainerBlockEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.inventory.Inventories;
+import net.minecraft.inventory.SidedInventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket;
+import net.minecraft.screen.GenericContainerScreenHandler;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.ScreenHandlerFactory;
+import net.minecraft.text.Text;
+import net.minecraft.util.collection.DefaultedList;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.stream.IntStream;
 
-public class LuphieRetroPinkFridgeBlockEntity extends RandomizableContainerBlockEntity implements ExtendedScreenHandlerFactory, WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(54, ItemStack.EMPTY);
+public class LuphieRetroPinkFridgeBlockEntity extends LootableContainerBlockEntity implements ScreenHandlerFactory, SidedInventory {
+	private DefaultedList<ItemStack> stacks = DefaultedList.<ItemStack>ofSize(54, ItemStack.EMPTY);
 
 	public LuphieRetroPinkFridgeBlockEntity(BlockPos position, BlockState state) {
 		super(LuphieclutteredmodModBlockEntities.LUPHIE_RETRO_PINK_FRIDGE, position, state);
 	}
 
 	@Override
-	public void load(CompoundTag compound) {
-		super.load(compound);
-		if (!this.tryLoadLootTable(compound))
-			this.stacks = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
-		ContainerHelper.loadAllItems(compound, this.stacks);
+	public void readNbt(NbtCompound compound) {
+		super.readNbt(compound);
+		if (!this.deserializeLootTable(compound))
+			this.stacks = DefaultedList.ofSize(this.size(), ItemStack.EMPTY);
+		Inventories.readNbt(compound, this.stacks);
 	}
 
 	@Override
-	public void saveAdditional(CompoundTag compound) {
-		super.saveAdditional(compound);
-		if (!this.trySaveLootTable(compound))
-			ContainerHelper.saveAllItems(compound, this.stacks);
+	public void writeNbt(NbtCompound compound) {
+		super.writeNbt(compound);
+		if (!this.serializeLootTable(compound))
+			Inventories.writeNbt(compound, this.stacks);
 	}
 
 	@Override
-	public ClientboundBlockEntityDataPacket getUpdatePacket() {
-		return ClientboundBlockEntityDataPacket.create(this);
+	public BlockEntityUpdateS2CPacket toUpdatePacket() {
+		return BlockEntityUpdateS2CPacket.create(this);
 	}
 
 	@Override
-	public CompoundTag getUpdateTag() {
-		return this.saveWithoutMetadata();
+	public NbtCompound toInitialChunkDataNbt() {
+		return this.createNbt();
 	}
 
 	@Override
-	public int getContainerSize() {
+	public int size() {
 		return stacks.size();
 	}
 
@@ -71,57 +66,52 @@ public class LuphieRetroPinkFridgeBlockEntity extends RandomizableContainerBlock
 	}
 
 	@Override
-	public Component getDefaultName() {
-		return Component.literal("luphie_retro_pink_fridge");
+	public Text getContainerName() {
+		return Text.literal("luphie_retro_pink_fridge");
 	}
 
 	@Override
-	public int getMaxStackSize() {
+	public int getMaxCountPerStack() {
 		return 64;
 	}
 
 	@Override
-	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new LuphieLargeStorageGuiMenu(id, inventory, this);
+	public ScreenHandler createScreenHandler(int id, PlayerInventory inventory) {
+		return GenericContainerScreenHandler.createGeneric9x6(id, inventory, this);
 	}
 
 	@Override
-	public Component getDisplayName() {
-		return Component.literal("Pink Retro Fridge");
+	public Text getDisplayName() {
+		return Text.literal("Pink Retro Fridge");
 	}
 
 	@Override
-	protected NonNullList<ItemStack> getItems() {
+	protected DefaultedList<ItemStack> getInvStackList() {
 		return this.stacks;
 	}
 
 	@Override
-	protected void setItems(NonNullList<ItemStack> stacks) {
+	protected void setInvStackList(DefaultedList<ItemStack> stacks) {
 		this.stacks = stacks;
 	}
 
 	@Override
-	public boolean canPlaceItem(int index, ItemStack stack) {
+	public boolean isValid(int index, ItemStack stack) {
 		return true;
 	}
 
 	@Override
-	public int[] getSlotsForFace(Direction side) {
-		return IntStream.range(0, this.getContainerSize()).toArray();
+	public int[] getAvailableSlots(Direction side) {
+		return IntStream.range(0, this.size()).toArray();
 	}
 
 	@Override
-	public boolean canPlaceItemThroughFace(int index, ItemStack stack, @Nullable Direction direction) {
-		return this.canPlaceItem(index, stack);
+	public boolean canInsert(int index, ItemStack stack, @Nullable Direction direction) {
+		return this.isValid(index, stack);
 	}
 
 	@Override
-	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
+	public boolean canExtract(int index, ItemStack stack, Direction direction) {
 		return true;
-	}
-
-	@Override
-	public void writeScreenOpeningData(ServerPlayer player, FriendlyByteBuf buf) {
-		buf.writeBlockPos(worldPosition);
 	}
 }

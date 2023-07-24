@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/retrocafestainedglassshelf",
   "textures": {
-    "all": "luphieclutteredmod:blocks/retrocafeshelfstainedglasstext",
-    "particle": "luphieclutteredmod:blocks/retrocafeshelfstainedglasstext",
-    "1": "luphieclutteredmod:blocks/retrocafeshelfstainedglasstext"
-  }
+    "all": "luphieclutteredmod:block/retrocafeshelfstainedglasstext",
+    "particle": "luphieclutteredmod:block/retrocafeshelfstainedglasstext",
+    "1": "luphieclutteredmod:block/retrocafeshelfstainedglasstext"
+  },
+  "render_type": "translucent"
 }

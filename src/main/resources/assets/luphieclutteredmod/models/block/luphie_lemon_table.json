@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lemontable",
   "textures": {
-    "all": "luphieclutteredmod:blocks/lemontabletext",
-    "particle": "luphieclutteredmod:blocks/lemontabletext",
-    "0": "luphieclutteredmod:blocks/lemontabletext"
-  }
+    "all": "luphieclutteredmod:block/lemontabletext",
+    "particle": "luphieclutteredmod:block/lemontabletext",
+    "0": "luphieclutteredmod:block/lemontabletext"
+  },
+  "render_type": "solid"
 }

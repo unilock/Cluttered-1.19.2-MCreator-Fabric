@@ -1,9 +1,9 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "bottom": "luphieclutteredmod:blocks/glowplanks",
-    "top": "luphieclutteredmod:blocks/glowplanks",
-    "side": "luphieclutteredmod:blocks/glowplanks"
+    "bottom": "luphieclutteredmod:block/glowplanks",
+    "top": "luphieclutteredmod:block/glowplanks",
+    "side": "luphieclutteredmod:block/glowplanks"
   },
   "render_type": "solid"
 }

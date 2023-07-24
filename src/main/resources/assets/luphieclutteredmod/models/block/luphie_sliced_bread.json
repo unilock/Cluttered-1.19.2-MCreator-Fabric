@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/slicedbread",
   "textures": {
-    "all": "luphieclutteredmod:blocks/slicedbreadtext",
-    "particle": "luphieclutteredmod:blocks/slicedbreadtext",
-    "0": "luphieclutteredmod:blocks/slicedbreadtext"
-  }
+    "all": "luphieclutteredmod:block/slicedbreadtext",
+    "particle": "luphieclutteredmod:block/slicedbreadtext",
+    "0": "luphieclutteredmod:block/slicedbreadtext"
+  },
+  "render_type": "solid"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/wallbookshelfpink",
   "textures": {
-    "all": "luphieclutteredmod:blocks/wallbookshelfpinktext",
-    "particle": "luphieclutteredmod:blocks/wallbookshelfpinktext",
-    "0": "luphieclutteredmod:blocks/wallbookshelfpinktext"
-  }
+    "all": "luphieclutteredmod:block/wallbookshelfpinktext",
+    "particle": "luphieclutteredmod:block/wallbookshelfpinktext",
+    "0": "luphieclutteredmod:block/wallbookshelfpinktext"
+  },
+  "render_type": "solid"
 }

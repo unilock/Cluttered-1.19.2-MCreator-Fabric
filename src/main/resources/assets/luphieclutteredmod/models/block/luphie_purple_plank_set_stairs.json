@@ -1,8 +1,9 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "bottom": "luphieclutteredmod:blocks/purpleplankretext",
-    "top": "luphieclutteredmod:blocks/purpleplankretext",
-    "side": "luphieclutteredmod:blocks/purpleplankretext"
-  }
+    "bottom": "luphieclutteredmod:block/purpleplankretext",
+    "top": "luphieclutteredmod:block/purpleplankretext",
+    "side": "luphieclutteredmod:block/purpleplankretext"
+  },
+  "render_type": "solid"
 }

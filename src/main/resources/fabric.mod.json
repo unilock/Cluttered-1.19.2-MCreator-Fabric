@@ -24,10 +24,7 @@
   },
   "depends": {
     "fabricloader": "*",
-    "fabric": "*",
-    "minecraft": "~1.19"
-  },
-  "mixins": [
-    "luphieclutteredmod.mixins.json"
-  ]
+    "fabric-api": "*",
+    "minecraft": "~1.20"
+  }
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/brownarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/brownarmchair",
-    "particle": "luphieclutteredmod:blocks/brownarmchair",
-    "0": "luphieclutteredmod:blocks/brownarmchair"
-  }
+    "all": "luphieclutteredmod:block/brownarmchair",
+    "particle": "luphieclutteredmod:block/brownarmchair",
+    "0": "luphieclutteredmod:block/brownarmchair"
+  },
+  "render_type": "solid"
 }

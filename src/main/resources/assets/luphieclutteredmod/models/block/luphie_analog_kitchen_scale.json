@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/analogkitchenscale",
   "textures": {
-    "all": "luphieclutteredmod:blocks/analogkitchenscaletext",
-    "particle": "luphieclutteredmod:blocks/analogkitchenscaletext",
-    "0": "luphieclutteredmod:blocks/analogkitchenscaletext"
-  }
+    "all": "luphieclutteredmod:block/analogkitchenscaletext",
+    "particle": "luphieclutteredmod:block/analogkitchenscaletext",
+    "0": "luphieclutteredmod:block/analogkitchenscaletext"
+  },
+  "render_type": "solid"
 }

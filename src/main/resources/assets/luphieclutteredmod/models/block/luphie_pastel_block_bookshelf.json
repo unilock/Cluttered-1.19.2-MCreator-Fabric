@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/acnhpastelbookshelfretextured",
   "textures": {
-    "all": "luphieclutteredmod:blocks/acnhpastelbookshelfretexturedtext",
-    "particle": "luphieclutteredmod:blocks/acnhpastelbookshelfretexturedtext",
-    "0": "luphieclutteredmod:blocks/acnhpastelbookshelfretexturedtext"
-  }
+    "all": "luphieclutteredmod:block/acnhpastelbookshelfretexturedtext",
+    "particle": "luphieclutteredmod:block/acnhpastelbookshelfretexturedtext",
+    "0": "luphieclutteredmod:block/acnhpastelbookshelfretexturedtext"
+  },
+  "render_type": "solid"
 }

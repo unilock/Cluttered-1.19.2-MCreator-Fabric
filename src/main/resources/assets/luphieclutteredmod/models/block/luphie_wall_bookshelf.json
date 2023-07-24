@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/wallbookshelf",
   "textures": {
-    "all": "luphieclutteredmod:blocks/wallbookshelf",
-    "particle": "luphieclutteredmod:blocks/wallbookshelf",
-    "0": "luphieclutteredmod:blocks/wallbookshelf"
-  }
+    "all": "luphieclutteredmod:block/wallbookshelf",
+    "particle": "luphieclutteredmod:block/wallbookshelf",
+    "0": "luphieclutteredmod:block/wallbookshelf"
+  },
+  "render_type": "solid"
 }

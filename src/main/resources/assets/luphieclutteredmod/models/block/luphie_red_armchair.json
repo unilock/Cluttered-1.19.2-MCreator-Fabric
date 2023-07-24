@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/redarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/redarmchair",
-    "particle": "luphieclutteredmod:blocks/redarmchair",
-    "0": "luphieclutteredmod:blocks/redarmchair"
-  }
+    "all": "luphieclutteredmod:block/redarmchair",
+    "particle": "luphieclutteredmod:block/redarmchair",
+    "0": "luphieclutteredmod:block/redarmchair"
+  },
+  "render_type": "solid"
 }

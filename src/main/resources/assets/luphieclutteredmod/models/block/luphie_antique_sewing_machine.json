@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/antiquesewingmachine",
   "textures": {
-    "all": "luphieclutteredmod:blocks/antiquesewingmachinetext",
-    "particle": "luphieclutteredmod:blocks/antiquesewingmachinetext",
-    "0": "luphieclutteredmod:blocks/antiquesewingmachinetext"
-  }
+    "all": "luphieclutteredmod:block/antiquesewingmachinetext",
+    "particle": "luphieclutteredmod:block/antiquesewingmachinetext",
+    "0": "luphieclutteredmod:block/antiquesewingmachinetext"
+  },
+  "render_type": "cutout"
 }

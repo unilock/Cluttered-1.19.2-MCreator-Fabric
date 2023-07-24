@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/whiteglasscabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/whiteglasscabinettext",
-    "particle": "luphieclutteredmod:blocks/whiteglasscabinettext",
-    "8": "luphieclutteredmod:blocks/whiteglasscabinettext"
-  }
+    "all": "luphieclutteredmod:block/whiteglasscabinettext",
+    "particle": "luphieclutteredmod:block/whiteglasscabinettext",
+    "8": "luphieclutteredmod:block/whiteglasscabinettext"
+  },
+  "render_type": "cutout"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/darkwoodquiltedchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/darkwoodquiltedchairtext",
-    "particle": "luphieclutteredmod:blocks/darkwoodquiltedchairtext",
-    "3": "luphieclutteredmod:blocks/darkwoodquiltedchairtext"
-  }
+    "all": "luphieclutteredmod:block/darkwoodquiltedchairtext",
+    "particle": "luphieclutteredmod:block/darkwoodquiltedchairtext",
+    "3": "luphieclutteredmod:block/darkwoodquiltedchairtext"
+  },
+  "render_type": "solid"
 }

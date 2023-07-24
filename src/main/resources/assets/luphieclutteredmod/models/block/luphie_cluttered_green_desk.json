@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/clutteredgreendesk",
   "textures": {
-    "all": "luphieclutteredmod:blocks/clutteredgreendesk",
-    "particle": "luphieclutteredmod:blocks/clutteredgreendesk",
-    "0": "luphieclutteredmod:blocks/clutteredgreendesk"
-  }
+    "all": "luphieclutteredmod:block/clutteredgreendesk",
+    "particle": "luphieclutteredmod:block/clutteredgreendesk",
+    "0": "luphieclutteredmod:block/clutteredgreendesk"
+  },
+  "render_type": "cutout"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/chocomintwallpaperblock2",
   "textures": {
-    "all": "luphieclutteredmod:blocks/chocomintwallpaperblock2",
-    "particle": "luphieclutteredmod:blocks/chocomintwallpaperblock2",
-    "0": "luphieclutteredmod:blocks/chocomintwallpaperblock2"
-  }
+    "all": "luphieclutteredmod:block/chocomintwallpaperblock2",
+    "particle": "luphieclutteredmod:block/chocomintwallpaperblock2",
+    "0": "luphieclutteredmod:block/chocomintwallpaperblock2"
+  },
+  "render_type": "solid"
 }

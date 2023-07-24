@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/yellowglowshroomterrarium",
   "textures": {
-    "all": "luphieclutteredmod:blocks/yellowglowshroomterrariumtext",
-    "particle": "luphieclutteredmod:blocks/yellowglowshroomterrariumtext",
-    "2": "luphieclutteredmod:blocks/yellowglowshroomterrariumtext"
-  }
+    "all": "luphieclutteredmod:block/yellowglowshroomterrariumtext",
+    "particle": "luphieclutteredmod:block/yellowglowshroomterrariumtext",
+    "2": "luphieclutteredmod:block/yellowglowshroomterrariumtext"
+  },
+  "render_type": "cutout"
 }

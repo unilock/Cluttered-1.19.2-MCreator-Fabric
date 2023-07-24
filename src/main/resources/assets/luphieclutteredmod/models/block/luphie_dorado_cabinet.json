@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/doradocabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/doradocabinettext",
-    "particle": "luphieclutteredmod:blocks/doradocabinettext",
-    "0": "luphieclutteredmod:blocks/doradocabinettext"
-  }
+    "all": "luphieclutteredmod:block/doradocabinettext",
+    "particle": "luphieclutteredmod:block/doradocabinettext",
+    "0": "luphieclutteredmod:block/doradocabinettext"
+  },
+  "render_type": "cutout"
 }

@@ -1,6 +1,7 @@
 {
   "parent": "block/button_inventory",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/flowerypinkplankstext"
-  }
+    "texture": "luphieclutteredmod:block/flowerypinkplankstext"
+  },
+  "render_type": "solid"
 }

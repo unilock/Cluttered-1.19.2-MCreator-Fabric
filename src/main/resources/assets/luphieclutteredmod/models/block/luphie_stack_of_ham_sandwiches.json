@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/stackofhamsandwiches",
   "textures": {
-    "all": "luphieclutteredmod:blocks/stackofhamsandwichestext",
-    "particle": "luphieclutteredmod:blocks/stackofhamsandwichestext",
-    "1": "luphieclutteredmod:blocks/stackofhamsandwichestext"
-  }
+    "all": "luphieclutteredmod:block/stackofhamsandwichestext",
+    "particle": "luphieclutteredmod:block/stackofhamsandwichestext",
+    "1": "luphieclutteredmod:block/stackofhamsandwichestext"
+  },
+  "render_type": "cutout"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/chinacabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/chinacabinettext",
-    "particle": "luphieclutteredmod:blocks/chinacabinettext",
-    "0": "luphieclutteredmod:blocks/chinacabinettext"
-  }
+    "all": "luphieclutteredmod:block/chinacabinettext",
+    "particle": "luphieclutteredmod:block/chinacabinettext",
+    "0": "luphieclutteredmod:block/chinacabinettext"
+  },
+  "render_type": "cutout"
 }

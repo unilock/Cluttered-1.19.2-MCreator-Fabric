@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/antiquemap",
   "textures": {
-    "all": "luphieclutteredmod:blocks/antiquemaptext",
-    "particle": "luphieclutteredmod:blocks/antiquemaptext",
-    "0": "luphieclutteredmod:blocks/antiquemaptext"
-  }
+    "all": "luphieclutteredmod:block/antiquemaptext",
+    "particle": "luphieclutteredmod:block/antiquemaptext",
+    "0": "luphieclutteredmod:block/antiquemaptext"
+  },
+  "render_type": "cutout"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/unlivingchairsims4",
   "textures": {
-    "all": "luphieclutteredmod:blocks/unlivingchairsims4text",
-    "particle": "luphieclutteredmod:blocks/unlivingchairsims4text",
-    "0": "luphieclutteredmod:blocks/unlivingchairsims4text"
-  }
+    "all": "luphieclutteredmod:block/unlivingchairsims4text",
+    "particle": "luphieclutteredmod:block/unlivingchairsims4text",
+    "0": "luphieclutteredmod:block/unlivingchairsims4text"
+  },
+  "render_type": "solid"
 }

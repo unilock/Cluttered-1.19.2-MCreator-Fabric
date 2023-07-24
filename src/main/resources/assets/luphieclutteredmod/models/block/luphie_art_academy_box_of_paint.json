@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/artacademypaintbox",
   "textures": {
-    "all": "luphieclutteredmod:blocks/artacademypaintboxtext",
-    "particle": "luphieclutteredmod:blocks/artacademypaintboxtext",
-    "0": "luphieclutteredmod:blocks/artacademypaintboxtext"
-  }
+    "all": "luphieclutteredmod:block/artacademypaintboxtext",
+    "particle": "luphieclutteredmod:block/artacademypaintboxtext",
+    "0": "luphieclutteredmod:block/artacademypaintboxtext"
+  },
+  "render_type": "solid"
 }

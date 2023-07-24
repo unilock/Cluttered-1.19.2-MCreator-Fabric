@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/pinkminicabinet",
   "textures": {
-    "all": "luphieclutteredmod:blocks/pinkminicabinettext",
-    "particle": "luphieclutteredmod:blocks/pinkminicabinettext",
-    "0": "luphieclutteredmod:blocks/pinkminicabinettext"
-  }
+    "all": "luphieclutteredmod:block/pinkminicabinettext",
+    "particle": "luphieclutteredmod:block/pinkminicabinettext",
+    "0": "luphieclutteredmod:block/pinkminicabinettext"
+  },
+  "render_type": "solid"
 }

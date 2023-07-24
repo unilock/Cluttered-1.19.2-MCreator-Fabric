@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/saltnpeppershakers",
   "textures": {
-    "all": "luphieclutteredmod:blocks/saltnpeppershakers",
-    "particle": "luphieclutteredmod:blocks/saltnpeppershakers",
-    "0": "luphieclutteredmod:blocks/saltnpeppershakers"
-  }
+    "all": "luphieclutteredmod:block/saltnpeppershakers",
+    "particle": "luphieclutteredmod:block/saltnpeppershakers",
+    "0": "luphieclutteredmod:block/saltnpeppershakers"
+  },
+  "render_type": "solid"
 }

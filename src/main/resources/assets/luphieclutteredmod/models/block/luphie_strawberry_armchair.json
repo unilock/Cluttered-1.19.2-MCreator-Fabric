@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/strawberryarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/strawberryarmchair",
-    "particle": "luphieclutteredmod:blocks/strawberryarmchair",
-    "0": "luphieclutteredmod:blocks/strawberryarmchair"
-  }
+    "all": "luphieclutteredmod:block/strawberryarmchair",
+    "particle": "luphieclutteredmod:block/strawberryarmchair",
+    "0": "luphieclutteredmod:block/strawberryarmchair"
+  },
+  "render_type": "solid"
 }

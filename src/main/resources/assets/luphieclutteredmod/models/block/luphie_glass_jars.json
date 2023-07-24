@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/glassjars",
   "textures": {
-    "all": "luphieclutteredmod:blocks/glassjartext",
-    "particle": "luphieclutteredmod:blocks/glassjartext",
-    "0": "luphieclutteredmod:blocks/glassjartext"
-  }
+    "all": "luphieclutteredmod:block/glassjartext",
+    "particle": "luphieclutteredmod:block/glassjartext",
+    "0": "luphieclutteredmod:block/glassjartext"
+  },
+  "render_type": "cutout"
 }

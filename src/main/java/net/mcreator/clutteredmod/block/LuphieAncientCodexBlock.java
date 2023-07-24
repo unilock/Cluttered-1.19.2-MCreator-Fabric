@@ -1,110 +1,103 @@
 
 package net.mcreator.clutteredmod.block;
 
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.Shapes;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.Mirror;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-
-import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
+import net.minecraft.block.*;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.client.render.RenderLayer;
+import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.loot.context.LootContextParameterSet;
+import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.text.Text;
+import net.minecraft.util.BlockMirror;
+import net.minecraft.util.BlockRotation;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
+import net.minecraft.world.BlockView;
 
-import java.util.List;
 import java.util.Collections;
+import java.util.List;
 
 public class LuphieAncientCodexBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 10f).noOcclusion()
-			.isRedstoneConductor((bs, br, bp) -> false);
-	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
+	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f).nonOpaque()
+			.solidBlock((bs, br, bp) -> false);
+	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
 	public LuphieAncientCodexBlock() {
 		super(PROPERTIES);
-		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+		this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Starbound"));
+	public void appendTooltip(ItemStack itemstack, BlockView world, List<Text> list, TooltipContext flag) {
+		super.appendTooltip(itemstack, world, list, flag);
+		list.add(Text.literal("Starbound"));
 	}
 
 	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+	public boolean isTransparent(BlockState state, BlockView reader, BlockPos pos) {
 		return true;
 	}
 
 	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+	public int getOpacity(BlockState state, BlockView worldIn, BlockPos pos) {
 		return 0;
 	}
 
 	@Override
-	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		Vec3 offset = state.getOffset(world, pos);
-		return (switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(13, 0, 13, 15, 1, 15), box(1, 0, 13, 3, 1, 15), box(1, 1, 11, 3, 2, 15), box(3, 1, 13, 5, 2, 15),
-					box(3, 1, 1, 5, 2, 3), box(11, 1, 1, 13, 2, 3), box(11, 1, 13, 13, 2, 15), box(13, 1, 11, 15, 2, 15), box(1, 2, 1, 15, 3, 15),
-					box(2, 3, 2, 14, 4, 14), box(4, 4, 4, 12, 5, 12), box(7, 5, 7, 9, 20, 9), box(13, 0, 1, 15, 1, 3), box(1, 0, 1, 3, 1, 3),
-					box(1, 1, 1, 3, 2, 5), box(13, 1, 1, 15, 2, 5), box(3, 17, 4, 13, 27, 14));
-			case NORTH -> Shapes.or(box(1, 0, 1, 3, 1, 3), box(13, 0, 1, 15, 1, 3), box(13, 1, 1, 15, 2, 5), box(11, 1, 1, 13, 2, 3),
-					box(11, 1, 13, 13, 2, 15), box(3, 1, 13, 5, 2, 15), box(3, 1, 1, 5, 2, 3), box(1, 1, 1, 3, 2, 5), box(1, 2, 1, 15, 3, 15),
-					box(2, 3, 2, 14, 4, 14), box(4, 4, 4, 12, 5, 12), box(7, 5, 7, 9, 20, 9), box(1, 0, 13, 3, 1, 15), box(13, 0, 13, 15, 1, 15),
-					box(13, 1, 11, 15, 2, 15), box(1, 1, 11, 3, 2, 15), box(3, 17, 2, 13, 27, 12));
-			case EAST -> Shapes.or(box(13, 0, 1, 15, 1, 3), box(13, 0, 13, 15, 1, 15), box(11, 1, 13, 15, 2, 15), box(13, 1, 11, 15, 2, 13),
-					box(1, 1, 11, 3, 2, 13), box(1, 1, 3, 3, 2, 5), box(13, 1, 3, 15, 2, 5), box(11, 1, 1, 15, 2, 3), box(1, 2, 1, 15, 3, 15),
-					box(2, 3, 2, 14, 4, 14), box(4, 4, 4, 12, 5, 12), box(7, 5, 7, 9, 20, 9), box(1, 0, 1, 3, 1, 3), box(1, 0, 13, 3, 1, 15),
-					box(1, 1, 13, 5, 2, 15), box(1, 1, 1, 5, 2, 3), box(4, 17, 3, 14, 27, 13));
-			case WEST -> Shapes.or(box(1, 0, 13, 3, 1, 15), box(1, 0, 1, 3, 1, 3), box(1, 1, 1, 5, 2, 3), box(1, 1, 3, 3, 2, 5),
-					box(13, 1, 3, 15, 2, 5), box(13, 1, 11, 15, 2, 13), box(1, 1, 11, 3, 2, 13), box(1, 1, 13, 5, 2, 15), box(1, 2, 1, 15, 3, 15),
-					box(2, 3, 2, 14, 4, 14), box(4, 4, 4, 12, 5, 12), box(7, 5, 7, 9, 20, 9), box(13, 0, 13, 15, 1, 15), box(13, 0, 1, 15, 1, 3),
-					box(11, 1, 1, 15, 2, 3), box(11, 1, 13, 15, 2, 15), box(2, 17, 3, 12, 27, 13));
-		}).move(offset.x, offset.y, offset.z);
+	public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+		Vec3d offset = state.getModelOffset(world, pos);
+		return (switch (state.get(FACING)) {
+			default -> VoxelShapes.union(createCuboidShape(13, 0, 13, 15, 1, 15), createCuboidShape(1, 0, 13, 3, 1, 15), createCuboidShape(1, 1, 11, 3, 2, 15), createCuboidShape(3, 1, 13, 5, 2, 15),
+					createCuboidShape(3, 1, 1, 5, 2, 3), createCuboidShape(11, 1, 1, 13, 2, 3), createCuboidShape(11, 1, 13, 13, 2, 15), createCuboidShape(13, 1, 11, 15, 2, 15), createCuboidShape(1, 2, 1, 15, 3, 15),
+					createCuboidShape(2, 3, 2, 14, 4, 14), createCuboidShape(4, 4, 4, 12, 5, 12), createCuboidShape(7, 5, 7, 9, 20, 9), createCuboidShape(13, 0, 1, 15, 1, 3), createCuboidShape(1, 0, 1, 3, 1, 3),
+					createCuboidShape(1, 1, 1, 3, 2, 5), createCuboidShape(13, 1, 1, 15, 2, 5), createCuboidShape(3, 17, 4, 13, 27, 14));
+			case NORTH -> VoxelShapes.union(createCuboidShape(1, 0, 1, 3, 1, 3), createCuboidShape(13, 0, 1, 15, 1, 3), createCuboidShape(13, 1, 1, 15, 2, 5), createCuboidShape(11, 1, 1, 13, 2, 3),
+					createCuboidShape(11, 1, 13, 13, 2, 15), createCuboidShape(3, 1, 13, 5, 2, 15), createCuboidShape(3, 1, 1, 5, 2, 3), createCuboidShape(1, 1, 1, 3, 2, 5), createCuboidShape(1, 2, 1, 15, 3, 15),
+					createCuboidShape(2, 3, 2, 14, 4, 14), createCuboidShape(4, 4, 4, 12, 5, 12), createCuboidShape(7, 5, 7, 9, 20, 9), createCuboidShape(1, 0, 13, 3, 1, 15), createCuboidShape(13, 0, 13, 15, 1, 15),
+					createCuboidShape(13, 1, 11, 15, 2, 15), createCuboidShape(1, 1, 11, 3, 2, 15), createCuboidShape(3, 17, 2, 13, 27, 12));
+			case EAST -> VoxelShapes.union(createCuboidShape(13, 0, 1, 15, 1, 3), createCuboidShape(13, 0, 13, 15, 1, 15), createCuboidShape(11, 1, 13, 15, 2, 15), createCuboidShape(13, 1, 11, 15, 2, 13),
+					createCuboidShape(1, 1, 11, 3, 2, 13), createCuboidShape(1, 1, 3, 3, 2, 5), createCuboidShape(13, 1, 3, 15, 2, 5), createCuboidShape(11, 1, 1, 15, 2, 3), createCuboidShape(1, 2, 1, 15, 3, 15),
+					createCuboidShape(2, 3, 2, 14, 4, 14), createCuboidShape(4, 4, 4, 12, 5, 12), createCuboidShape(7, 5, 7, 9, 20, 9), createCuboidShape(1, 0, 1, 3, 1, 3), createCuboidShape(1, 0, 13, 3, 1, 15),
+					createCuboidShape(1, 1, 13, 5, 2, 15), createCuboidShape(1, 1, 1, 5, 2, 3), createCuboidShape(4, 17, 3, 14, 27, 13));
+			case WEST -> VoxelShapes.union(createCuboidShape(1, 0, 13, 3, 1, 15), createCuboidShape(1, 0, 1, 3, 1, 3), createCuboidShape(1, 1, 1, 5, 2, 3), createCuboidShape(1, 1, 3, 3, 2, 5),
+					createCuboidShape(13, 1, 3, 15, 2, 5), createCuboidShape(13, 1, 11, 15, 2, 13), createCuboidShape(1, 1, 11, 3, 2, 13), createCuboidShape(1, 1, 13, 5, 2, 15), createCuboidShape(1, 2, 1, 15, 3, 15),
+					createCuboidShape(2, 3, 2, 14, 4, 14), createCuboidShape(4, 4, 4, 12, 5, 12), createCuboidShape(7, 5, 7, 9, 20, 9), createCuboidShape(13, 0, 13, 15, 1, 15), createCuboidShape(13, 0, 1, 15, 1, 3),
+					createCuboidShape(11, 1, 1, 15, 2, 3), createCuboidShape(11, 1, 13, 15, 2, 15), createCuboidShape(2, 17, 3, 12, 27, 13));
+		}).offset(offset.x, offset.y, offset.z);
 	}
 
 	@Override
-	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+	protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}
 
 	@Override
-	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+	public BlockState getPlacementState(ItemPlacementContext context) {
+		return this.getDefaultState().with(FACING, context.getHorizontalPlayerFacing().getOpposite());
 	}
 
-	public BlockState rotate(BlockState state, Rotation rot) {
-		return state.setValue(FACING, rot.rotate(state.getValue(FACING)));
+	public BlockState rotate(BlockState state, BlockRotation rot) {
+		return state.with(FACING, rot.rotate(state.get(FACING)));
 	}
 
-	public BlockState mirror(BlockState state, Mirror mirrorIn) {
-		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	public BlockState mirror(BlockState state, BlockMirror mirrorIn) {
+		return state.rotate(mirrorIn.getRotation(state.get(FACING)));
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+	public List<ItemStack> getDroppedStacks(BlockState state, LootContextParameterSet.Builder builder) {
+		List<ItemStack> dropsOriginal = super.getDroppedStacks(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
@@ -112,6 +105,6 @@ public class LuphieAncientCodexBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(LuphieclutteredmodModBlocks.LUPHIE_ANCIENT_CODEX, RenderType.solid());
+		BlockRenderLayerMap.INSTANCE.putBlock(LuphieclutteredmodModBlocks.LUPHIE_ANCIENT_CODEX, RenderLayer.getSolid());
 	}
 }

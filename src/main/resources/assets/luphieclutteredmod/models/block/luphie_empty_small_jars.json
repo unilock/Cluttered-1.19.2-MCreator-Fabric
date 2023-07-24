@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/emptysmalljars",
   "textures": {
-    "all": "luphieclutteredmod:blocks/emptysmalljarstext",
-    "particle": "luphieclutteredmod:blocks/emptysmalljarstext",
-    "0": "luphieclutteredmod:blocks/emptysmalljarstext"
-  }
+    "all": "luphieclutteredmod:block/emptysmalljarstext",
+    "particle": "luphieclutteredmod:block/emptysmalljarstext",
+    "0": "luphieclutteredmod:block/emptysmalljarstext"
+  },
+  "render_type": "cutout"
 }

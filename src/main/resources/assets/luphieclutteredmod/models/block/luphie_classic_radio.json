@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/classicradiostarbound",
   "textures": {
-    "all": "luphieclutteredmod:blocks/classicradiostarboundtext",
-    "particle": "luphieclutteredmod:blocks/classicradiostarboundtext",
-    "0": "luphieclutteredmod:blocks/classicradiostarboundtext"
-  }
+    "all": "luphieclutteredmod:block/classicradiostarboundtext",
+    "particle": "luphieclutteredmod:block/classicradiostarboundtext",
+    "0": "luphieclutteredmod:block/classicradiostarboundtext"
+  },
+  "render_type": "cutout"
 }

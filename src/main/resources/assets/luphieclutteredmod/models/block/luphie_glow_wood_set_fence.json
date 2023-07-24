@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_side",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/glowplanks",
-    "particle": "luphieclutteredmod:blocks/glowplanks"
+    "texture": "luphieclutteredmod:block/glowplanks",
+    "particle": "luphieclutteredmod:block/glowplanks"
   }
 }

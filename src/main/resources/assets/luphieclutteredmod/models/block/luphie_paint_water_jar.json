@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/paintwaterjar",
   "textures": {
-    "all": "luphieclutteredmod:blocks/paintjartext",
-    "particle": "luphieclutteredmod:blocks/paintjartext",
-    "0": "luphieclutteredmod:blocks/paintjartext"
-  }
+    "all": "luphieclutteredmod:block/paintjartext",
+    "particle": "luphieclutteredmod:block/paintjartext",
+    "0": "luphieclutteredmod:block/paintjartext"
+  },
+  "render_type": "cutout"
 }

@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/purplegumballmachine",
   "textures": {
-    "all": "luphieclutteredmod:blocks/purplegumballmachinetext",
-    "particle": "luphieclutteredmod:blocks/purplegumballmachinetext",
-    "0": "luphieclutteredmod:blocks/purplegumballmachinetext"
-  }
+    "all": "luphieclutteredmod:block/purplegumballmachinetext",
+    "particle": "luphieclutteredmod:block/purplegumballmachinetext",
+    "0": "luphieclutteredmod:block/purplegumballmachinetext"
+  },
+  "render_type": "cutout"
 }

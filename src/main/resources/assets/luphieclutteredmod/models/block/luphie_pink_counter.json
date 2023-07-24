@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/pinkcounter",
   "textures": {
-    "all": "luphieclutteredmod:blocks/pinkcountertext",
-    "particle": "luphieclutteredmod:blocks/pinkcountertext",
-    "0": "luphieclutteredmod:blocks/pinkcountertext"
-  }
+    "all": "luphieclutteredmod:block/pinkcountertext",
+    "particle": "luphieclutteredmod:block/pinkcountertext",
+    "0": "luphieclutteredmod:block/pinkcountertext"
+  },
+  "render_type": "solid"
 }

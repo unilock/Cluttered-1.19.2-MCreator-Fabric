@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/goldarmchair",
   "textures": {
-    "all": "luphieclutteredmod:blocks/goldarmchair",
-    "particle": "luphieclutteredmod:blocks/goldarmchair",
-    "1": "luphieclutteredmod:blocks/goldarmchair"
-  }
+    "all": "luphieclutteredmod:block/goldarmchair",
+    "particle": "luphieclutteredmod:block/goldarmchair",
+    "1": "luphieclutteredmod:block/goldarmchair"
+  },
+  "render_type": "solid"
 }

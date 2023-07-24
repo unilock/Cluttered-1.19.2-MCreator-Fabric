@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/lunarobservatorybooks",
   "textures": {
-    "all": "luphieclutteredmod:blocks/lunarobservatorybookstext",
-    "particle": "luphieclutteredmod:blocks/lunarobservatorybookstext",
-    "0": "luphieclutteredmod:blocks/lunarobservatorybookstext"
-  }
+    "all": "luphieclutteredmod:block/lunarobservatorybookstext",
+    "particle": "luphieclutteredmod:block/lunarobservatorybookstext",
+    "0": "luphieclutteredmod:block/lunarobservatorybookstext"
+  },
+  "render_type": "solid"
 }

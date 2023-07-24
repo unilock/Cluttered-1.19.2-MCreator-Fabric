@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/heartgarland",
   "textures": {
-    "all": "luphieclutteredmod:blocks/heartgarlandtext",
-    "particle": "luphieclutteredmod:blocks/heartgarlandtext",
-    "0": "luphieclutteredmod:blocks/heartgarlandtext"
-  }
+    "all": "luphieclutteredmod:block/heartgarlandtext",
+    "particle": "luphieclutteredmod:block/heartgarlandtext",
+    "0": "luphieclutteredmod:block/heartgarlandtext"
+  },
+  "render_type": "cutout"
 }

@@ -1,6 +1,7 @@
 {
   "parent": "block/button_pressed",
   "textures": {
-    "texture": "luphieclutteredmod:blocks/bluemushroomplanks"
-  }
+    "texture": "luphieclutteredmod:block/bluemushroomplanks"
+  },
+  "render_type": "solid"
 }

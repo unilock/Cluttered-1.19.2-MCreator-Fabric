@@ -1,8 +1,9 @@
 {
   "parent": "luphieclutteredmod:custom/sweetheartsink",
   "textures": {
-    "all": "luphieclutteredmod:blocks/sweetheartsinktext",
-    "particle": "luphieclutteredmod:blocks/sweetheartsinktext",
-    "1": "luphieclutteredmod:blocks/sweetheartsinktext"
-  }
+    "all": "luphieclutteredmod:block/sweetheartsinktext",
+    "particle": "luphieclutteredmod:block/sweetheartsinktext",
+    "1": "luphieclutteredmod:block/sweetheartsinktext"
+  },
+  "render_type": "cutout"
 }
