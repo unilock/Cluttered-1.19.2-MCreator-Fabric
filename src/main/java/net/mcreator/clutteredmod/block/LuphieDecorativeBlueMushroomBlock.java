@@ -64,6 +64,6 @@ public class LuphieDecorativeBlueMushroomBlock extends Block {
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(LuphieclutteredmodModBlocks.LUPHIE_DECORATIVE_BLUE_MUSHROOM, RenderLayer.getSolid());
+		BlockRenderLayerMap.INSTANCE.putBlock(LuphieclutteredmodModBlocks.LUPHIE_DECORATIVE_BLUE_MUSHROOM, RenderLayer.getCutout());
 	}
 }
