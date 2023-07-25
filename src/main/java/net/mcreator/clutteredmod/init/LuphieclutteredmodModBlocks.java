@@ -420,870 +420,416 @@ public class LuphieclutteredmodModBlocks {
 	public static Block LUPHIE_HAVANA_CABINET;
 	public static Block LUPHIE_CLUTTERED_HAVANA_CABINET;
 	public static Block LUPHIE_DECORATIVE_FLAT_MUSHROOM;
-	public static Block LUPHIE_PINK_LOG;
-	public static Block STRIPPED_LUPHIE_PINK_LOG;
-	public static Block LUPHIE_GREEN_LOG;
-	public static Block STRIPPED_LUPHIE_GREEN_LOG;
-	public static Block LUPHIE_PINK_WOOD;
-	public static Block LUPHIE_GREEN_WOOD;
-	public static Block STRIPPED_LUPHIE_GREEN_WOOD;
-	public static Block STRIPPED_LUPHIE_PINK_WOOD;
 
 	public static void load() {
-		LUPHIE_PINK_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_planks"),
-				new LuphiePinkPlanksBlock());
-		LUPHIE_PINK_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_bookshelf"),
-				new LuphiePinkBookshelfBlock());
-		LUPHIE_PINK_WINDOW = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_window"),
-				new LuphiePinkWindowBlock());
-		LUPHIE_PINK_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_stairs"),
-				new LuphiePinkStairsBlock());
-		LUPHIE_PINK_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_slab"),
-				new LuphiePinkSlabBlock());
-		LUPHIE_PINK_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_fence"),
-				new LuphiePinkFenceBlock());
-		LUPHIE_PINK_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_fence_gate"),
-				new LuphiePinkFenceGateBlock());
-		LUPHIE_PINK_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_button"),
-				new LuphiePinkButtonBlock());
-		LUPHIE_PINK_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_pressure_plate"), new LuphiePinkPressurePlateBlock());
-		LUPHIE_PINK_HEART_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_heart_door"),
-				new LuphiePinkHeartDoorBlock());
-		LUPHIE_FLOWERING_PINK_PLANKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_planks"), new LuphieFloweringPinkPlanksBlock());
-		LUPHIE_FLOWERING_PINK_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_bookshelf"), new LuphieFloweringPinkBookshelfBlock());
-		LUPHIE_FLOWERING_PINK_WINDOW = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_window"), new LuphieFloweringPinkWindowBlock());
-		LUPHIE_FLOWERING_PINK_STAIRS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_stairs"), new LuphieFloweringPinkStairsBlock());
-		LUPHIE_FLOWERING_PINK_SLAB = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_slab"), new LuphieFloweringPinkSlabBlock());
-		LUPHIE_FLOWERING_PINK_FENCE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_fence"), new LuphieFloweringPinkFenceBlock());
-		LUPHIE_FLOWERING_PINK_FENCE_GATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_fence_gate"), new LuphieFloweringPinkFenceGateBlock());
-		LUPHIE_FLOWERING_PINK_BUTTON = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_button"), new LuphieFloweringPinkButtonBlock());
-		LUPHIE_FLOWERING_PINK_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_pressure_plate"),
-				new LuphieFloweringPinkPressurePlateBlock());
-		LUPHIE_FLOWERING_PINK_HEART_DOOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_heart_door"), new LuphieFloweringPinkHeartDoorBlock());
-		LUPHIE_YELLOW_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_planks"),
-				new LuphieYellowPlanksBlock());
-		LUPHIE_YELLOW_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_bookshelf"),
-				new LuphieYellowBookshelfBlock());
-		LUPHIE_YELLOW_STAIR_RECIPE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_stair_recipe"), new LuphieYellowStairRecipeBlock());
-		LUPHIE_YELLOW_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_slab"),
-				new LuphieYellowSlabBlock());
-		LUPHIE_YELLOW_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_fence"),
-				new LuphieYellowFenceBlock());
-		LUPHIE_YELLOW_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_fence_gate"),
-				new LuphieYellowFenceGateBlock());
-		LUPHIE_YELLOW_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_button"),
-				new LuphieYellowButtonBlock());
-		LUPHIE_YELLOW_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_pressure_plate"), new LuphieYellowPressurePlateBlock());
-		LUPHIE_FLOWERING_YELLOW_PLANKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_planks"), new LuphieFloweringYellowPlanksBlock());
-		LUPHIE_FLOWERING_YELLOW_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_bookshelf"), new LuphieFloweringYellowBookshelfBlock());
-		LUPHIE_FLOWERING_YELLOW_STAIRS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_stairs"), new LuphieFloweringYellowStairsBlock());
-		LUPHIE_FLOWERING_YELLOW_SLAB = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_slab"), new LuphieFloweringYellowSlabBlock());
-		LUPHIE_FLOWERING_YELLOW_FENCE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_fence"), new LuphieFloweringYellowFenceBlock());
-		LUPHIE_FLOWERING_YELLOW_FENCE_GATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_fence_gate"), new LuphieFloweringYellowFenceGateBlock());
-		LUPHIE_FLOWERING_YELLOW_BUTTON = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_button"), new LuphieFloweringYellowButtonBlock());
-		LUPHIE_FLOWERING_YELLOW_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_pressure_plate"),
-				new LuphieFloweringYellowPressurePlateBlock());
-		LUPHIE_GREEN_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_planks"),
-				new LuphieGreenPlanksBlock());
-		LUPHIE_GREEN_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_bookshelf"),
-				new LuphieGreenBookshelfBlock());
-		LUPHIE_GREEN_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_stairs"),
-				new LuphieGreenStairsBlock());
-		LUPHIE_GREEN_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_slab"),
-				new LuphieGreenSlabBlock());
-		LUPHIE_GREEN_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_fence"),
-				new LuphieGreenFenceBlock());
-		LUPHIE_GREEN_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_fence_gate"),
-				new LuphieGreenFenceGateBlock());
-		LUPHIE_GREEN_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_button"),
-				new LuphieGreenButtonBlock());
-		LUPHIE_GREEN_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_pressure_plate"), new LuphieGreenPressurePlateBlock());
-		LUPHIE_GLOW_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_planks"),
-				new LuphieGlowPlanksBlock());
-		LUPHIE_GLOW_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_bookshelf"),
-				new LuphieGlowBookshelfBlock());
-		LUPHIE_GLOW_WOOD_SET_STAIRS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_stairs"), new LuphieGlowWoodSetStairsBlock());
-		LUPHIE_GLOW_WOOD_SET_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_slab"),
-				new LuphieGlowWoodSetSlabBlock());
-		LUPHIE_GLOW_WOOD_SET_FENCE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_fence"), new LuphieGlowWoodSetFenceBlock());
-		LUPHIE_GLOW_WOOD_SET_FENCE_GATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_fence_gate"), new LuphieGlowWoodSetFenceGateBlock());
-		LUPHIE_GLOW_WOOD_SET_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_pressure_plate"), new LuphieGlowWoodSetPressurePlateBlock());
-		LUPHIE_GLOW_WOOD_SET_BUTTON = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_button"), new LuphieGlowWoodSetButtonBlock());
-		LUPHIE_PURPLE_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_planks"),
-				new LuphiePurplePlanksBlock());
-		LUPHIE_PURPLE_JAR_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_jar_bookshelf"), new LuphiePurpleJarBookshelfBlock());
-		LUPHIE_PURPLE_BLACK_CAT_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_black_cat_bookshelf"), new LuphiePurpleBlackCatBookshelfBlock());
-		LUPHIE_COBWEB_PURPLE_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_cobweb_purple_bookshelf"), new LuphieCobwebPurpleBookshelfBlock());
-		LUPHIE_CALICO_CAT_PURPLE_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_calico_cat_purple_bookshelf"), new LuphieCalicoCatPurpleBookshelfBlock());
-		LUPHIE_VASE_PURPLE_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_vase_purple_bookshelf"), new LuphieVasePurpleBookshelfBlock());
-		LUPHIE_PURPLE_PLANK_SET_STAIRS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_stairs"), new LuphiePurplePlankSetStairsBlock());
-		LUPHIE_PURPLE_PLANK_SET_SLAB = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_slab"), new LuphiePurplePlankSetSlabBlock());
-		LUPHIE_PURPLE_PLANK_SET_FENCE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_fence"), new LuphiePurplePlankSetFenceBlock());
-		LUPHIE_PURPLE_PLANK_SET_FENCE_GATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_fence_gate"), new LuphiePurplePlankSetFenceGateBlock());
-		LUPHIE_PURPLE_PLANK_SET_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_pressure_plate"),
-				new LuphiePurplePlankSetPressurePlateBlock());
-		LUPHIE_PURPLE_PLANK_SET_BUTTON = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_button"), new LuphiePurplePlankSetButtonBlock());
-		LUPHIE_PURPLE_IRON_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_iron_door"),
-				new LuphiePurpleIronDoorBlock());
-		LUPHIE_FLOWERING_PURPLE_PLANKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_planks"), new LuphieFloweringPurplePlanksBlock());
-		LUPHIE_FLOWERING_PURPLE_S_TAIRS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_s_tairs"), new LuphieFloweringPurpleSTairsBlock());
-		LUPHIE_FLOWERING_PURPLE_SLAB = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_slab"), new LuphieFloweringPurpleSlabBlock());
-		LUPHIE_FLOWERING_PURPLE_FENCE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_fence"), new LuphieFloweringPurpleFenceBlock());
-		LUPHIE_FLOWERING_PURPLE_FENCE_GATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_fence_gate"), new LuphieFloweringPurpleFenceGateBlock());
-		LUPHIE_FLOWERING_PURPLE_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_pressure_plate"),
-				new LuphieFloweringPurplePressurePlateBlock());
-		LUPHIE_FLOWERING_PURPLE_BUTTON = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_button"), new LuphieFloweringPurpleButtonBlock());
-		LUPHIE_JACK_O_LANTERN_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_jack_o_lantern_bookshelf"), new LuphieJackOLanternBookshelfBlock());
-		LUPHIE_MUSHROOM_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_bookshelf"),
-				new LuphieMushroomBookshelfBlock());
-		LUPHIE_DECORATIVE_MUSHROOM_BLOCK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_mushroom_block"), new LuphieDecorativeMushroomBlockBlock());
-		LUPHIE_MUSHROOM_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_door"),
-				new LuphieMushroomDoorBlock());
-		LUPHIE_GLOWSHROOM_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glowshroom_door"),
-				new LuphieGlowshroomDoorBlock());
-		LUPHIE_DYNASTY_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_dynasty_door"),
-				new LuphieDynastyDoorBlock());
-		LUPHIE_RED_CHECKERED_BLOCK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_red_checkered_block"), new LuphieRedCheckeredBlockBlock());
-		LUPHIE_YELLOW_CHECKERED_BLOCK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_checkered_block"), new LuphieYellowCheckeredBlockBlock());
-		LUPHIE_GREEN_CHECKERED_BLOCK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_checkered_block"), new LuphieGreenCheckeredBlockBlock());
-		LUPHIE_BLUE_CHECKERED_BLOCK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_checkered_block"), new LuphieBlueCheckeredBlockBlock());
-		LUPHIE_PURPLE_CHECKERED_BLOCK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_checkered_block"), new LuphiePurpleCheckeredBlockBlock());
-		LUPHIE_CAT_WINDOW = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_window"),
-				new LuphieCatWindowBlock());
-		LUPHIE_PASTEL_STRAWBERRY_WALLPAPER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_strawberry_wallpaper"), new LuphiePastelStrawberryWallpaperBlock());
-		LUPHIE_FLORAL_STRIPED_WALLPAPER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_floral_striped_wallpaper"), new LuphieFloralStripedWallpaperBlock());
-		LUPHIE_CONFECTIONARY_WALLPAPER_A = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_wallpaper_a"), new LuphieConfectionaryWallpaperABlock());
-		LUPHIE_CONFECTIONARY_WALLPAPER_B = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_wallpaper_b"), new LuphieConfectionaryWallpaperBBlock());
-		LUPHIE_CHOCO_MINT_WALLPAPER_1 = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_choco_mint_wallpaper_1"), new LuphieChocoMintWallpaper1Block());
-		LUPHIE_CHOCO_MINT_WALLPAPER_B = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_choco_mint_wallpaper_b"), new LuphieChocoMintWallpaperBBlock());
-		LUPHIE_HALLOWEEN_WALLPAPER_A = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_halloween_wallpaper_a"), new LuphieHalloweenWallpaperABlock());
-		LUPHIE_HALLOWEEN_WALLPAPER_B = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_halloween_wallpaper_b"), new LuphieHalloweenWallpaperBBlock());
-		LUPHIE_DECORATIVE_MUSHROOM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_mushroom"), new LuphieDecorativeMushroomBlock());
-		LUPHIE_MUSHROOM_BED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_bed"),
-				new LuphieMushroomBedBlock());
-		LUPHIE_MUSHROOM_TV = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_tv"),
-				new LuphieMushroomTVBlock());
-		LUPHIE_GENERAL_STORE_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_general_store_cabinet"), new LuphieGeneralStoreCabinetBlock());
-		LUPHIE_ANCIENT_CODEX = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_ancient_codex"),
-				new LuphieAncientCodexBlock());
-		LUPHIE_ANGRY_BEE_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_angry_bee_lamp"),
-				new LuphieAngryBeeLampBlock());
-		LUPHIE_ANTIQUE_BOOK_STAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_book_stand"),
-				new LuphieAntiqueBookStandBlock());
-		LUPHIE_ANTIQUE_LIBRARY_BOOKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_library_books"), new LuphieAntiqueLibraryBooksBlock());
-		LUPHIE_ANTIQUE_SEWING_MACHINE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_sewing_machine"), new LuphieAntiqueSewingMachineBlock());
-		LUPHIE_ART_ACADEMY_BOX_OF_PAINT = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_art_academy_box_of_paint"), new LuphieArtAcademyBoxOfPaintBlock());
-		LUPHIE_ASSORTED_JAM_JARS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_assorted_jam_jars"),
-				new LuphieAssortedJamJarsBlock());
-		LUPHIE_BEE_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bee_lamp"),
-				new LuphieBeeLampBlock());
-		LUPHIE_BLACK_CAT_PLANT_POT = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cat_plant_pot"), new LuphieBlackCatPlantPotBlock());
-		LUPHIE_RED_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_red_armchair"),
-				new LuphieRedArmchairBlock());
-		LUPHIE_ORANGE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_orange_armchair"),
-				new LuphieOrangeArmchairBlock());
-		LUPHIE_YELLOW_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_armchair"),
-				new LuphieYellowArmchairBlock());
-		LUPHIE_GREEN_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_armchair"),
-				new LuphieGreenArmchairBlock());
-		LUPHIE_LIME_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lime_armchair"),
-				new LuphieLimeArmchairBlock());
-		LUPHIE_CYAN_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cyan_armchair"),
-				new LuphieCyanArmchairBlock());
-		LUPHIE_LIGHT_BLUE_ARMCHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_blue_armchair"), new LuphieLightBlueArmchairBlock());
-		LUPHIE_BLUE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_armchair"),
-				new LuphieBlueArmchairBlock());
-		LUPHIE_PURPLE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_armchair"),
-				new LuphiePurpleArmchairBlock());
-		LUPHIE_MAGENTA_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_magenta_armchair"),
-				new LuphieMagentaArmchairBlock());
-		LUPHIE_PINK_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_armchair"),
-				new LuphiePinkArmchairBlock());
-		LUPHIE_BROWN_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_brown_armchair"),
-				new LuphieBrownArmchairBlock());
-		LUPHIE_BLACK_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_armchair"),
-				new LuphieBlackArmchairBlock());
-		LUPHIE_GRAY_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_gray_armchair"),
-				new LuphieGrayArmchairBlock());
-		LUPHIE_LIGHT_GRAY_ARMCHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_gray_armchair"), new LuphieLightGrayArmchairBlock());
-		LUPHIE_WHITE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_armchair"),
-				new LuphieWhiteArmchairBlock());
-		LUPHIE_FUSCHIA_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_fuschia_armchair"),
-				new LuphieFuschiaArmchairBlock());
-		LUPHIE_GOLD_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_gold_armchair"),
-				new LuphieGoldArmchairBlock());
-		LUPHIE_PASTEL_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_armchair"),
-				new LuphiePastelArmchairBlock());
-		LUPHIE_LEMON_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lemon_armchair"),
-				new LuphieLemonArmchairBlock());
-		LUPHIE_MANGO_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mango_armchair"),
-				new LuphieMangoArmchairBlock());
-		LUPHIE_STRAWBERRY_ARMCHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_strawberry_armchair"), new LuphieStrawberryArmchairBlock());
-		LUPHIE_WATERMELON_ARMCHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_watermelon_armchair"), new LuphieWatermelonArmchairBlock());
-		LUPHIE_BLACK_CAT_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cat_armchair"),
-				new LuphieBlackCatArmchairBlock());
-		LUPHIE_CAT_KITCHEN_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_kitchen_table"),
-				new LuphieCatKitchenTableBlock());
-		LUPHIE_SWEETHEART_KITCHEN_TABLE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_kitchen_table"), new LuphieSweetheartKitchenTableBlock());
-		LUPHIE_CAT_COUNTER_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_counter_a"),
-				new LuphieCatCounterABlock());
-		LUPHIE_CAT_KITCHEN_COUNTER_B = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_kitchen_counter_b"), new LuphieCatKitchenCounterBBlock());
-		LUPHIE_SWEETHEART_COUNTER_A = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_counter_a"), new LuphieSweetheartCounterABlock());
-		LUPHIE_SWEETHEART_COUNTER_B = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_counter_b"), new LuphieSweetheartCounterBBlock());
-		LUPHIE_CAT_KITCHEN_SINK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_kitchen_sink"),
-				new LuphieCatKitchenSinkBlock());
-		LUPHIE_SWEETHEART_KITCHEN_SINK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_kitchen_sink"), new LuphieSweetheartKitchenSinkBlock());
-		LUPHIE_MERMAID_DRESSER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mermaid_dresser"),
-				new LuphieMermaidDresserBlock());
-		LUPHIE_BLANK_PAPER_PILE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blank_paper_pile"),
-				new LuphieBlankPaperPileBlock());
-		LUPHIE_BLUE_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_glowshroom_terrarium"), new LuphieBlueGlowshroomTerrariumBlock());
-		LUPHIE_GREEN_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_glowshroom_terrarium"), new LuphieGreenGlowshroomTerrariumBlock());
-		LUPHIE_YELLOW_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_glowshroom_terrarium"), new LuphieYellowGlowshroomTerrariumBlock());
-		LUPHIE_PINK_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_glowshroom_terrarium"), new LuphiePinkGlowshroomTerrariumBlock());
-		LUPHIE_PURPLE_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_glowshroom_terrarium"), new LuphiePurpleGlowshroomTerrariumBlock());
-		LUPHIE_MUSHROOM_TERRARIUM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_terrarium"),
-				new LuphieMushroomTerrariumBlock());
-		LUPHIE_BULLETIN_BOARD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bulletin_board"),
-				new LuphieBulletinBoardBlock());
-		LUPHIE_EMPTY_BULLETIN_BOARD = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_empty_bulletin_board"), new LuphieEmptyBulletinBoardBlock());
-		LUPHIE_BRIEFCASE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_briefcase"),
-				new LuphieBriefcaseBlock());
-		LUPHIE_ROVERS_BRIEFCASE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rovers_briefcase"),
-				new LuphieRoversBriefcaseBlock());
-		LUPHIE_BUNNY_BOOK_ENDS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bunny_book_ends"),
-				new LuphieBunnyBookEndsBlock());
-		LUPHIE_CARDBOARD_BOX_CLOSED = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_cardboard_box_closed"), new LuphieCardboardBoxClosedBlock());
-		LUPHIE_CARDBOARD_BOX_FILLED = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_cardboard_box_filled"), new LuphieCardboardBoxFilledBlock());
-		LUPHIE_CARDBOARD_BOX_OPEN = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cardboard_box_open"),
-				new LuphieCardboardBoxOpenBlock());
-		LUPHIE_CARD_INDEX = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_card_index"),
-				new LuphieCardIndexBlock());
-		LUPHIE_CAULDRON_POSTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cauldron_poster"),
-				new LuphieCauldronPosterBlock());
-		LUPHIE_CHINA_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_china_cabinet"),
-				new LuphieChinaCabinetBlock());
-		LUPHIE_CLASSIC_MINI_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_classic_mini_table"),
-				new LuphieClassicMiniTableBlock());
-		LUPHIE_CLASSIC_RADIO = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_classic_radio"),
-				new LuphieClassicRadioBlock());
-		LUPHIE_CLUTTERED_SELTZER_CANS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_seltzer_cans"), new LuphieClutteredSeltzerCansBlock());
-		LUPHIE_CONFECTIONARY_TABLE_A = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_table_a"), new LuphieConfectionaryTableABlock());
-		LUPHIE_CONFECTIONARY_TABLE_B = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_table_b"), new LuphieConfectionaryTableBBlock());
-		LUPHIE_DORADO_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_dorado_cabinet"),
-				new LuphieDoradoCabinetBlock());
-		LUPHIE_DORADO_CABINET_CLUTTERED = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_dorado_cabinet_cluttered"), new LuphieDoradoCabinetClutteredBlock());
-		LUPHIE_WORN_DORADO_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_worn_dorado_cabinet"), new LuphieWornDoradoCabinetBlock());
-		LUPHIE_ENVELOPE_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_envelope_stack"),
-				new LuphieEnvelopeStackBlock());
-		LUPHIE_GLOWING_MOON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glowing_moon"),
-				new LuphieGlowingMoonBlock());
-		LUPHIE_HANGING_DISH_TOWEL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_dish_towel"),
-				new LuphieHangingDishTowelBlock());
-		LUPHIE_HANGING_PLANT_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_plant_a"),
-				new LuphieHangingPlantABlock());
-		LUPHIE_HANGING_PLANT_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_plant_b"),
-				new LuphieHangingPlantBBlock());
-		LUPHIE_HONEYCOMB_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_honeycomb_lamp"),
-				new LuphieHoneycombLampBlock());
-		LUPHIE_JAM_JAR_PYRAMID = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_jam_jar_pyramid"),
-				new LuphieJamJarPyramidBlock());
+		LUPHIE_PINK_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_planks"), new LuphiePinkPlanksBlock());
+		LUPHIE_PINK_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_bookshelf"), new LuphiePinkBookshelfBlock());
+		LUPHIE_PINK_WINDOW = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_window"), new LuphiePinkWindowBlock());
+		LUPHIE_PINK_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_stairs"), new LuphiePinkStairsBlock());
+		LUPHIE_PINK_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_slab"), new LuphiePinkSlabBlock());
+		LUPHIE_PINK_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_fence"), new LuphiePinkFenceBlock());
+		LUPHIE_PINK_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_fence_gate"), new LuphiePinkFenceGateBlock());
+		LUPHIE_PINK_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_button"), new LuphiePinkButtonBlock());
+		LUPHIE_PINK_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_pressure_plate"), new LuphiePinkPressurePlateBlock());
+		LUPHIE_PINK_HEART_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_heart_door"), new LuphiePinkHeartDoorBlock());
+		LUPHIE_FLOWERING_PINK_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_planks"), new LuphieFloweringPinkPlanksBlock());
+		LUPHIE_FLOWERING_PINK_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_bookshelf"), new LuphieFloweringPinkBookshelfBlock());
+		LUPHIE_FLOWERING_PINK_WINDOW = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_window"), new LuphieFloweringPinkWindowBlock());
+		LUPHIE_FLOWERING_PINK_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_stairs"), new LuphieFloweringPinkStairsBlock());
+		LUPHIE_FLOWERING_PINK_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_slab"), new LuphieFloweringPinkSlabBlock());
+		LUPHIE_FLOWERING_PINK_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_fence"), new LuphieFloweringPinkFenceBlock());
+		LUPHIE_FLOWERING_PINK_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_fence_gate"), new LuphieFloweringPinkFenceGateBlock());
+		LUPHIE_FLOWERING_PINK_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_button"), new LuphieFloweringPinkButtonBlock());
+		LUPHIE_FLOWERING_PINK_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_pressure_plate"), new LuphieFloweringPinkPressurePlateBlock());
+		LUPHIE_FLOWERING_PINK_HEART_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_heart_door"), new LuphieFloweringPinkHeartDoorBlock());
+		LUPHIE_YELLOW_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_planks"), new LuphieYellowPlanksBlock());
+		LUPHIE_YELLOW_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_bookshelf"), new LuphieYellowBookshelfBlock());
+		LUPHIE_YELLOW_STAIR_RECIPE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_stair_recipe"), new LuphieYellowStairRecipeBlock());
+		LUPHIE_YELLOW_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_slab"), new LuphieYellowSlabBlock());
+		LUPHIE_YELLOW_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_fence"), new LuphieYellowFenceBlock());
+		LUPHIE_YELLOW_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_fence_gate"), new LuphieYellowFenceGateBlock());
+		LUPHIE_YELLOW_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_button"), new LuphieYellowButtonBlock());
+		LUPHIE_YELLOW_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_pressure_plate"), new LuphieYellowPressurePlateBlock());
+		LUPHIE_FLOWERING_YELLOW_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_planks"), new LuphieFloweringYellowPlanksBlock());
+		LUPHIE_FLOWERING_YELLOW_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_bookshelf"), new LuphieFloweringYellowBookshelfBlock());
+		LUPHIE_FLOWERING_YELLOW_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_stairs"), new LuphieFloweringYellowStairsBlock());
+		LUPHIE_FLOWERING_YELLOW_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_slab"), new LuphieFloweringYellowSlabBlock());
+		LUPHIE_FLOWERING_YELLOW_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_fence"), new LuphieFloweringYellowFenceBlock());
+		LUPHIE_FLOWERING_YELLOW_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_fence_gate"), new LuphieFloweringYellowFenceGateBlock());
+		LUPHIE_FLOWERING_YELLOW_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_button"), new LuphieFloweringYellowButtonBlock());
+		LUPHIE_FLOWERING_YELLOW_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_pressure_plate"), new LuphieFloweringYellowPressurePlateBlock());
+		LUPHIE_GREEN_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_planks"), new LuphieGreenPlanksBlock());
+		LUPHIE_GREEN_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_bookshelf"), new LuphieGreenBookshelfBlock());
+		LUPHIE_GREEN_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_stairs"), new LuphieGreenStairsBlock());
+		LUPHIE_GREEN_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_slab"), new LuphieGreenSlabBlock());
+		LUPHIE_GREEN_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_fence"), new LuphieGreenFenceBlock());
+		LUPHIE_GREEN_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_fence_gate"), new LuphieGreenFenceGateBlock());
+		LUPHIE_GREEN_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_button"), new LuphieGreenButtonBlock());
+		LUPHIE_GREEN_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_pressure_plate"), new LuphieGreenPressurePlateBlock());
+		LUPHIE_GLOW_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_planks"), new LuphieGlowPlanksBlock());
+		LUPHIE_GLOW_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_bookshelf"), new LuphieGlowBookshelfBlock());
+		LUPHIE_GLOW_WOOD_SET_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_stairs"), new LuphieGlowWoodSetStairsBlock());
+		LUPHIE_GLOW_WOOD_SET_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_slab"), new LuphieGlowWoodSetSlabBlock());
+		LUPHIE_GLOW_WOOD_SET_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_fence"), new LuphieGlowWoodSetFenceBlock());
+		LUPHIE_GLOW_WOOD_SET_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_fence_gate"), new LuphieGlowWoodSetFenceGateBlock());
+		LUPHIE_GLOW_WOOD_SET_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_pressure_plate"), new LuphieGlowWoodSetPressurePlateBlock());
+		LUPHIE_GLOW_WOOD_SET_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_wood_set_button"), new LuphieGlowWoodSetButtonBlock());
+		LUPHIE_PURPLE_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_planks"), new LuphiePurplePlanksBlock());
+		LUPHIE_PURPLE_JAR_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_jar_bookshelf"), new LuphiePurpleJarBookshelfBlock());
+		LUPHIE_PURPLE_BLACK_CAT_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_black_cat_bookshelf"), new LuphiePurpleBlackCatBookshelfBlock());
+		LUPHIE_COBWEB_PURPLE_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cobweb_purple_bookshelf"), new LuphieCobwebPurpleBookshelfBlock());
+		LUPHIE_CALICO_CAT_PURPLE_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_calico_cat_purple_bookshelf"), new LuphieCalicoCatPurpleBookshelfBlock());
+		LUPHIE_VASE_PURPLE_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_vase_purple_bookshelf"), new LuphieVasePurpleBookshelfBlock());
+		LUPHIE_PURPLE_PLANK_SET_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_stairs"), new LuphiePurplePlankSetStairsBlock());
+		LUPHIE_PURPLE_PLANK_SET_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_slab"), new LuphiePurplePlankSetSlabBlock());
+		LUPHIE_PURPLE_PLANK_SET_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_fence"), new LuphiePurplePlankSetFenceBlock());
+		LUPHIE_PURPLE_PLANK_SET_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_fence_gate"), new LuphiePurplePlankSetFenceGateBlock());
+		LUPHIE_PURPLE_PLANK_SET_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_pressure_plate"), new LuphiePurplePlankSetPressurePlateBlock());
+		LUPHIE_PURPLE_PLANK_SET_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_plank_set_button"), new LuphiePurplePlankSetButtonBlock());
+		LUPHIE_PURPLE_IRON_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_iron_door"), new LuphiePurpleIronDoorBlock());
+		LUPHIE_FLOWERING_PURPLE_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_planks"), new LuphieFloweringPurplePlanksBlock());
+		LUPHIE_FLOWERING_PURPLE_S_TAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_s_tairs"), new LuphieFloweringPurpleSTairsBlock());
+		LUPHIE_FLOWERING_PURPLE_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_slab"), new LuphieFloweringPurpleSlabBlock());
+		LUPHIE_FLOWERING_PURPLE_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_fence"), new LuphieFloweringPurpleFenceBlock());
+		LUPHIE_FLOWERING_PURPLE_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_fence_gate"), new LuphieFloweringPurpleFenceGateBlock());
+		LUPHIE_FLOWERING_PURPLE_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_pressure_plate"), new LuphieFloweringPurplePressurePlateBlock());
+		LUPHIE_FLOWERING_PURPLE_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_button"), new LuphieFloweringPurpleButtonBlock());
+		LUPHIE_JACK_O_LANTERN_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_jack_o_lantern_bookshelf"), new LuphieJackOLanternBookshelfBlock());
+		LUPHIE_MUSHROOM_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_bookshelf"), new LuphieMushroomBookshelfBlock());
+		LUPHIE_DECORATIVE_MUSHROOM_BLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_mushroom_block"), new LuphieDecorativeMushroomBlockBlock());
+		LUPHIE_MUSHROOM_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_door"), new LuphieMushroomDoorBlock());
+		LUPHIE_GLOWSHROOM_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glowshroom_door"), new LuphieGlowshroomDoorBlock());
+		LUPHIE_DYNASTY_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_dynasty_door"), new LuphieDynastyDoorBlock());
+		LUPHIE_RED_CHECKERED_BLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_red_checkered_block"), new LuphieRedCheckeredBlockBlock());
+		LUPHIE_YELLOW_CHECKERED_BLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_checkered_block"), new LuphieYellowCheckeredBlockBlock());
+		LUPHIE_GREEN_CHECKERED_BLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_checkered_block"), new LuphieGreenCheckeredBlockBlock());
+		LUPHIE_BLUE_CHECKERED_BLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_checkered_block"), new LuphieBlueCheckeredBlockBlock());
+		LUPHIE_PURPLE_CHECKERED_BLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_checkered_block"), new LuphiePurpleCheckeredBlockBlock());
+		LUPHIE_CAT_WINDOW = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_window"), new LuphieCatWindowBlock());
+		LUPHIE_PASTEL_STRAWBERRY_WALLPAPER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_strawberry_wallpaper"), new LuphiePastelStrawberryWallpaperBlock());
+		LUPHIE_FLORAL_STRIPED_WALLPAPER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_floral_striped_wallpaper"), new LuphieFloralStripedWallpaperBlock());
+		LUPHIE_CONFECTIONARY_WALLPAPER_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_wallpaper_a"), new LuphieConfectionaryWallpaperABlock());
+		LUPHIE_CONFECTIONARY_WALLPAPER_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_wallpaper_b"), new LuphieConfectionaryWallpaperBBlock());
+		LUPHIE_CHOCO_MINT_WALLPAPER_1 = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_choco_mint_wallpaper_1"), new LuphieChocoMintWallpaper1Block());
+		LUPHIE_CHOCO_MINT_WALLPAPER_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_choco_mint_wallpaper_b"), new LuphieChocoMintWallpaperBBlock());
+		LUPHIE_HALLOWEEN_WALLPAPER_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_halloween_wallpaper_a"), new LuphieHalloweenWallpaperABlock());
+		LUPHIE_HALLOWEEN_WALLPAPER_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_halloween_wallpaper_b"), new LuphieHalloweenWallpaperBBlock());
+		LUPHIE_DECORATIVE_MUSHROOM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_mushroom"), new LuphieDecorativeMushroomBlock());
+		LUPHIE_MUSHROOM_BED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_bed"), new LuphieMushroomBedBlock());
+		LUPHIE_MUSHROOM_TV = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_tv"), new LuphieMushroomTVBlock());
+		LUPHIE_GENERAL_STORE_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_general_store_cabinet"), new LuphieGeneralStoreCabinetBlock());
+		LUPHIE_ANCIENT_CODEX = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_ancient_codex"), new LuphieAncientCodexBlock());
+		LUPHIE_ANGRY_BEE_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_angry_bee_lamp"), new LuphieAngryBeeLampBlock());
+		LUPHIE_ANTIQUE_BOOK_STAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_book_stand"), new LuphieAntiqueBookStandBlock());
+		LUPHIE_ANTIQUE_LIBRARY_BOOKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_library_books"), new LuphieAntiqueLibraryBooksBlock());
+		LUPHIE_ANTIQUE_SEWING_MACHINE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_sewing_machine"), new LuphieAntiqueSewingMachineBlock());
+		LUPHIE_ART_ACADEMY_BOX_OF_PAINT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_art_academy_box_of_paint"), new LuphieArtAcademyBoxOfPaintBlock());
+		LUPHIE_ASSORTED_JAM_JARS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_assorted_jam_jars"), new LuphieAssortedJamJarsBlock());
+		LUPHIE_BEE_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bee_lamp"), new LuphieBeeLampBlock());
+		LUPHIE_BLACK_CAT_PLANT_POT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cat_plant_pot"), new LuphieBlackCatPlantPotBlock());
+		LUPHIE_RED_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_red_armchair"), new LuphieRedArmchairBlock());
+		LUPHIE_ORANGE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_orange_armchair"), new LuphieOrangeArmchairBlock());
+		LUPHIE_YELLOW_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_armchair"), new LuphieYellowArmchairBlock());
+		LUPHIE_GREEN_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_armchair"), new LuphieGreenArmchairBlock());
+		LUPHIE_LIME_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lime_armchair"), new LuphieLimeArmchairBlock());
+		LUPHIE_CYAN_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cyan_armchair"), new LuphieCyanArmchairBlock());
+		LUPHIE_LIGHT_BLUE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_blue_armchair"), new LuphieLightBlueArmchairBlock());
+		LUPHIE_BLUE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_armchair"), new LuphieBlueArmchairBlock());
+		LUPHIE_PURPLE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_armchair"), new LuphiePurpleArmchairBlock());
+		LUPHIE_MAGENTA_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_magenta_armchair"), new LuphieMagentaArmchairBlock());
+		LUPHIE_PINK_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_armchair"), new LuphiePinkArmchairBlock());
+		LUPHIE_BROWN_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_brown_armchair"), new LuphieBrownArmchairBlock());
+		LUPHIE_BLACK_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_armchair"), new LuphieBlackArmchairBlock());
+		LUPHIE_GRAY_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_gray_armchair"), new LuphieGrayArmchairBlock());
+		LUPHIE_LIGHT_GRAY_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_gray_armchair"), new LuphieLightGrayArmchairBlock());
+		LUPHIE_WHITE_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_armchair"), new LuphieWhiteArmchairBlock());
+		LUPHIE_FUSCHIA_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_fuschia_armchair"), new LuphieFuschiaArmchairBlock());
+		LUPHIE_GOLD_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_gold_armchair"), new LuphieGoldArmchairBlock());
+		LUPHIE_PASTEL_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_armchair"), new LuphiePastelArmchairBlock());
+		LUPHIE_LEMON_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lemon_armchair"), new LuphieLemonArmchairBlock());
+		LUPHIE_MANGO_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mango_armchair"), new LuphieMangoArmchairBlock());
+		LUPHIE_STRAWBERRY_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_strawberry_armchair"), new LuphieStrawberryArmchairBlock());
+		LUPHIE_WATERMELON_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_watermelon_armchair"), new LuphieWatermelonArmchairBlock());
+		LUPHIE_BLACK_CAT_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cat_armchair"), new LuphieBlackCatArmchairBlock());
+		LUPHIE_CAT_KITCHEN_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_kitchen_table"), new LuphieCatKitchenTableBlock());
+		LUPHIE_SWEETHEART_KITCHEN_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_kitchen_table"), new LuphieSweetheartKitchenTableBlock());
+		LUPHIE_CAT_COUNTER_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_counter_a"), new LuphieCatCounterABlock());
+		LUPHIE_CAT_KITCHEN_COUNTER_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_kitchen_counter_b"), new LuphieCatKitchenCounterBBlock());
+		LUPHIE_SWEETHEART_COUNTER_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_counter_a"), new LuphieSweetheartCounterABlock());
+		LUPHIE_SWEETHEART_COUNTER_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_counter_b"), new LuphieSweetheartCounterBBlock());
+		LUPHIE_CAT_KITCHEN_SINK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cat_kitchen_sink"), new LuphieCatKitchenSinkBlock());
+		LUPHIE_SWEETHEART_KITCHEN_SINK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sweetheart_kitchen_sink"), new LuphieSweetheartKitchenSinkBlock());
+		LUPHIE_MERMAID_DRESSER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mermaid_dresser"), new LuphieMermaidDresserBlock());
+		LUPHIE_BLANK_PAPER_PILE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blank_paper_pile"), new LuphieBlankPaperPileBlock());
+		LUPHIE_BLUE_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_glowshroom_terrarium"), new LuphieBlueGlowshroomTerrariumBlock());
+		LUPHIE_GREEN_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_glowshroom_terrarium"), new LuphieGreenGlowshroomTerrariumBlock());
+		LUPHIE_YELLOW_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_glowshroom_terrarium"), new LuphieYellowGlowshroomTerrariumBlock());
+		LUPHIE_PINK_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_glowshroom_terrarium"), new LuphiePinkGlowshroomTerrariumBlock());
+		LUPHIE_PURPLE_GLOWSHROOM_TERRARIUM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_glowshroom_terrarium"), new LuphiePurpleGlowshroomTerrariumBlock());
+		LUPHIE_MUSHROOM_TERRARIUM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_terrarium"), new LuphieMushroomTerrariumBlock());
+		LUPHIE_BULLETIN_BOARD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bulletin_board"), new LuphieBulletinBoardBlock());
+		LUPHIE_EMPTY_BULLETIN_BOARD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_empty_bulletin_board"), new LuphieEmptyBulletinBoardBlock());
+		LUPHIE_BRIEFCASE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_briefcase"), new LuphieBriefcaseBlock());
+		LUPHIE_ROVERS_BRIEFCASE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rovers_briefcase"), new LuphieRoversBriefcaseBlock());
+		LUPHIE_BUNNY_BOOK_ENDS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bunny_book_ends"), new LuphieBunnyBookEndsBlock());
+		LUPHIE_CARDBOARD_BOX_CLOSED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cardboard_box_closed"), new LuphieCardboardBoxClosedBlock());
+		LUPHIE_CARDBOARD_BOX_FILLED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cardboard_box_filled"), new LuphieCardboardBoxFilledBlock());
+		LUPHIE_CARDBOARD_BOX_OPEN = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cardboard_box_open"), new LuphieCardboardBoxOpenBlock());
+		LUPHIE_CARD_INDEX = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_card_index"), new LuphieCardIndexBlock());
+		LUPHIE_CAULDRON_POSTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cauldron_poster"), new LuphieCauldronPosterBlock());
+		LUPHIE_CHINA_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_china_cabinet"), new LuphieChinaCabinetBlock());
+		LUPHIE_CLASSIC_MINI_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_classic_mini_table"), new LuphieClassicMiniTableBlock());
+		LUPHIE_CLASSIC_RADIO = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_classic_radio"), new LuphieClassicRadioBlock());
+		LUPHIE_CLUTTERED_SELTZER_CANS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_seltzer_cans"), new LuphieClutteredSeltzerCansBlock());
+		LUPHIE_CONFECTIONARY_TABLE_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_table_a"), new LuphieConfectionaryTableABlock());
+		LUPHIE_CONFECTIONARY_TABLE_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_confectionary_table_b"), new LuphieConfectionaryTableBBlock());
+		LUPHIE_DORADO_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_dorado_cabinet"), new LuphieDoradoCabinetBlock());
+		LUPHIE_DORADO_CABINET_CLUTTERED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_dorado_cabinet_cluttered"), new LuphieDoradoCabinetClutteredBlock());
+		LUPHIE_WORN_DORADO_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_worn_dorado_cabinet"), new LuphieWornDoradoCabinetBlock());
+		LUPHIE_ENVELOPE_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_envelope_stack"), new LuphieEnvelopeStackBlock());
+		LUPHIE_GLOWING_MOON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glowing_moon"), new LuphieGlowingMoonBlock());
+		LUPHIE_HANGING_DISH_TOWEL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_dish_towel"), new LuphieHangingDishTowelBlock());
+		LUPHIE_HANGING_PLANT_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_plant_a"), new LuphieHangingPlantABlock());
+		LUPHIE_HANGING_PLANT_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_plant_b"), new LuphieHangingPlantBBlock());
+		LUPHIE_HONEYCOMB_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_honeycomb_lamp"), new LuphieHoneycombLampBlock());
+		LUPHIE_JAM_JAR_PYRAMID = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_jam_jar_pyramid"), new LuphieJamJarPyramidBlock());
 		LUPHIE_KEY = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_key"), new LuphieKeyBlock());
-		LUPHIE_LUNAR_OBSERVATORY_BASKET_OF_PAPERS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_basket_of_papers"),
-				new LuphieLunarObservatoryBasketOfPapersBlock());
-		LUPHIE_LUNAR_OBSERVATORY_GLOBE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_globe"), new LuphieLunarObservatoryGlobeBlock());
-		LUPHIE_LUNAR_OBSERVATORY_JARS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_jars"), new LuphieLunarObservatoryJarsBlock());
-		LUPHIE_LUNAR_OBSERVATORY_SMALL_TABLE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_small_table"),
-				new LuphieLunarObservatorySmallTableBlock());
-		LUPHIE_LUNAR_OBSERVATORY_TABLE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_table"), new LuphieLunarObservatoryTableBlock());
-		LUPHIE_MINI_CACTUS_SET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mini_cactus_set"),
-				new LuphieMiniCactusSetBlock());
-		LUPHIE_MINI_HANGING_TERRARIUMS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_mini_hanging_terrariums"), new LuphieMiniHangingTerrariumsBlock());
-		LUPHIE_MINI_JAM_JAR_CUBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mini_jam_jar_cube"),
-				new LuphieMiniJamJarCubeBlock());
-		LUPHIE_MOON_STRING = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_moon_string"),
-				new LuphieMoonStringBlock());
-		LUPHIE_MUSHROOM_CHEST = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_chest"),
-				new LuphieMushroomChestBlock());
-		LUPHIE_MUSHROOM_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_lamp"),
-				new LuphieMushroomLampBlock());
-		LUPHIE_MUSHROOM_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_table"),
-				new LuphieMushroomTableBlock());
-		LUPHIE_MUSHROOM_WARDROBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_wardrobe"),
-				new LuphieMushroomWardrobeBlock());
-		LUPHIE_NIGHTSTAND_KNICK_KNACKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_nightstand_knick_knacks"), new LuphieNightstandKnickKnacksBlock());
-		LUPHIE_NIGHTSTAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_nightstand"),
-				new LuphieNightstandBlock());
-		LUPHIE_OFFICE_BOX = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_office_box"),
-				new LuphieOfficeBoxBlock());
-		LUPHIE_OFFICE_SUPPLIES_CLUTTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_office_supplies_clutter"), new LuphieOfficeSuppliesClutterBlock());
-		LUPHIE_OPEN_BOOK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_open_book"),
-				new LuphieOpenBookBlock());
-		LUPHIE_OPEN_BOOK_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_open_book_stack"),
-				new LuphieOpenBookStackBlock());
-		LUPHIE_PAPER_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_paper_stack"),
-				new LuphiePaperStackBlock());
-		LUPHIE_PASTEL_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_chair"),
-				new LuphiePastelChairBlock());
-		LUPHIEBUNNY_PLUSHIE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphiebunny_plushie"),
-				new LuphiebunnyPlushieBlock());
-		LUPHIE_PASTEL_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_table"),
-				new LuphiePastelTableBlock());
-		LUPHIE_FILLED_PICNIC_BASKET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_filled_picnic_basket"), new LuphieFilledPicnicBasketBlock());
-		LUPHIE_PICNIC_BASKET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_picnic_basket"),
-				new LuphiePicnicBasketBlock());
-		LUPHIE_PINK_AND_GOLD_MOON_DECOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_and_gold_moon_decor"), new LuphiePinkAndGoldMoonDecorBlock());
-		LUPHIE_ROSE_ENDTABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rose_endtable"),
-				new LuphieRoseEndtableBlock());
-		LUPHIE_GOTHIC_ROSE_ENDTABLE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_gothic_rose_endtable"), new LuphieGothicRoseEndtableBlock());
+		LUPHIE_LUNAR_OBSERVATORY_BASKET_OF_PAPERS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_basket_of_papers"), new LuphieLunarObservatoryBasketOfPapersBlock());
+		LUPHIE_LUNAR_OBSERVATORY_GLOBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_globe"), new LuphieLunarObservatoryGlobeBlock());
+		LUPHIE_LUNAR_OBSERVATORY_JARS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_jars"), new LuphieLunarObservatoryJarsBlock());
+		LUPHIE_LUNAR_OBSERVATORY_SMALL_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_small_table"), new LuphieLunarObservatorySmallTableBlock());
+		LUPHIE_LUNAR_OBSERVATORY_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_table"), new LuphieLunarObservatoryTableBlock());
+		LUPHIE_MINI_CACTUS_SET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mini_cactus_set"), new LuphieMiniCactusSetBlock());
+		LUPHIE_MINI_HANGING_TERRARIUMS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mini_hanging_terrariums"), new LuphieMiniHangingTerrariumsBlock());
+		LUPHIE_MINI_JAM_JAR_CUBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mini_jam_jar_cube"), new LuphieMiniJamJarCubeBlock());
+		LUPHIE_MOON_STRING = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_moon_string"), new LuphieMoonStringBlock());
+		LUPHIE_MUSHROOM_CHEST = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_chest"), new LuphieMushroomChestBlock());
+		LUPHIE_MUSHROOM_LAMP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_lamp"), new LuphieMushroomLampBlock());
+		LUPHIE_MUSHROOM_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_table"), new LuphieMushroomTableBlock());
+		LUPHIE_MUSHROOM_WARDROBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_wardrobe"), new LuphieMushroomWardrobeBlock());
+		LUPHIE_NIGHTSTAND_KNICK_KNACKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_nightstand_knick_knacks"), new LuphieNightstandKnickKnacksBlock());
+		LUPHIE_NIGHTSTAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_nightstand"), new LuphieNightstandBlock());
+		LUPHIE_OFFICE_BOX = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_office_box"), new LuphieOfficeBoxBlock());
+		LUPHIE_OFFICE_SUPPLIES_CLUTTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_office_supplies_clutter"), new LuphieOfficeSuppliesClutterBlock());
+		LUPHIE_OPEN_BOOK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_open_book"), new LuphieOpenBookBlock());
+		LUPHIE_OPEN_BOOK_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_open_book_stack"), new LuphieOpenBookStackBlock());
+		LUPHIE_PAPER_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_paper_stack"), new LuphiePaperStackBlock());
+		LUPHIE_PASTEL_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_chair"), new LuphiePastelChairBlock());
+		LUPHIEBUNNY_PLUSHIE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphiebunny_plushie"), new LuphiebunnyPlushieBlock());
+		LUPHIE_PASTEL_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_table"), new LuphiePastelTableBlock());
+		LUPHIE_FILLED_PICNIC_BASKET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_filled_picnic_basket"), new LuphieFilledPicnicBasketBlock());
+		LUPHIE_PICNIC_BASKET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_picnic_basket"), new LuphiePicnicBasketBlock());
+		LUPHIE_PINK_AND_GOLD_MOON_DECOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_and_gold_moon_decor"), new LuphiePinkAndGoldMoonDecorBlock());
+		LUPHIE_ROSE_ENDTABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rose_endtable"), new LuphieRoseEndtableBlock());
+		LUPHIE_GOTHIC_ROSE_ENDTABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_gothic_rose_endtable"), new LuphieGothicRoseEndtableBlock());
 		LUPHIE_SAFE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_safe"), new LuphieSafeBlock());
-		LUPHIE_SALT_AND_PEPPER_SHAKERS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_salt_and_pepper_shakers"), new LuphieSaltAndPepperShakersBlock());
-		LUPHIE_SCATTERED_PAPERS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_scattered_papers"),
-				new LuphieScatteredPapersBlock());
-		LUPHIE_SEWING_CLUTTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_clutter"),
-				new LuphieSewingClutterBlock());
-		LUPHIE_SHORT_BOOK_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_short_book_stack"),
-				new LuphieShortBookStackBlock());
-		LUPHIE_SKETCHBOOK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sketchbook"),
-				new LuphieSketchbookBlock());
-		LUPHIE_SKETCHBOOK_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sketchbook_stack"),
-				new LuphieSketchbookStackBlock());
-		LUPHIE_SLICED_BREAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sliced_bread"),
-				new LuphieSlicedBreadBlock());
-		LUPHIE_SMALL_BOOKCASE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_bookcase"),
-				new LuphieSmallBookcaseBlock());
-		LUPHIE_STACK_OF_SMALL_BOOKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_stack_of_small_books"), new LuphieStackOfSmallBooksBlock());
-		LUPHIE_SMALL_CAULDRON_SET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_cauldron_set"),
-				new LuphieSmallCauldronSetBlock());
-		LUPHIE_TALL_BOOKSTACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_bookstack"),
-				new LuphieTallBookstackBlock());
-		LUPHIE_STEAMPUNK_GLOBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_steampunk_globe"),
-				new LuphieSteampunkGlobeBlock());
-		LUPHIE_TABLE_WITH_CLOTH = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_table_with_cloth"),
-				new LuphieTableWithClothBlock());
-		LUPHIE_TALL_PAPER_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_paper_stack"),
-				new LuphieTallPaperStackBlock());
-		LUPHIE_TALL_SKETCHBOOK_STACK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_sketchbook_stack"), new LuphieTallSketchbookStackBlock());
-		LUPHIE_UNLIVING_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_unliving_chair"),
-				new LuphieUnlivingChairBlock());
-		LUPHIE_VIAL_STAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_vial_stand"),
-				new LuphieVialStandBlock());
-		LUPHIE_WALL_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_wall_bookshelf"),
-				new LuphieWallBookshelfBlock());
-		LUPHIE_PASTEL_WALL_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_wall_bookshelf"), new LuphiePastelWallBookshelfBlock());
-		LUPHIE_YELLOW_NOTEPAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_notepad"),
-				new LuphieYellowNotepadBlock());
-		LUPHIE_GREENER_NIGHTSTAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_greener_nightstand"),
-				new LuphieGreenerNightstandBlock());
-		LUPHIE_CLUTTERED_GREEN_DESK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_green_desk"), new LuphieClutteredGreenDeskBlock());
-		LUPHIE_GREEN_DESK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_desk"),
-				new LuphieGreenDeskBlock());
-		LUPHIE_CLUTTERED_DESK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_desk"),
-				new LuphieClutteredDeskBlock());
-		LUPHIE_BROWN_DESK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_brown_desk"),
-				new LuphieBrownDeskBlock());
-		LUPHIE_ROW_OF_SMALL_BOOKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_row_of_small_books"),
-				new LuphieRowOfSmallBooksBlock());
-		LUPHIE_ROW_OF_SMALL_PASTEL_BOOKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_row_of_small_pastel_books"), new LuphieRowOfSmallPastelBooksBlock());
-		LUPHIE_PASTEL_BLOCK_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_block_bookshelf"), new LuphiePastelBlockBookshelfBlock());
-		LUPHIE_LUNAR_OBSERVATORY_BOOKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_books"), new LuphieLunarObservatoryBooksBlock());
-		LUPHIE_IMPERIAL_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_imperial_chair"),
-				new LuphieImperialChairBlock());
-		LUPHIE_IMPERIAL_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_imperial_table"),
-				new LuphieImperialTableBlock());
-		LUPHIE_CLUTTERED_CAT_MUGS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_cat_mugs"),
-				new LuphieClutteredCatMugsBlock());
-		LUPHIE_TALL_STACK_OF_SMALL_BOOKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_stack_of_small_books"), new LuphieTallStackOfSmallBooksBlock());
-		LUPHIE_ORANGE_CAT_PLANT_POT = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_orange_cat_plant_pot"), new LuphieOrangeCatPlantPotBlock());
-		LUPHIE_TEA_KETTLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tea_kettle"),
-				new LuphieTeaKettleBlock());
-		LUPHIE_WEDDING_ARCH = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_wedding_arch"),
-				new LuphieWeddingArchBlock());
-		LUPHIE_BAKING_SET_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_baking_set_a"),
-				new LuphieBakingSetABlock());
-		LUPHIE_STAR_STRING = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_star_string"),
-				new LuphieStarStringBlock());
-		LUPHIE_LEMON_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lemon_table"),
-				new LuphieLemonTableBlock());
-		LUPHIE_HEART_CAKE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_heart_cake"),
-				new LuphieHeartCakeBlock());
-		LUPHIE_HOPPIN_PARK_LANTERN = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_hoppin_park_lantern"), new LuphieHoppinParkLanternBlock());
-		LUPHIE_BASIC_LOVELY_LOVE_SEAT = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_basic_lovely_love_seat"), new LuphieBasicLovelyLoveSeatBlock());
-		LUPHIE_BLACK_LOVELY_LOVE_SEAT = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_lovely_love_seat"), new LuphieBlackLovelyLoveSeatBlock());
-		LUPHIE_PASTEL_TRADITIONAL_CHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_traditional_chair"), new LuphiePastelTraditionalChairBlock());
-		LUPHIE_PASTEL_TRADITIONAL_TABLE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_traditional_table"), new LuphiePastelTraditionalTableBlock());
-		LUPHIE_BERRY_CAKE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_berry_cake"),
-				new LuphieBerryCakeBlock());
-		LUPHIE_COFFEE_GRINDER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_coffee_grinder"),
-				new LuphieCoffeeGrinderBlock());
-		LUPHIE_HEART_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_heart_armchair"),
-				new LuphieHeartArmchairBlock());
-		LUPHIE_RETRO_CAFE_SHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_cafe_shelf"),
-				new LuphieRetroCafeShelfBlock());
-		LUPHIE_RETRO_CAFE_SHELF_STAINED_GLASS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_cafe_shelf_stained_glass"),
-				new LuphieRetroCafeShelfStainedGlassBlock());
-		LUPHIE_ROVERS_MUG = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rovers_mug"),
-				new LuphieRoversMugBlock());
-		LUPHIE_ROVERS_STOOL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rovers_stool"),
-				new LuphieRoversStoolBlock());
-		LUPHIE_PASTEL_WARDROBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_wardrobe"),
-				new LuphiePastelWardrobeBlock());
-		LUPHIE_RETRO_PINK_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_pink_fridge"),
-				new LuphieRetroPinkFridgeBlock());
-		LUPHIE_WHITE_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_counter"),
-				new LuphieWhiteCounterBlock());
-		LUPHIE_WHITE_SINK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_sink"),
-				new LuphieWhiteSinkBlock());
-		LUPHIE_WHITE_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_inner_corner_counter"), new LuphieWhiteInnerCornerCounterBlock());
-		LUPHIE_WHITE_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_right_outer_corner_counter"),
-				new LuphieWhiteRightOuterCornerCounterBlock());
-		LUPHIE_WHITE_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_left_outer_corner_counter"),
-				new LuphieWhiteLeftOuterCornerCounterBlock());
-		LUPHIE_WHITE_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_cabinet"),
-				new LuphieWhiteCabinetBlock());
-		LUPHIE_WHITE_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_mini_cabinet"),
-				new LuphieWhiteMiniCabinetBlock());
-		LUPHIE_WHITE_SHELF_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_shelf_cabinet"), new LuphieWhiteShelfCabinetBlock());
-		LUPHIE_WHITE_GLASS_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_glass_cabinet"), new LuphieWhiteGlassCabinetBlock());
-		LUPHIE_WHITE_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_inner_corner_cabinet"), new LuphieWhiteInnerCornerCabinetBlock());
-		LUPHIE_WHITE_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_outer_corner_cabinet"), new LuphieWhiteOuterCornerCabinetBlock());
-		LUPHIE_PINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_counter"),
-				new LuphiePinkCounterBlock());
-		LUPHIE_PINK_SINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_sink_counter"),
-				new LuphiePinkSinkCounterBlock());
-		LUPHIE_PINK_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_inner_corner_counter"), new LuphiePinkInnerCornerCounterBlock());
-		LUPHIE_PINK_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_right_outer_corner_counter"),
-				new LuphiePinkRightOuterCornerCounterBlock());
-		LUPHIE_PINK_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_left_outer_corner_counter"),
-				new LuphiePinkLeftOuterCornerCounterBlock());
-		LUPHIE_PINK_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_cabinet"),
-				new LuphiePinkCabinetBlock());
-		LUPHIE_PINK_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_mini_cabinet"),
-				new LuphiePinkMiniCabinetBlock());
-		LUPHIE_PINK_SHELF_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_shelf_cabinet"),
-				new LuphiePinkShelfCabinetBlock());
-		LUPHIE_PINK_GLASS_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_glass_cabinet"),
-				new LuphiePinkGlassCabinetBlock());
-		LUPHIE_PINK_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_inner_corner_cabinet"), new LuphiePinkInnerCornerCabinetBlock());
-		LUPHIE_PINK_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_outer_corner_cabinet"), new LuphiePinkOuterCornerCabinetBlock());
-		LUPHIE_YELLOW_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_counter"),
-				new LuphieYellowCounterBlock());
-		LUPHIE_YELLOW_SINK_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_sink_counter"), new LuphieYellowSinkCounterBlock());
-		LUPHIE_YELLOW_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_inner_corner_counter"), new LuphieYellowInnerCornerCounterBlock());
-		LUPHIE_YELLOW_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_right_outer_corner_counter"),
-				new LuphieYellowRightOuterCornerCounterBlock());
-		LUPHIE_YELLOW_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_left_outer_corner_counter"),
-				new LuphieYellowLeftOuterCornerCounterBlock());
-		LUPHIE_YELLOW_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_cabinet"),
-				new LuphieYellowCabinetBlock());
-		LUPHIE_YELLOW_MINI_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_mini_cabinet"), new LuphieYellowMiniCabinetBlock());
-		LUPHIE_YELLOW_SHELF_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_shelf_cabinet"), new LuphieYellowShelfCabinetBlock());
-		LUPHIE_YELLOW_GLASS_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_glass_cabinet"), new LuphieYellowGlassCabinetBlock());
-		LUPHIE_YELLOW_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_inner_corner_cabinet"), new LuphieYellowInnerCornerCabinetBlock());
-		LUPHIE_YELLOW_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_outer_corner_cabinet"), new LuphieYellowOuterCornerCabinetBlock());
-		LUPHIE_LIGHT_GREEN_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_counter"), new LuphieLightGreenCounterBlock());
-		LUPHIE_LIGHT_GREEN_SINK_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_sink_counter"), new LuphieLightGreenSinkCounterBlock());
-		LUPHIE_LIGHT_GREEN_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_inner_corner_counter"),
-				new LuphieLightGreenInnerCornerCounterBlock());
-		LUPHIE_LIGHT_GREEN_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_right_outer_corner_counter"),
-				new LuphieLightGreenRightOuterCornerCounterBlock());
-		LUPHIE_LIGHT_GREEN_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_left_outer_corner_counter"),
-				new LuphieLightGreenLeftOuterCornerCounterBlock());
-		LUPHIE_LIGHT_GREEN_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_cabinet"), new LuphieLightGreenCabinetBlock());
-		LUPHIE_LIGHT_GREEN_MINI_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_mini_cabinet"), new LuphieLightGreenMiniCabinetBlock());
-		LUPHIE_LIGHT_GREEN_SHELF_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_shelf_cabinet"), new LuphieLightGreenShelfCabinetBlock());
-		LUPHIE_LIGHT_GREEN_GLASS_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_glass_cabinet"), new LuphieLightGreenGlassCabinetBlock());
-		LUPHIE_LIGHT_GREEN_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_inner_corner_cabinet"),
-				new LuphieLightGreenInnerCornerCabinetBlock());
-		LUPHIE_LIGHT_GREEN_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_outer_corner_cabinet"),
-				new LuphieLightGreenOuterCornerCabinetBlock());
-		LUPHIE_BLACK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_counter"),
-				new LuphieBlackCounterBlock());
-		LUPHIE_BLACK_SINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_sink_counter"),
-				new LuphieBlackSinkCounterBlock());
-		LUPHIE_BLACK_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_inner_corner_counter"), new LuphieBlackInnerCornerCounterBlock());
-		LUPHIE_BLACK_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_right_outer_corner_counter"),
-				new LuphieBlackRightOuterCornerCounterBlock());
-		LUPHIE_BLACK_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_left_outer_corner_counter"),
-				new LuphieBlackLeftOuterCornerCounterBlock());
-		LUPHIE_BLACK_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cabinet"),
-				new LuphieBlackCabinetBlock());
-		LUPHIE_BLACK_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_mini_cabinet"),
-				new LuphieBlackMiniCabinetBlock());
-		LUPHIE_BLACK_SHELF_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_shelf_cabinet"), new LuphieBlackShelfCabinetBlock());
-		LUPHIE_BLACK_GLASS_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_glass_cabinet"), new LuphieBlackGlassCabinetBlock());
-		LUPHIE_BLACK_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_inner_corner_cabinet"), new LuphieBlackInnerCornerCabinetBlock());
-		LUPHIE_BLACK_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_outer_corner_cabinet"), new LuphieBlackOuterCornerCabinetBlock());
-		LUPHIE_ANALOG_KITCHEN_SCALE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_analog_kitchen_scale"), new LuphieAnalogKitchenScaleBlock());
-		LUPHIE_APPLE_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_apple_chair"),
-				new LuphieAppleChairBlock());
-		LUPHIE_BUTTON_STOOL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_button_stool"),
-				new LuphieButtonStoolBlock());
-		LUPHIE_GLASS_JARS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glass_jars"),
-				new LuphieGlassJarsBlock());
-		LUPHIE_GREEN_GUMBALL_MACHINE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_gumball_machine"), new LuphieGreenGumballMachineBlock());
-		LUPHIE_PURPLE_GUMBALL_MACHINE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_gumball_machine"), new LuphiePurpleGumballMachineBlock());
-		LUPHIE_PINK_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_spool_of_thread"), new LuphiePinkSpoolOfThreadBlock());
-		LUPHIE_YELLOW_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_spool_of_thread"), new LuphieYellowSpoolOfThreadBlock());
-		LUPHIE_GREEN_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_spool_of_thread"), new LuphieGreenSpoolOfThreadBlock());
-		LUPHIE_LAVENDER_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_lavender_spool_of_thread"), new LuphieLavenderSpoolOfThreadBlock());
-		LUPHIE_MERMAID_PEARL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mermaid_pearl"),
-				new LuphieMermaidPearlBlock());
-		LUPHIE_PAINT_WATER_JAR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_paint_water_jar"),
-				new LuphiePaintWaterJarBlock());
-		LUPHIE_PANCAKE_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pancake_stack"),
-				new LuphiePancakeStackBlock());
-		LUPHIE_POTION_SHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_potion_shelf"),
-				new LuphiePotionShelfBlock());
-		LUPHIE_SEWING_TABLE_CLUTTER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_table_clutter"), new LuphieSewingTableClutterBlock());
-		LUPHIE_SEWING_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_table"),
-				new LuphieSewingTableBlock());
-		LUPHIE_SEWING_TABLE_WITH_TABLECLOTH = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_table_with_tablecloth"), new LuphieSewingTableWithTableclothBlock());
-		LUPHIE_DARKWOOD_SOUTHER_FLAIR_BED = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_souther_flair_bed"), new LuphieDarkwoodSoutherFlairBedBlock());
-		LUPHIE_DARKWOOD_SOUTHERN_FLAIR_CHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_southern_flair_chair"),
-				new LuphieDarkwoodSouthernFlairChairBlock());
-		LUPHIE_DARKWOOD_SOUTHERN_FLAIR_SOFA = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_southern_flair_sofa"), new LuphieDarkwoodSouthernFlairSofaBlock());
-		LUPHIE_DARKWOOD_SOUTHERN_FLAIR_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_southern_flair_decorative_shelves"),
-				new LuphieDarkwoodSouthernFlairDecorativeShelvesBlock());
-		LUPHIE_DARKWOOD_GEOMETRIC_BED = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_bed"), new LuphieDarkwoodGeometricBedBlock());
-		LUPHIE_DARKWOOD_GEOMETRIC_CHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_chair"), new LuphieDarkwoodGeometricChairBlock());
-		LUPHIE_DARKWOOD_GEOMETRIC_SOFA = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_sofa"), new LuphieDarkwoodGeometricSofaBlock());
-		LUPHIE_DARKWOOD_GEOMETRIC_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_decorative_shelves"),
-				new LuphieDarkwoodGeometricDecorativeShelvesBlock());
-		LUPHIE_DARKWOOD_QUILTED_BED = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_bed"), new LuphieDarkwoodQuiltedBedBlock());
-		LUPHIE_DARKWOOD_QUILTED_CHAIR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_chair"), new LuphieDarkwoodQuiltedChairBlock());
-		LUPHIE_DARKWOOD_QUILTED_SOFA = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_sofa"), new LuphieDarkwoodQuiltedSofaBlock());
-		LUPHIE_DARKWOOD_QUILTED_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_decorative_shelves"),
-				new LuphieDarkwoodQuiltedDecorativeShelvesBlock());
-		LUPHIE_DARKWOOD_CLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_clock"),
-				new LuphieDarkwoodClockBlock());
-		LUPHIE_DARKWOOD_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_cabinet"),
-				new LuphieDarkwoodCabinetBlock());
-		LUPHIE_DARKWOOD_STOOL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_stool"),
-				new LuphieDarkwoodStoolBlock());
-		LUPHIE_DARKWOOD_ROUND_TABLE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_round_table"), new LuphieDarkwoodRoundTableBlock());
-		LUPHIE_DARKWOOD_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_decorative_shelves"), new LuphieDarkwoodDecorativeShelvesBlock());
-		LUPHIE_PASTRY_DISPLAY_CASE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastry_display_case"), new LuphiePastryDisplayCaseBlock());
-		LUPHIE_HAM_SANDWICH = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_ham_sandwich"),
-				new LuphieHamSandwichBlock());
-		LUPHIE_STACK_OF_HAM_SANDWICHES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_stack_of_ham_sandwiches"), new LuphieStackOfHamSandwichesBlock());
-		LUPHIE_DRYING_HERBS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_drying_herbs"),
-				new LuphieDryingHerbsBlock());
-		LUPHIE_WINE_BOTTLES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_wine_bottles"),
-				new LuphieWineBottlesBlock());
-		LUPHIE_PLANT_JAR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_plant_jar"),
-				new LuphiePlantJarBlock());
-		LUPHIE_EMPTY_SMALL_JARS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_empty_small_jars"),
-				new LuphieEmptySmallJarsBlock());
-		LUPHIE_HANDHELD_SEA_GEM_LANTERN = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_handheld_sea_gem_lantern"), new LuphieHandheldSeaGemLanternBlock());
-		LUPHIE_PLATED_CHOCOLATE_CROISSANT = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_chocolate_croissant"), new LuphiePlatedChocolateCroissantBlock());
-		LUPHIE_PLATED_CROISSANT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_croissant"),
-				new LuphiePlatedCroissantBlock());
-		LUPHIE_PLATED_BLUEBERRY_MUFFIN = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_blueberry_muffin"), new LuphiePlatedBlueberryMuffinBlock());
-		LUPHIE_PLATED_CINNAMON_BUN = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_cinnamon_bun"), new LuphiePlatedCinnamonBunBlock());
-		LUPHIE_EMPTY_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_empty_plate"),
-				new LuphieEmptyPlateBlock());
-		LUPHIE_SMALL_JARS_OF_TEA_LEAVES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_jars_of_tea_leaves"), new LuphieSmallJarsOfTeaLeavesBlock());
-		LUPHIE_SMALL_FILLED_JARS_A = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_a"), new LuphieSmallFilledJarsABlock());
-		LUPHIE_SMALL_FILLED_JARS_B = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_b"), new LuphieSmallFilledJarsBBlock());
-		LUPHIE_SMALL_FILLED_JARS_C = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_c"), new LuphieSmallFilledJarsCBlock());
-		LUPHIE_SMALL_FILLED_JARS_D = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_d"), new LuphieSmallFilledJarsDBlock());
-		LUPHIE_YELLOW_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_door"),
-				new LuphieYellowDoorBlock());
-		LUPHIE_FLOWERING_YELLOW_DOOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_door"), new LuphieFloweringYellowDoorBlock());
-		LUPHIE_PINK_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_trapdoor"),
-				new LuphiePinkTrapdoorBlock());
-		LUPHIE_FLOWERING_PINK_TRAPDOOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_trapdoor"), new LuphieFloweringPinkTrapdoorBlock());
-		LUPHIE_BLUE_MUSHROOM_PLANKS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_planks"), new LuphieBlueMushroomPlanksBlock());
-		LUPHIE_BLUE_MUSHROOM_BLOCK = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_block"), new LuphieBlueMushroomBlockBlock());
-		LUPHIE_BLUE_MUSHROOM_BOOKSHELF = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_bookshelf"), new LuphieBlueMushroomBookshelfBlock());
-		LUPHIE_BLUE_MUSHROOM_TRAPDOOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_trapdoor"), new LuphieBlueMushroomTrapdoorBlock());
-		LUPHIE_DECORATIVE_BLUE_MUSHROOM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_blue_mushroom"), new LuphieDecorativeBlueMushroomBlock());
-		LUPHIE_YELLOW_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_trapdoor"),
-				new LuphieYellowTrapdoorBlock());
-		LUPHIE_FLOWERING_YELLOW_TRAPDOOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_trapdoor"), new LuphieFloweringYellowTrapdoorBlock());
-		LUPHIE_GREEN_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_door"),
-				new LuphieGreenDoorBlock());
-		LUPHIE_GREEN_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_trapdoor"),
-				new LuphieGreenTrapdoorBlock());
-		LUPHIE_GLOW_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_door"),
-				new LuphieGlowDoorBlock());
-		LUPHIE_GLOW_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_trapdoor"),
-				new LuphieGlowTrapdoorBlock());
-		LUPHIE_PURPLE_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_door"),
-				new LuphiePurpleDoorBlock());
-		LUPHIE_FLOWERING_PURPLE_DOOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_door"), new LuphieFloweringPurpleDoorBlock());
-		LUPHIE_PURPLE_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_trapdoor"),
-				new LuphiePurpleTrapdoorBlock());
-		LUPHIE_FLOWERING_PURPLE_TRAPDOOR = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_trapdoor"), new LuphieFloweringPurpleTrapdoorBlock());
-		LUPHIE_BUNNY_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bunny_garland"),
-				new LuphieBunnyGarlandBlock());
-		LUPHIE_BLACK_CAT_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cat_garland"),
-				new LuphieCatGarlandBlock());
-		LUPHIE_HEART_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_heart_garland"),
-				new LuphieHeartGarlandBlock());
-		LUPHIE_SUNFLOWER_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sunflower_garland"),
-				new LuphieSunflowerGarlandBlock());
-		LUPHIE_BLOSSOM_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blossom_garland"),
-				new LuphieBlossomGarlandBlock());
-		LUPHIE_ANTIQUE_MAP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_map"),
-				new LuphieAntiqueMapBlock());
-		LUPHIE_BLUE_RECORD_PLAYER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_record_player"),
-				new LuphieBlueRecordPlayerBlock());
-		LUPHIE_YELLOW_RECORD_PLAYER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_record_player"), new LuphieYellowRecordPlayerBlock());
-		LUPHIE_PINK_RECORD_PLAYER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_record_player"),
-				new LuphiePinkRecordPlayerBlock());
-		LUPHIE_BROWN_RECORD_PLAYER = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_brown_record_player"), new LuphieBrownRecordPlayerBlock());
-		LUPHIE_RETRO_YELLOW_FRIDGE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_yellow_fridge"), new LuphieRetroYellowFridgeBlock());
-		LUPHIE_RETRO_GREEN_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_green_fridge"),
-				new LuphieRetroGreenFridgeBlock());
-		LUPHIE_RETRO_WHITE_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_white_fridge"),
-				new LuphieRetroWhiteFridgeBlock());
-		LUPHIE_RETRO_BLACK_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_black_fridge"),
-				new LuphieRetroBlackFridgeBlock());
-		LUPHIE_DRYING_HERB_GARLAND = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_drying_herb_garland"), new LuphieDryingHerbGarlandBlock());
-		LUPHIE_HANGING_POTTERY_SHELVES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_pottery_shelves"), new LuphieHangingPotteryShelvesBlock());
-		LUPHIE_HANGING_PLANT_SHELVES = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_plant_shelves"), new LuphieHangingPlantShelvesBlock());
-		LUPHIE_BLUE_MUSHROOM_STAIRS = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_stairs"), new LuphieBlueMushroomStairsBlock());
-		LUPHIE_BLUE_MUSHROOM_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_slab"),
-				new LuphieBlueMushroomSlabBlock());
-		LUPHIE_BLUE_MUSHROOM_FENCE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_fence"), new LuphieBlueMushroomFenceBlock());
-		LUPHIE_BLUE_MUSHROOM_FENCE_GATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_fence_gate"), new LuphieBlueMushroomFenceGateBlock());
-		LUPHIE_BLUE_MUSHROOM_PRESSURE_PLATE = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_pressure_plate"), new LuphieBlueMushroomPressurePlateBlock());
-		LUPHIE_BLUE_MUSHROOM_BUTTON = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_button"), new LuphieBlueMushroomButtonBlock());
-		LUPHIE_FLOWERING_CARPET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_carpet"),
-				new LuphieFloweringCarpetBlock());
-		LUPHIE_HAVANA_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_havana_cabinet"),
-				new LuphieHavanaCabinetBlock());
-		LUPHIE_CLUTTERED_HAVANA_CABINET = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_havana_cabinet"), new LuphieClutteredHavanaCabinetBlock());
-		LUPHIE_DECORATIVE_FLAT_MUSHROOM = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_flat_mushroom"), new LuphieDecorativeFlatMushroomBlock());
-		LUPHIE_PINK_LOG = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_log"),
-				new LuphiePinkLogBlock());
-		STRIPPED_LUPHIE_PINK_LOG = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "stripped_luphie_pink_log"),
-				new LuphieStrippedPinkLogBlock());
-		LUPHIE_GREEN_LOG = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_log"),
-				new LuphieGreenLogBlock());
-		STRIPPED_LUPHIE_GREEN_LOG = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "stripped_luphie_green_log"),
-				new LuphieStrippedGreenLogBlock());
-		LUPHIE_PINK_WOOD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_wood"),
-				new LuphiePinkWoodBlock());
-		LUPHIE_GREEN_WOOD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_wood"),
-				new LuphieGreenWoodBlock());
-		STRIPPED_LUPHIE_GREEN_WOOD = Registry.register(Registries.BLOCK,
-				new Identifier(LuphieclutteredmodMod.MODID, "stripped_luphie_green_wood"), new LuphieStrippedGreenWoodBlock());
-		STRIPPED_LUPHIE_PINK_WOOD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "stripped_luphie_pink_wood"),
-				new LuphieStrippedPinkWoodBlock());
+		LUPHIE_SALT_AND_PEPPER_SHAKERS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_salt_and_pepper_shakers"), new LuphieSaltAndPepperShakersBlock());
+		LUPHIE_SCATTERED_PAPERS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_scattered_papers"), new LuphieScatteredPapersBlock());
+		LUPHIE_SEWING_CLUTTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_clutter"), new LuphieSewingClutterBlock());
+		LUPHIE_SHORT_BOOK_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_short_book_stack"), new LuphieShortBookStackBlock());
+		LUPHIE_SKETCHBOOK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sketchbook"), new LuphieSketchbookBlock());
+		LUPHIE_SKETCHBOOK_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sketchbook_stack"), new LuphieSketchbookStackBlock());
+		LUPHIE_SLICED_BREAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sliced_bread"), new LuphieSlicedBreadBlock());
+		LUPHIE_SMALL_BOOKCASE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_bookcase"), new LuphieSmallBookcaseBlock());
+		LUPHIE_STACK_OF_SMALL_BOOKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_stack_of_small_books"), new LuphieStackOfSmallBooksBlock());
+		LUPHIE_SMALL_CAULDRON_SET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_cauldron_set"), new LuphieSmallCauldronSetBlock());
+		LUPHIE_TALL_BOOKSTACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_bookstack"), new LuphieTallBookstackBlock());
+		LUPHIE_STEAMPUNK_GLOBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_steampunk_globe"), new LuphieSteampunkGlobeBlock());
+		LUPHIE_TABLE_WITH_CLOTH = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_table_with_cloth"), new LuphieTableWithClothBlock());
+		LUPHIE_TALL_PAPER_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_paper_stack"), new LuphieTallPaperStackBlock());
+		LUPHIE_TALL_SKETCHBOOK_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_sketchbook_stack"), new LuphieTallSketchbookStackBlock());
+		LUPHIE_UNLIVING_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_unliving_chair"), new LuphieUnlivingChairBlock());
+		LUPHIE_VIAL_STAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_vial_stand"), new LuphieVialStandBlock());
+		LUPHIE_WALL_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_wall_bookshelf"), new LuphieWallBookshelfBlock());
+		LUPHIE_PASTEL_WALL_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_wall_bookshelf"), new LuphiePastelWallBookshelfBlock());
+		LUPHIE_YELLOW_NOTEPAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_notepad"), new LuphieYellowNotepadBlock());
+		LUPHIE_GREENER_NIGHTSTAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_greener_nightstand"), new LuphieGreenerNightstandBlock());
+		LUPHIE_CLUTTERED_GREEN_DESK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_green_desk"), new LuphieClutteredGreenDeskBlock());
+		LUPHIE_GREEN_DESK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_desk"), new LuphieGreenDeskBlock());
+		LUPHIE_CLUTTERED_DESK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_desk"), new LuphieClutteredDeskBlock());
+		LUPHIE_BROWN_DESK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_brown_desk"), new LuphieBrownDeskBlock());
+		LUPHIE_ROW_OF_SMALL_BOOKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_row_of_small_books"), new LuphieRowOfSmallBooksBlock());
+		LUPHIE_ROW_OF_SMALL_PASTEL_BOOKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_row_of_small_pastel_books"), new LuphieRowOfSmallPastelBooksBlock());
+		LUPHIE_PASTEL_BLOCK_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_block_bookshelf"), new LuphiePastelBlockBookshelfBlock());
+		LUPHIE_LUNAR_OBSERVATORY_BOOKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lunar_observatory_books"), new LuphieLunarObservatoryBooksBlock());
+		LUPHIE_IMPERIAL_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_imperial_chair"), new LuphieImperialChairBlock());
+		LUPHIE_IMPERIAL_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_imperial_table"), new LuphieImperialTableBlock());
+		LUPHIE_CLUTTERED_CAT_MUGS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_cat_mugs"), new LuphieClutteredCatMugsBlock());
+		LUPHIE_TALL_STACK_OF_SMALL_BOOKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tall_stack_of_small_books"), new LuphieTallStackOfSmallBooksBlock());
+		LUPHIE_ORANGE_CAT_PLANT_POT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_orange_cat_plant_pot"), new LuphieOrangeCatPlantPotBlock());
+		LUPHIE_TEA_KETTLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_tea_kettle"), new LuphieTeaKettleBlock());
+		LUPHIE_WEDDING_ARCH = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_wedding_arch"), new LuphieWeddingArchBlock());
+		LUPHIE_BAKING_SET_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_baking_set_a"), new LuphieBakingSetABlock());
+		LUPHIE_STAR_STRING = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_star_string"), new LuphieStarStringBlock());
+		LUPHIE_LEMON_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lemon_table"), new LuphieLemonTableBlock());
+		LUPHIE_HEART_CAKE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_heart_cake"), new LuphieHeartCakeBlock());
+		LUPHIE_HOPPIN_PARK_LANTERN = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hoppin_park_lantern"), new LuphieHoppinParkLanternBlock());
+		LUPHIE_BASIC_LOVELY_LOVE_SEAT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_basic_lovely_love_seat"), new LuphieBasicLovelyLoveSeatBlock());
+		LUPHIE_BLACK_LOVELY_LOVE_SEAT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_lovely_love_seat"), new LuphieBlackLovelyLoveSeatBlock());
+		LUPHIE_PASTEL_TRADITIONAL_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_traditional_chair"), new LuphiePastelTraditionalChairBlock());
+		LUPHIE_PASTEL_TRADITIONAL_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_traditional_table"), new LuphiePastelTraditionalTableBlock());
+		LUPHIE_BERRY_CAKE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_berry_cake"), new LuphieBerryCakeBlock());
+		LUPHIE_COFFEE_GRINDER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_coffee_grinder"), new LuphieCoffeeGrinderBlock());
+		LUPHIE_HEART_ARMCHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_heart_armchair"), new LuphieHeartArmchairBlock());
+		LUPHIE_RETRO_CAFE_SHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_cafe_shelf"), new LuphieRetroCafeShelfBlock());
+		LUPHIE_RETRO_CAFE_SHELF_STAINED_GLASS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_cafe_shelf_stained_glass"), new LuphieRetroCafeShelfStainedGlassBlock());
+		LUPHIE_ROVERS_MUG = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rovers_mug"), new LuphieRoversMugBlock());
+		LUPHIE_ROVERS_STOOL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_rovers_stool"), new LuphieRoversStoolBlock());
+		LUPHIE_PASTEL_WARDROBE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastel_wardrobe"), new LuphiePastelWardrobeBlock());
+		LUPHIE_RETRO_PINK_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_pink_fridge"), new LuphieRetroPinkFridgeBlock());
+		LUPHIE_WHITE_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_counter"), new LuphieWhiteCounterBlock());
+		LUPHIE_WHITE_SINK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_sink"), new LuphieWhiteSinkBlock());
+		LUPHIE_WHITE_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_inner_corner_counter"), new LuphieWhiteInnerCornerCounterBlock());
+		LUPHIE_WHITE_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_right_outer_corner_counter"), new LuphieWhiteRightOuterCornerCounterBlock());
+		LUPHIE_WHITE_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_left_outer_corner_counter"), new LuphieWhiteLeftOuterCornerCounterBlock());
+		LUPHIE_WHITE_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_cabinet"), new LuphieWhiteCabinetBlock());
+		LUPHIE_WHITE_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_mini_cabinet"), new LuphieWhiteMiniCabinetBlock());
+		LUPHIE_WHITE_SHELF_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_shelf_cabinet"), new LuphieWhiteShelfCabinetBlock());
+		LUPHIE_WHITE_GLASS_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_glass_cabinet"), new LuphieWhiteGlassCabinetBlock());
+		LUPHIE_WHITE_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_inner_corner_cabinet"), new LuphieWhiteInnerCornerCabinetBlock());
+		LUPHIE_WHITE_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_white_outer_corner_cabinet"), new LuphieWhiteOuterCornerCabinetBlock());
+		LUPHIE_PINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_counter"), new LuphiePinkCounterBlock());
+		LUPHIE_PINK_SINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_sink_counter"), new LuphiePinkSinkCounterBlock());
+		LUPHIE_PINK_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_inner_corner_counter"), new LuphiePinkInnerCornerCounterBlock());
+		LUPHIE_PINK_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_right_outer_corner_counter"), new LuphiePinkRightOuterCornerCounterBlock());
+		LUPHIE_PINK_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_left_outer_corner_counter"), new LuphiePinkLeftOuterCornerCounterBlock());
+		LUPHIE_PINK_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_cabinet"), new LuphiePinkCabinetBlock());
+		LUPHIE_PINK_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_mini_cabinet"), new LuphiePinkMiniCabinetBlock());
+		LUPHIE_PINK_SHELF_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_shelf_cabinet"), new LuphiePinkShelfCabinetBlock());
+		LUPHIE_PINK_GLASS_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_glass_cabinet"), new LuphiePinkGlassCabinetBlock());
+		LUPHIE_PINK_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_inner_corner_cabinet"), new LuphiePinkInnerCornerCabinetBlock());
+		LUPHIE_PINK_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_outer_corner_cabinet"), new LuphiePinkOuterCornerCabinetBlock());
+		LUPHIE_YELLOW_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_counter"), new LuphieYellowCounterBlock());
+		LUPHIE_YELLOW_SINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_sink_counter"), new LuphieYellowSinkCounterBlock());
+		LUPHIE_YELLOW_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_inner_corner_counter"), new LuphieYellowInnerCornerCounterBlock());
+		LUPHIE_YELLOW_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_right_outer_corner_counter"), new LuphieYellowRightOuterCornerCounterBlock());
+		LUPHIE_YELLOW_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_left_outer_corner_counter"), new LuphieYellowLeftOuterCornerCounterBlock());
+		LUPHIE_YELLOW_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_cabinet"), new LuphieYellowCabinetBlock());
+		LUPHIE_YELLOW_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_mini_cabinet"), new LuphieYellowMiniCabinetBlock());
+		LUPHIE_YELLOW_SHELF_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_shelf_cabinet"), new LuphieYellowShelfCabinetBlock());
+		LUPHIE_YELLOW_GLASS_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_glass_cabinet"), new LuphieYellowGlassCabinetBlock());
+		LUPHIE_YELLOW_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_inner_corner_cabinet"), new LuphieYellowInnerCornerCabinetBlock());
+		LUPHIE_YELLOW_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_outer_corner_cabinet"), new LuphieYellowOuterCornerCabinetBlock());
+		LUPHIE_LIGHT_GREEN_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_counter"), new LuphieLightGreenCounterBlock());
+		LUPHIE_LIGHT_GREEN_SINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_sink_counter"), new LuphieLightGreenSinkCounterBlock());
+		LUPHIE_LIGHT_GREEN_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_inner_corner_counter"), new LuphieLightGreenInnerCornerCounterBlock());
+		LUPHIE_LIGHT_GREEN_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_right_outer_corner_counter"), new LuphieLightGreenRightOuterCornerCounterBlock());
+		LUPHIE_LIGHT_GREEN_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_left_outer_corner_counter"), new LuphieLightGreenLeftOuterCornerCounterBlock());
+		LUPHIE_LIGHT_GREEN_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_cabinet"), new LuphieLightGreenCabinetBlock());
+		LUPHIE_LIGHT_GREEN_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_mini_cabinet"), new LuphieLightGreenMiniCabinetBlock());
+		LUPHIE_LIGHT_GREEN_SHELF_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_shelf_cabinet"), new LuphieLightGreenShelfCabinetBlock());
+		LUPHIE_LIGHT_GREEN_GLASS_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_glass_cabinet"), new LuphieLightGreenGlassCabinetBlock());
+		LUPHIE_LIGHT_GREEN_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_inner_corner_cabinet"), new LuphieLightGreenInnerCornerCabinetBlock());
+		LUPHIE_LIGHT_GREEN_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_light_green_outer_corner_cabinet"), new LuphieLightGreenOuterCornerCabinetBlock());
+		LUPHIE_BLACK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_counter"), new LuphieBlackCounterBlock());
+		LUPHIE_BLACK_SINK_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_sink_counter"), new LuphieBlackSinkCounterBlock());
+		LUPHIE_BLACK_INNER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_inner_corner_counter"), new LuphieBlackInnerCornerCounterBlock());
+		LUPHIE_BLACK_RIGHT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_right_outer_corner_counter"), new LuphieBlackRightOuterCornerCounterBlock());
+		LUPHIE_BLACK_LEFT_OUTER_CORNER_COUNTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_left_outer_corner_counter"), new LuphieBlackLeftOuterCornerCounterBlock());
+		LUPHIE_BLACK_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cabinet"), new LuphieBlackCabinetBlock());
+		LUPHIE_BLACK_MINI_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_mini_cabinet"), new LuphieBlackMiniCabinetBlock());
+		LUPHIE_BLACK_SHELF_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_shelf_cabinet"), new LuphieBlackShelfCabinetBlock());
+		LUPHIE_BLACK_GLASS_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_glass_cabinet"), new LuphieBlackGlassCabinetBlock());
+		LUPHIE_BLACK_INNER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_inner_corner_cabinet"), new LuphieBlackInnerCornerCabinetBlock());
+		LUPHIE_BLACK_OUTER_CORNER_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_outer_corner_cabinet"), new LuphieBlackOuterCornerCabinetBlock());
+		LUPHIE_ANALOG_KITCHEN_SCALE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_analog_kitchen_scale"), new LuphieAnalogKitchenScaleBlock());
+		LUPHIE_APPLE_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_apple_chair"), new LuphieAppleChairBlock());
+		LUPHIE_BUTTON_STOOL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_button_stool"), new LuphieButtonStoolBlock());
+		LUPHIE_GLASS_JARS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glass_jars"), new LuphieGlassJarsBlock());
+		LUPHIE_GREEN_GUMBALL_MACHINE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_gumball_machine"), new LuphieGreenGumballMachineBlock());
+		LUPHIE_PURPLE_GUMBALL_MACHINE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_gumball_machine"), new LuphiePurpleGumballMachineBlock());
+		LUPHIE_PINK_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_spool_of_thread"), new LuphiePinkSpoolOfThreadBlock());
+		LUPHIE_YELLOW_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_spool_of_thread"), new LuphieYellowSpoolOfThreadBlock());
+		LUPHIE_GREEN_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_spool_of_thread"), new LuphieGreenSpoolOfThreadBlock());
+		LUPHIE_LAVENDER_SPOOL_OF_THREAD = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_lavender_spool_of_thread"), new LuphieLavenderSpoolOfThreadBlock());
+		LUPHIE_MERMAID_PEARL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mermaid_pearl"), new LuphieMermaidPearlBlock());
+		LUPHIE_PAINT_WATER_JAR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_paint_water_jar"), new LuphiePaintWaterJarBlock());
+		LUPHIE_PANCAKE_STACK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pancake_stack"), new LuphiePancakeStackBlock());
+		LUPHIE_POTION_SHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_potion_shelf"), new LuphiePotionShelfBlock());
+		LUPHIE_SEWING_TABLE_CLUTTER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_table_clutter"), new LuphieSewingTableClutterBlock());
+		LUPHIE_SEWING_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_table"), new LuphieSewingTableBlock());
+		LUPHIE_SEWING_TABLE_WITH_TABLECLOTH = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sewing_table_with_tablecloth"), new LuphieSewingTableWithTableclothBlock());
+		LUPHIE_DARKWOOD_SOUTHER_FLAIR_BED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_souther_flair_bed"), new LuphieDarkwoodSoutherFlairBedBlock());
+		LUPHIE_DARKWOOD_SOUTHERN_FLAIR_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_southern_flair_chair"), new LuphieDarkwoodSouthernFlairChairBlock());
+		LUPHIE_DARKWOOD_SOUTHERN_FLAIR_SOFA = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_southern_flair_sofa"), new LuphieDarkwoodSouthernFlairSofaBlock());
+		LUPHIE_DARKWOOD_SOUTHERN_FLAIR_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_southern_flair_decorative_shelves"), new LuphieDarkwoodSouthernFlairDecorativeShelvesBlock());
+		LUPHIE_DARKWOOD_GEOMETRIC_BED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_bed"), new LuphieDarkwoodGeometricBedBlock());
+		LUPHIE_DARKWOOD_GEOMETRIC_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_chair"), new LuphieDarkwoodGeometricChairBlock());
+		LUPHIE_DARKWOOD_GEOMETRIC_SOFA = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_sofa"), new LuphieDarkwoodGeometricSofaBlock());
+		LUPHIE_DARKWOOD_GEOMETRIC_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_geometric_decorative_shelves"), new LuphieDarkwoodGeometricDecorativeShelvesBlock());
+		LUPHIE_DARKWOOD_QUILTED_BED = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_bed"), new LuphieDarkwoodQuiltedBedBlock());
+		LUPHIE_DARKWOOD_QUILTED_CHAIR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_chair"), new LuphieDarkwoodQuiltedChairBlock());
+		LUPHIE_DARKWOOD_QUILTED_SOFA = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_sofa"), new LuphieDarkwoodQuiltedSofaBlock());
+		LUPHIE_DARKWOOD_QUILTED_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_quilted_decorative_shelves"), new LuphieDarkwoodQuiltedDecorativeShelvesBlock());
+		LUPHIE_DARKWOOD_CLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_clock"), new LuphieDarkwoodClockBlock());
+		LUPHIE_DARKWOOD_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_cabinet"), new LuphieDarkwoodCabinetBlock());
+		LUPHIE_DARKWOOD_STOOL = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_stool"), new LuphieDarkwoodStoolBlock());
+		LUPHIE_DARKWOOD_ROUND_TABLE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_round_table"), new LuphieDarkwoodRoundTableBlock());
+		LUPHIE_DARKWOOD_DECORATIVE_SHELVES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_darkwood_decorative_shelves"), new LuphieDarkwoodDecorativeShelvesBlock());
+		LUPHIE_PASTRY_DISPLAY_CASE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pastry_display_case"), new LuphiePastryDisplayCaseBlock());
+		LUPHIE_HAM_SANDWICH = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_ham_sandwich"), new LuphieHamSandwichBlock());
+		LUPHIE_STACK_OF_HAM_SANDWICHES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_stack_of_ham_sandwiches"), new LuphieStackOfHamSandwichesBlock());
+		LUPHIE_DRYING_HERBS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_drying_herbs"), new LuphieDryingHerbsBlock());
+		LUPHIE_WINE_BOTTLES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_wine_bottles"), new LuphieWineBottlesBlock());
+		LUPHIE_PLANT_JAR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_plant_jar"), new LuphiePlantJarBlock());
+		LUPHIE_EMPTY_SMALL_JARS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_empty_small_jars"), new LuphieEmptySmallJarsBlock());
+		LUPHIE_HANDHELD_SEA_GEM_LANTERN = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_handheld_sea_gem_lantern"), new LuphieHandheldSeaGemLanternBlock());
+		LUPHIE_PLATED_CHOCOLATE_CROISSANT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_chocolate_croissant"), new LuphiePlatedChocolateCroissantBlock());
+		LUPHIE_PLATED_CROISSANT = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_croissant"), new LuphiePlatedCroissantBlock());
+		LUPHIE_PLATED_BLUEBERRY_MUFFIN = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_blueberry_muffin"), new LuphiePlatedBlueberryMuffinBlock());
+		LUPHIE_PLATED_CINNAMON_BUN = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_plated_cinnamon_bun"), new LuphiePlatedCinnamonBunBlock());
+		LUPHIE_EMPTY_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_empty_plate"), new LuphieEmptyPlateBlock());
+		LUPHIE_SMALL_JARS_OF_TEA_LEAVES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_jars_of_tea_leaves"), new LuphieSmallJarsOfTeaLeavesBlock());
+		LUPHIE_SMALL_FILLED_JARS_A = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_a"), new LuphieSmallFilledJarsABlock());
+		LUPHIE_SMALL_FILLED_JARS_B = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_b"), new LuphieSmallFilledJarsBBlock());
+		LUPHIE_SMALL_FILLED_JARS_C = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_c"), new LuphieSmallFilledJarsCBlock());
+		LUPHIE_SMALL_FILLED_JARS_D = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_small_filled_jars_d"), new LuphieSmallFilledJarsDBlock());
+		LUPHIE_YELLOW_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_door"), new LuphieYellowDoorBlock());
+		LUPHIE_FLOWERING_YELLOW_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_door"), new LuphieFloweringYellowDoorBlock());
+		LUPHIE_PINK_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_trapdoor"), new LuphiePinkTrapdoorBlock());
+		LUPHIE_FLOWERING_PINK_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_pink_trapdoor"), new LuphieFloweringPinkTrapdoorBlock());
+		LUPHIE_BLUE_MUSHROOM_PLANKS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_planks"), new LuphieBlueMushroomPlanksBlock());
+		LUPHIE_BLUE_MUSHROOM_BLOCK = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_block"), new LuphieBlueMushroomBlockBlock());
+		LUPHIE_BLUE_MUSHROOM_BOOKSHELF = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_bookshelf"), new LuphieBlueMushroomBookshelfBlock());
+		LUPHIE_BLUE_MUSHROOM_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_trapdoor"), new LuphieBlueMushroomTrapdoorBlock());
+		LUPHIE_DECORATIVE_BLUE_MUSHROOM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_blue_mushroom"), new LuphieDecorativeBlueMushroomBlock());
+		LUPHIE_YELLOW_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_trapdoor"), new LuphieYellowTrapdoorBlock());
+		LUPHIE_FLOWERING_YELLOW_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_yellow_trapdoor"), new LuphieFloweringYellowTrapdoorBlock());
+		LUPHIE_GREEN_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_door"), new LuphieGreenDoorBlock());
+		LUPHIE_GREEN_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_green_trapdoor"), new LuphieGreenTrapdoorBlock());
+		LUPHIE_GLOW_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_door"), new LuphieGlowDoorBlock());
+		LUPHIE_GLOW_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_glow_trapdoor"), new LuphieGlowTrapdoorBlock());
+		LUPHIE_PURPLE_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_door"), new LuphiePurpleDoorBlock());
+		LUPHIE_FLOWERING_PURPLE_DOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_door"), new LuphieFloweringPurpleDoorBlock());
+		LUPHIE_PURPLE_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_purple_trapdoor"), new LuphiePurpleTrapdoorBlock());
+		LUPHIE_FLOWERING_PURPLE_TRAPDOOR = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_purple_trapdoor"), new LuphieFloweringPurpleTrapdoorBlock());
+		LUPHIE_BUNNY_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_bunny_garland"), new LuphieBunnyGarlandBlock());
+		LUPHIE_BLACK_CAT_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_black_cat_garland"), new LuphieCatGarlandBlock());
+		LUPHIE_HEART_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_heart_garland"), new LuphieHeartGarlandBlock());
+		LUPHIE_SUNFLOWER_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sunflower_garland"), new LuphieSunflowerGarlandBlock());
+		LUPHIE_BLOSSOM_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blossom_garland"), new LuphieBlossomGarlandBlock());
+		LUPHIE_ANTIQUE_MAP = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_antique_map"), new LuphieAntiqueMapBlock());
+		LUPHIE_BLUE_RECORD_PLAYER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_record_player"), new LuphieBlueRecordPlayerBlock());
+		LUPHIE_YELLOW_RECORD_PLAYER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_yellow_record_player"), new LuphieYellowRecordPlayerBlock());
+		LUPHIE_PINK_RECORD_PLAYER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_pink_record_player"), new LuphiePinkRecordPlayerBlock());
+		LUPHIE_BROWN_RECORD_PLAYER = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_brown_record_player"), new LuphieBrownRecordPlayerBlock());
+		LUPHIE_RETRO_YELLOW_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_yellow_fridge"), new LuphieRetroYellowFridgeBlock());
+		LUPHIE_RETRO_GREEN_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_green_fridge"), new LuphieRetroGreenFridgeBlock());
+		LUPHIE_RETRO_WHITE_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_white_fridge"), new LuphieRetroWhiteFridgeBlock());
+		LUPHIE_RETRO_BLACK_FRIDGE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_black_fridge"), new LuphieRetroBlackFridgeBlock());
+		LUPHIE_DRYING_HERB_GARLAND = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_drying_herb_garland"), new LuphieDryingHerbGarlandBlock());
+		LUPHIE_HANGING_POTTERY_SHELVES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_pottery_shelves"), new LuphieHangingPotteryShelvesBlock());
+		LUPHIE_HANGING_PLANT_SHELVES = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_hanging_plant_shelves"), new LuphieHangingPlantShelvesBlock());
+		LUPHIE_BLUE_MUSHROOM_STAIRS = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_stairs"), new LuphieBlueMushroomStairsBlock());
+		LUPHIE_BLUE_MUSHROOM_SLAB = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_slab"), new LuphieBlueMushroomSlabBlock());
+		LUPHIE_BLUE_MUSHROOM_FENCE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_fence"), new LuphieBlueMushroomFenceBlock());
+		LUPHIE_BLUE_MUSHROOM_FENCE_GATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_fence_gate"), new LuphieBlueMushroomFenceGateBlock());
+		LUPHIE_BLUE_MUSHROOM_PRESSURE_PLATE = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_pressure_plate"), new LuphieBlueMushroomPressurePlateBlock());
+		LUPHIE_BLUE_MUSHROOM_BUTTON = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_blue_mushroom_button"), new LuphieBlueMushroomButtonBlock());
+		LUPHIE_FLOWERING_CARPET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_flowering_carpet"), new LuphieFloweringCarpetBlock());
+		LUPHIE_HAVANA_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_havana_cabinet"), new LuphieHavanaCabinetBlock());
+		LUPHIE_CLUTTERED_HAVANA_CABINET = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_cluttered_havana_cabinet"), new LuphieClutteredHavanaCabinetBlock());
+		LUPHIE_DECORATIVE_FLAT_MUSHROOM = Registry.register(Registries.BLOCK, new Identifier(LuphieclutteredmodMod.MODID, "luphie_decorative_flat_mushroom"), new LuphieDecorativeFlatMushroomBlock());
 	}
 
 	public static void clientLoad() {
@@ -1695,13 +1241,5 @@ public class LuphieclutteredmodModBlocks {
 		LuphieHavanaCabinetBlock.clientInit();
 		LuphieClutteredHavanaCabinetBlock.clientInit();
 		LuphieDecorativeFlatMushroomBlock.clientInit();
-		LuphiePinkLogBlock.clientInit();
-		LuphieStrippedPinkLogBlock.clientInit();
-		LuphieGreenLogBlock.clientInit();
-		LuphieStrippedGreenLogBlock.clientInit();
-		LuphiePinkWoodBlock.clientInit();
-		LuphieGreenWoodBlock.clientInit();
-		LuphieStrippedGreenWoodBlock.clientInit();
-		LuphieStrippedPinkWoodBlock.clientInit();
 	}
 }

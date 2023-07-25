@@ -29,7 +29,6 @@ public class LuphieclutteredmodMod implements ModInitializer {
 		LuphieclutteredmodModBlocks.load();
 		LuphieclutteredmodModBlockEntities.load();
 		LuphieclutteredmodModItems.load();
-		LuphieclutteredmodModMenus.load();
 		LuphieclutteredmodModPaintings.load();
 		LuphieclutteredmodModSounds.load();
 

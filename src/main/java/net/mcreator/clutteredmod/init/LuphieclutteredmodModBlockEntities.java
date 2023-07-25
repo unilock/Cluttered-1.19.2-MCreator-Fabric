@@ -22,15 +22,9 @@ public class LuphieclutteredmodModBlockEntities {
 	public static BlockEntityType<?> LUPHIE_RETRO_PINK_FRIDGE;
 
 	public static void load() {
-		LUPHIE_BRIEFCASE = Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(LuphieclutteredmodMod.MODID, "luphie_briefcase"),
-				FabricBlockEntityTypeBuilder.create(LuphieBriefcaseBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_BRIEFCASE).build(null));
-		LUPHIE_MUSHROOM_CHEST = Registry.register(Registries.BLOCK_ENTITY_TYPE,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_chest"), FabricBlockEntityTypeBuilder
-						.create(LuphieMushroomChestBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_MUSHROOM_CHEST).build(null));
-		LUPHIE_SAFE = Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(LuphieclutteredmodMod.MODID, "luphie_safe"),
-				FabricBlockEntityTypeBuilder.create(LuphieSafeBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_SAFE).build(null));
-		LUPHIE_RETRO_PINK_FRIDGE = Registry.register(Registries.BLOCK_ENTITY_TYPE,
-				new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_pink_fridge"), FabricBlockEntityTypeBuilder
-						.create(LuphieRetroPinkFridgeBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_RETRO_PINK_FRIDGE).build(null));
+		LUPHIE_BRIEFCASE = Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(LuphieclutteredmodMod.MODID, "luphie_briefcase"), FabricBlockEntityTypeBuilder.create(LuphieBriefcaseBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_BRIEFCASE).build(null));
+		LUPHIE_MUSHROOM_CHEST = Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(LuphieclutteredmodMod.MODID, "luphie_mushroom_chest"), FabricBlockEntityTypeBuilder.create(LuphieMushroomChestBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_MUSHROOM_CHEST).build(null));
+		LUPHIE_SAFE = Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(LuphieclutteredmodMod.MODID, "luphie_safe"), FabricBlockEntityTypeBuilder.create(LuphieSafeBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_SAFE).build(null));
+		LUPHIE_RETRO_PINK_FRIDGE = Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(LuphieclutteredmodMod.MODID, "luphie_retro_pink_fridge"), FabricBlockEntityTypeBuilder.create(LuphieRetroPinkFridgeBlockEntity::new, LuphieclutteredmodModBlocks.LUPHIE_RETRO_PINK_FRIDGE).build(null));
 	}
 }
