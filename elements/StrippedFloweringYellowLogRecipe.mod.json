@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedFloweringLog"
+    },
+    "name": "stripped_flowering_yellow_log_recipe",
+    "namespace": "mod"
+  }
+}

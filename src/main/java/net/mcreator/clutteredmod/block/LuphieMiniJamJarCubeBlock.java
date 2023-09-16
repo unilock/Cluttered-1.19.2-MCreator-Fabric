@@ -4,9 +4,11 @@ package net.mcreator.clutteredmod.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
@@ -26,8 +28,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class LuphieMiniJamJarCubeBlock extends Block {
-	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.GLASS).strength(1f, 10f)
-			.nonOpaque().solidBlock((bs, br, bp) -> false);
+	public static Settings PROPERTIES = Settings.create().sounds(BlockSoundGroup.GLASS).strength(1f, 10f).nonOpaque().solidBlock((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
 	public LuphieMiniJamJarCubeBlock() {
@@ -49,10 +50,10 @@ public class LuphieMiniJamJarCubeBlock extends Block {
 	public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
 		Vec3d offset = state.getModelOffset(world, pos);
 		return (switch (state.get(FACING)) {
-			default -> createCuboidShape(0.5, 0, 0.5, 15.5, 16, 15.5);
-			case NORTH -> createCuboidShape(0.5, 0, 0.5, 15.5, 16, 15.5);
-			case EAST -> createCuboidShape(0.5, 0, 0.5, 15.5, 16, 15.5);
-			case WEST -> createCuboidShape(0.5, 0, 0.5, 15.5, 16, 15.5);
+			default -> createCuboidShape(0.5, 0, 0.5, 15.5, 15.999, 15.5);
+			case NORTH -> createCuboidShape(0.5, 0, 0.5, 15.5, 15.999, 15.5);
+			case EAST -> createCuboidShape(0.5, 0, 0.5, 15.5, 15.999, 15.5);
+			case WEST -> createCuboidShape(0.5, 0, 0.5, 15.5, 15.999, 15.5);
 		}).offset(offset.x, offset.y, offset.z);
 	}
 

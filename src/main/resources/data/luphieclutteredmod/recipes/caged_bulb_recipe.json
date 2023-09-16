@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "1": {
+      "item": "minecraft:glass_pane"
+    },
+    "2": {
+      "item": "minecraft:iron_nugget"
+    },
+    "3": {
+      "item": "minecraft:glass_pane"
+    },
+    "4": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "5": {
+      "item": "minecraft:glass_pane"
+    },
+    "6": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "item": "minecraft:glass_pane"
+    },
+    "8": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_caged_bulb",
+    "count": 1
+  }
+}

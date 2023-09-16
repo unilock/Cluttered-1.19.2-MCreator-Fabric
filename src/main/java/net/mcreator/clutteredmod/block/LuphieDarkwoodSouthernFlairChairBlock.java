@@ -4,9 +4,11 @@ package net.mcreator.clutteredmod.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemPlacementContext;
@@ -29,8 +31,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class LuphieDarkwoodSouthernFlairChairBlock extends Block {
-	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f).nonOpaque()
-			.solidBlock((bs, br, bp) -> false);
+	public static Settings PROPERTIES = Settings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f).nonOpaque().solidBlock((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
 	public LuphieDarkwoodSouthernFlairChairBlock() {
@@ -58,14 +59,10 @@ public class LuphieDarkwoodSouthernFlairChairBlock extends Block {
 	public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
 		Vec3d offset = state.getModelOffset(world, pos);
 		return (switch (state.get(FACING)) {
-			default ->
-				VoxelShapes.union(createCuboidShape(5.5, 0, 4, 9.5, 15, 16), createCuboidShape(22.5, 0, 4, 26.5, 15, 16), createCuboidShape(5.5, 0, 0, 26.5, 22, 4), createCuboidShape(9.5, 3, 3, 22.5, 9, 15));
-			case NORTH ->
-				VoxelShapes.union(createCuboidShape(6.5, 0, 0, 10.5, 15, 12), createCuboidShape(-10.5, 0, 0, -6.5, 15, 12), createCuboidShape(-10.5, 0, 12, 10.5, 22, 16), createCuboidShape(-6.5, 3, 1, 6.5, 9, 13));
-			case EAST ->
-				VoxelShapes.union(createCuboidShape(4, 0, 6.5, 16, 15, 10.5), createCuboidShape(4, 0, -10.5, 16, 15, -6.5), createCuboidShape(0, 0, -10.5, 4, 22, 10.5), createCuboidShape(3, 3, -6.5, 15, 9, 6.5));
-			case WEST ->
-				VoxelShapes.union(createCuboidShape(0, 0, 5.5, 12, 15, 9.5), createCuboidShape(0, 0, 22.5, 12, 15, 26.5), createCuboidShape(12, 0, 5.5, 16, 22, 26.5), createCuboidShape(1, 3, 9.5, 13, 9, 22.5));
+			default -> VoxelShapes.union(createCuboidShape(5.5, 0, 4, 9.5, 15, 16), createCuboidShape(22.5, 0, 4, 26.5, 15, 16), createCuboidShape(5.5, 0, 0, 26.5, 22, 4), createCuboidShape(9.5, 3, 3, 22.5, 9, 15));
+			case NORTH -> VoxelShapes.union(createCuboidShape(6.5, 0, 0, 10.5, 15, 12), createCuboidShape(-10.5, 0, 0, -6.5, 15, 12), createCuboidShape(-10.5, 0, 12, 10.5, 22, 16), createCuboidShape(-6.5, 3, 1, 6.5, 9, 13));
+			case EAST -> VoxelShapes.union(createCuboidShape(4, 0, 6.5, 16, 15, 10.5), createCuboidShape(4, 0, -10.5, 16, 15, -6.5), createCuboidShape(0, 0, -10.5, 4, 22, 10.5), createCuboidShape(3, 3, -6.5, 15, 9, 6.5));
+			case WEST -> VoxelShapes.union(createCuboidShape(0, 0, 5.5, 12, 15, 9.5), createCuboidShape(0, 0, 22.5, 12, 15, 26.5), createCuboidShape(12, 0, 5.5, 16, 22, 26.5), createCuboidShape(1, 3, 9.5, 13, 9, 22.5));
 		}).offset(offset.x, offset.y, offset.z);
 	}
 

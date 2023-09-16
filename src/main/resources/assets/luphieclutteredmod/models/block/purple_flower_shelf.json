@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/flower_shelf_purple",
+  "textures": {
+    "all": "luphieclutteredmod:block/flower_shelf_purple",
+    "particle": "luphieclutteredmod:block/flower_shelf_purple",
+    "0": "luphieclutteredmod:block/flower_shelf_purple"
+  },
+  "render_type": "solid"
+}

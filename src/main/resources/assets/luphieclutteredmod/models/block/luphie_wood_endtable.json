@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/wood_endtable",
+  "textures": {
+    "all": "luphieclutteredmod:block/wood_endtable",
+    "particle": "luphieclutteredmod:block/wood_endtable",
+    "0": "luphieclutteredmod:block/wood_endtable"
+  },
+  "render_type": "solid"
+}

@@ -4,9 +4,11 @@ package net.mcreator.clutteredmod.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemPlacementContext;
@@ -28,9 +30,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class LuphieLunarObservatoryGlobeBlock extends Block {
-	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.METAL).strength(1f, 10f)
-			.nonOpaque().solidBlock((bs, br, bp) -> false);
-	public static final DirectionProperty FACING = FacingBlock.FACING;
+	public static Settings PROPERTIES = Settings.create().sounds(BlockSoundGroup.METAL).strength(1f, 10f).nonOpaque().solidBlock((bs, br, bp) -> false);
+	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
 	public LuphieLunarObservatoryGlobeBlock() {
 		super(PROPERTIES);
@@ -61,8 +62,6 @@ public class LuphieLunarObservatoryGlobeBlock extends Block {
 			case NORTH -> createCuboidShape(1, 0, 2, 15, 21, 14);
 			case EAST -> createCuboidShape(2, 0, 1, 14, 21, 15);
 			case WEST -> createCuboidShape(2, 0, 1, 14, 21, 15);
-			case UP -> createCuboidShape(1, 2, 0, 15, 14, 21);
-			case DOWN -> createCuboidShape(1, 2, -5, 15, 14, 16);
 		}).offset(offset.x, offset.y, offset.z);
 	}
 
@@ -73,7 +72,7 @@ public class LuphieLunarObservatoryGlobeBlock extends Block {
 
 	@Override
 	public BlockState getPlacementState(ItemPlacementContext context) {
-		return this.getDefaultState().with(FACING, context.getSide());
+		return this.getDefaultState().with(FACING, context.getHorizontalPlayerFacing().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, BlockRotation rot) {

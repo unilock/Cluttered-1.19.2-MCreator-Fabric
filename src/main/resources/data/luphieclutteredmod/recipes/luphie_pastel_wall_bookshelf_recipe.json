@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "0",
     "1"
@@ -9,7 +10,7 @@
       "item": "luphieclutteredmod:luphie_row_of_small_pastel_books"
     },
     "1": {
-      "item": "luphieclutteredmod:luphie_pink_planks"
+      "item": "luphieclutteredmod:small_pink_shelf"
     }
   },
   "result": {

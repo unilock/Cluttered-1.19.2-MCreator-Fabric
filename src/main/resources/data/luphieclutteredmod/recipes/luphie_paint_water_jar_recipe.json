@@ -1,11 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "01"
   ],
   "key": {
     "0": {
-      "item": "minecraft:ink_sac"
+      "tag": "c:dyes"
     },
     "1": {
       "item": "minecraft:potion"

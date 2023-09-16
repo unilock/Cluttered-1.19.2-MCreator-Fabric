@@ -1,12 +1,14 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "xpReward": 0.0,
-    "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -22,10 +24,10 @@
         "value": "Items.STRING"
       },
       {
-        "value": "Blocks.CARPET"
+        "value": "Blocks.CARPET#3"
       },
       {
-        "value": "Blocks.WOOL"
+        "value": "Blocks.WOOL#6"
       },
       {
         "value": ""

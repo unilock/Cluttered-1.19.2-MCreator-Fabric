@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_dye"
+    },
+    "1": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "2": {
+      "item": "minecraft:blue_dye"
+    },
+    "3": {
+      "item": "minecraft:yellow_dye"
+    },
+    "4": {
+      "item": "minecraft:oak_fence"
+    },
+    "5": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:blue_puzzle_piece_table",
+    "count": 1
+  }
+}

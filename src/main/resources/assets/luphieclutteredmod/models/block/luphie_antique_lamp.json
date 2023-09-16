@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/antique_lamp",
+  "textures": {
+    "all": "luphieclutteredmod:block/antique_lamp",
+    "particle": "luphieclutteredmod:block/antique_lamp",
+    "0": "luphieclutteredmod:block/antique_lamp"
+  },
+  "render_type": "cutout"
+}

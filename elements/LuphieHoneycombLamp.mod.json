@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "block",
   "definition": {
     "texture": "honeycomblamptext",
@@ -24,57 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 7.0,
-        "my": 1.0,
-        "mz": 8.0,
-        "Mx": 9.0,
-        "My": 9.0,
-        "Mz": 10.0,
-        "subtract": false
-      },
-      {
-        "mx": 4.0,
-        "my": 0.0,
-        "mz": 5.0,
-        "Mx": 12.0,
-        "My": 1.0,
-        "Mz": 13.0,
-        "subtract": false
-      },
-      {
         "mx": 2.0,
-        "my": 9.0,
+        "my": 0.0,
         "mz": 3.0,
         "Mx": 14.0,
         "My": 19.0,
         "Mz": 15.0,
-        "subtract": false
-      },
-      {
-        "mx": 11.0,
-        "my": 7.0,
-        "mz": 9.0,
-        "Mx": 12.0,
-        "My": 10.0,
-        "Mz": 9.0,
-        "subtract": false
-      },
-      {
-        "mx": 10.5,
-        "my": 5.0,
-        "mz": 7.5,
-        "Mx": 12.5,
-        "My": 7.0,
-        "Mz": 10.5,
-        "subtract": false
-      },
-      {
-        "mx": 9.5,
-        "my": 7.01,
-        "mz": 8.5,
-        "Mx": 13.5,
-        "My": 7.01,
-        "Mz": 9.5,
         "subtract": false
       }
     ],
@@ -144,13 +99,7 @@
     "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -172,7 +121,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

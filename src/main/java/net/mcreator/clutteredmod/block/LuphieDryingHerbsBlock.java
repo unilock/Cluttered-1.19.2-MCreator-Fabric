@@ -4,9 +4,12 @@ package net.mcreator.clutteredmod.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.ShapeContext;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
@@ -14,6 +17,7 @@ import net.minecraft.loot.context.LootContextParameterSet;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.text.Text;
 import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
 import net.minecraft.util.math.BlockPos;
@@ -26,13 +30,18 @@ import java.util.Collections;
 import java.util.List;
 
 public class LuphieDryingHerbsBlock extends Block {
-	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f)
-			.nonOpaque().solidBlock((bs, br, bp) -> false);
+	public static Settings PROPERTIES = Settings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f).nonOpaque().solidBlock((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
 	public LuphieDryingHerbsBlock() {
 		super(PROPERTIES);
 		this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH));
+	}
+
+	@Override
+	public void appendTooltip(ItemStack itemstack, BlockView world, List<Text> list, TooltipContext flag) {
+		super.appendTooltip(itemstack, world, list, flag);
+		list.add(Text.literal("Palia"));
 	}
 
 	@Override
@@ -49,10 +58,10 @@ public class LuphieDryingHerbsBlock extends Block {
 	public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
 		Vec3d offset = state.getModelOffset(world, pos);
 		return (switch (state.get(FACING)) {
-			default -> createCuboidShape(0, 3, 0, 16, 16, 2);
-			case NORTH -> createCuboidShape(0, 3, 14, 16, 16, 16);
-			case EAST -> createCuboidShape(0, 3, 0, 2, 16, 16);
-			case WEST -> createCuboidShape(14, 3, 0, 16, 16, 16);
+			default -> createCuboidShape(4.6, 0, 2, 27.4, 15, 4);
+			case NORTH -> createCuboidShape(-11.4, 0, 12, 11.4, 15, 14);
+			case EAST -> createCuboidShape(2, 0, -11.4, 4, 15, 11.4);
+			case WEST -> createCuboidShape(12, 0, 4.6, 14, 15, 27.4);
 		}).offset(offset.x, offset.y, offset.z);
 	}
 

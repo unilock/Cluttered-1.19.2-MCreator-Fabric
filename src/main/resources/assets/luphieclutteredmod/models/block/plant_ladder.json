@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/plant_ladder",
+  "textures": {
+    "all": "luphieclutteredmod:block/plant_ladder",
+    "particle": "luphieclutteredmod:block/plant_ladder",
+    "1": "luphieclutteredmod:block/plant_ladder"
+  },
+  "render_type": "cutout"
+}

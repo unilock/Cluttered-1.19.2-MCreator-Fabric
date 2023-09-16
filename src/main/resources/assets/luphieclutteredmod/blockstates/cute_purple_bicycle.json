@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/cute_purple_bicycle"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/cute_purple_bicycle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/cute_purple_bicycle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/cute_purple_bicycle",
+      "y": 270
+    }
+  }
+}

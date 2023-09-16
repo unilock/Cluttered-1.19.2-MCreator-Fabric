@@ -1,15 +1,15 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "dryingherbstext",
+    "texture": "drying_herbs",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "dryingherbs:default",
+    "customModelName": "drying_herbs:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -24,17 +24,19 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
-        "my": 3.0,
-        "mz": 14.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mx": -11.4,
+        "my": 0.0,
+        "mz": 12.0,
+        "Mx": 11.4,
+        "My": 15.0,
+        "Mz": 14.0,
         "subtract": false
       }
     ],
     "name": "Drying Herbs",
-    "specialInfo": [],
+    "specialInfo": [
+      "Palia"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -99,13 +101,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -127,7 +123,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "luphieclutteredmod:block/yellowplanks",
-    "top": "luphieclutteredmod:block/yellowplanks",
-    "side": "luphieclutteredmod:block/yellowplanks"
+    "bottom": "luphieclutteredmod:block/yellow_planks",
+    "top": "luphieclutteredmod:block/yellow_planks",
+    "side": "luphieclutteredmod:block/yellow_planks"
   },
   "render_type": "solid"
 }

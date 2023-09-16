@@ -3,5 +3,6 @@
   "textures": {
     "texture": "luphieclutteredmod:block/greenplanksretext",
     "particle": "luphieclutteredmod:block/greenplanksretext"
-  }
+  },
+  "render_type": "solid"
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/button_pressed",
   "textures": {
-    "texture": "luphieclutteredmod:block/floweryyellowplanksretext"
+    "texture": "luphieclutteredmod:block/flowering_yellow_planks"
   },
   "render_type": "solid"
 }

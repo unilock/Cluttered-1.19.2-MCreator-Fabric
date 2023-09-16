@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/seaweed_planter",
+  "textures": {
+    "all": "luphieclutteredmod:block/seaweed_planter",
+    "particle": "luphieclutteredmod:block/seaweed_planter",
+    "1": "luphieclutteredmod:block/seaweed_planter"
+  },
+  "render_type": "cutout"
+}

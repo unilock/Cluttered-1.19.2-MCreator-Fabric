@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TarreyTownStove"
+    },
+    "name": "tarrey_town_woodstove_recipe",
+    "namespace": "mod"
+  }
+}

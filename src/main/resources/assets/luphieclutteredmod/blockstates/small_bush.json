@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/small_bush"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/small_bush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/small_bush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/small_bush",
+      "y": 270
+    }
+  }
+}

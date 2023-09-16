@@ -1,9 +1,9 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "bottom": "luphieclutteredmod:block/floweryyellowplanksretext",
-    "top": "luphieclutteredmod:block/floweryyellowplanksretext",
-    "side": "luphieclutteredmod:block/floweryyellowplanksretext"
+    "bottom": "luphieclutteredmod:block/flowering_yellow_planks",
+    "top": "luphieclutteredmod:block/flowering_yellow_planks",
+    "side": "luphieclutteredmod:block/flowering_yellow_planks"
   },
   "render_type": "solid"
 }

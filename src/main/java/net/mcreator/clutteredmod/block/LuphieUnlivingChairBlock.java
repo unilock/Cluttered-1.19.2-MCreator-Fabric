@@ -4,9 +4,11 @@ package net.mcreator.clutteredmod.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemPlacementContext;
@@ -30,8 +32,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class LuphieUnlivingChairBlock extends Block {
-	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f)
-			.nonOpaque().solidBlock((bs, br, bp) -> false);
+	public static Settings PROPERTIES = Settings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f).nonOpaque().solidBlock((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
 	public LuphieUnlivingChairBlock() {
@@ -59,14 +60,10 @@ public class LuphieUnlivingChairBlock extends Block {
 	public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
 		Vec3d offset = state.getModelOffset(world, pos);
 		return (switch (state.get(FACING)) {
-			default -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(0, 9, 4, 16, 14, 16), createCuboidShape(0, 9, 0, 16, 27, 4)), createCuboidShape(3, 9, 4, 13, 14, 16),
-					BooleanBiFunction.ONLY_FIRST);
-			case NORTH -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(0, 9, 0, 16, 14, 12), createCuboidShape(0, 9, 12, 16, 27, 16)),
-					createCuboidShape(3, 9, 0, 13, 14, 12), BooleanBiFunction.ONLY_FIRST);
-			case EAST -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(4, 9, 0, 16, 14, 16), createCuboidShape(0, 9, 0, 4, 27, 16)), createCuboidShape(4, 9, 3, 16, 14, 13),
-					BooleanBiFunction.ONLY_FIRST);
-			case WEST -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(0, 9, 0, 12, 14, 16), createCuboidShape(12, 9, 0, 16, 27, 16)),
-					createCuboidShape(0, 9, 3, 12, 14, 13), BooleanBiFunction.ONLY_FIRST);
+			default -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(0, 9, 4, 16, 14, 16), createCuboidShape(0, 9, 0, 16, 27, 4)), createCuboidShape(3, 9, 4, 13, 14, 16), BooleanBiFunction.ONLY_FIRST);
+			case NORTH -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(0, 9, 0, 16, 14, 12), createCuboidShape(0, 9, 12, 16, 27, 16)), createCuboidShape(3, 9, 0, 13, 14, 12), BooleanBiFunction.ONLY_FIRST);
+			case EAST -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(4, 9, 0, 16, 14, 16), createCuboidShape(0, 9, 0, 4, 27, 16)), createCuboidShape(4, 9, 3, 16, 14, 13), BooleanBiFunction.ONLY_FIRST);
+			case WEST -> VoxelShapes.combineAndSimplify(VoxelShapes.union(createCuboidShape(0, 0, 0, 16, 9, 16), createCuboidShape(0, 9, 0, 12, 14, 16), createCuboidShape(12, 9, 0, 16, 27, 16)), createCuboidShape(0, 9, 3, 12, 14, 13), BooleanBiFunction.ONLY_FIRST);
 		}).offset(offset.x, offset.y, offset.z);
 	}
 

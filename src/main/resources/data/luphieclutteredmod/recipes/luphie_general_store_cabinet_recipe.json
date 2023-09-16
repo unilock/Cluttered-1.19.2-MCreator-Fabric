@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "012",
     "345",
@@ -16,13 +17,13 @@
       "tag": "minecraft:planks"
     },
     "3": {
-      "item": "minecraft:white_stained_glass_panes"
+      "tag": "c:glass_panes"
     },
     "4": {
       "tag": "minecraft:saplings"
     },
     "5": {
-      "item": "minecraft:white_stained_glass_panes"
+      "tag": "c:glass_panes"
     },
     "6": {
       "tag": "minecraft:planks"

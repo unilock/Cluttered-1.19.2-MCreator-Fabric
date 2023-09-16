@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "sand_seal_plush_red"
+      },
+      "name": "default"
+    }
+  }
+}

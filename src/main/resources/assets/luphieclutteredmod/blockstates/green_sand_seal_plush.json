@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/green_sand_seal_plush"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/green_sand_seal_plush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/green_sand_seal_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/green_sand_seal_plush",
+      "y": 270
+    }
+  }
+}

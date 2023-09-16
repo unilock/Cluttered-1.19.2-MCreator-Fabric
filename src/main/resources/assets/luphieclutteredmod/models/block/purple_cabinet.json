@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/purple_cabinet",
+  "textures": {
+    "all": "luphieclutteredmod:block/purple_cabinet",
+    "particle": "luphieclutteredmod:block/purple_cabinet",
+    "1": "luphieclutteredmod:block/purple_cabinet"
+  },
+  "render_type": "cutout"
+}

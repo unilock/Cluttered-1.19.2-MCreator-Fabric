@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/seaweed_planter"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/seaweed_planter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/seaweed_planter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/seaweed_planter",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "puzzle_piece_table_pastel_purple"
+      },
+      "name": "default"
+    }
+  }
+}

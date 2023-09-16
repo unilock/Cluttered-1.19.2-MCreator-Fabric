@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreenTarreyTownPlanter"
+    },
+    "name": "green_tarrey_town_planter_recipe",
+    "namespace": "mod"
+  }
+}

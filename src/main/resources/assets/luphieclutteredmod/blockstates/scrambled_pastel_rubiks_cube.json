@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/scrambled_pastel_rubiks_cube"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/scrambled_pastel_rubiks_cube",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/scrambled_pastel_rubiks_cube",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/scrambled_pastel_rubiks_cube",
+      "y": 270
+    }
+  }
+}

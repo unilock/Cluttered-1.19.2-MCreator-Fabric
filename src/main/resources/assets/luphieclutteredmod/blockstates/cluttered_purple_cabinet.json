@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/cluttered_purple_cabinet"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/cluttered_purple_cabinet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/cluttered_purple_cabinet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/cluttered_purple_cabinet",
+      "y": 270
+    }
+  }
+}

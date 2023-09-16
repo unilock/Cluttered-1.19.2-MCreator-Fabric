@@ -1,9 +1,11 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "painting",
   "definition": {
     "texture": "butterflypainting32x16.png",
     "width": 32,
-    "height": 16
+    "height": 16,
+    "title": "Luphie Butterfly Painting",
+    "author": "Unknown"
   }
 }

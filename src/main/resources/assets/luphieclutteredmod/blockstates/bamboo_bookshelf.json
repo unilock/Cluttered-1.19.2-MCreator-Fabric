@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/bamboo_bookshelf"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/bamboo_bookshelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/bamboo_bookshelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/bamboo_bookshelf",
+      "y": 270
+    }
+  }
+}

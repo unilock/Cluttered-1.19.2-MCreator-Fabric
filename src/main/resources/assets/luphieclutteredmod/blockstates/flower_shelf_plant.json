@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/flower_shelf_plant"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/flower_shelf_plant",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/flower_shelf_plant",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/flower_shelf_plant",
+      "y": 270
+    }
+  }
+}

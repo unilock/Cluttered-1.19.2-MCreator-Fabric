@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/puzzle_piece_table_red",
+  "textures": {
+    "all": "luphieclutteredmod:block/puzzle_piece_table_red",
+    "particle": "luphieclutteredmod:block/puzzle_piece_table_red",
+    "0": "luphieclutteredmod:block/puzzle_piece_table_red"
+  },
+  "render_type": "solid"
+}

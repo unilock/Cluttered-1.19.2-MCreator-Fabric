@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/darkwood_endtable",
+  "textures": {
+    "all": "luphieclutteredmod:block/darkwood_endtable",
+    "particle": "luphieclutteredmod:block/darkwood_endtable",
+    "3": "luphieclutteredmod:block/darkwood_endtable"
+  },
+  "render_type": "solid"
+}

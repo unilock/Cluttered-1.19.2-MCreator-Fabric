@@ -1,9 +1,9 @@
 {
-  "parent": "luphieclutteredmod:custom/doradocabinetwjars",
+  "parent": "luphieclutteredmod:custom/dorado_cabinet_cluttered",
   "textures": {
     "all": "luphieclutteredmod:block/doradocabinetwjarstext",
     "particle": "luphieclutteredmod:block/doradocabinetwjarstext",
-    "2": "luphieclutteredmod:block/doradocabinetwjarstext"
+    "3": "luphieclutteredmod:block/dorado_cabinet_cluttered"
   },
   "render_type": "cutout"
 }

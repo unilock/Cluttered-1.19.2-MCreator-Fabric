@@ -1,13 +1,13 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "yellowplanks",
-    "textureTop": "yellowplanks",
-    "textureLeft": "yellowplanks",
-    "textureFront": "yellowplanks",
-    "textureRight": "yellowplanks",
-    "textureBack": "yellowplanks",
+    "texture": "yellow_planks",
+    "textureTop": "yellow_planks",
+    "textureLeft": "yellow_planks",
+    "textureFront": "yellow_planks",
+    "textureRight": "yellow_planks",
+    "textureBack": "yellow_planks",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -99,13 +99,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -127,7 +121,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

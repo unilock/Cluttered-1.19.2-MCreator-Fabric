@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedFloweringPinklog"
+    },
+    "name": "stripped_flowering_pink_log_recipe",
+    "namespace": "mod"
+  }
+}

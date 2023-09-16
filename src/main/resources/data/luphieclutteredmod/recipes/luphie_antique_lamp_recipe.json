@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "012",
     " 4 ",
@@ -29,7 +30,7 @@
     }
   },
   "result": {
-    "item": "luphieclutteredmod:deleted_mod_element",
+    "item": "luphieclutteredmod:luphie_antique_lamp",
     "count": 1
   }
 }

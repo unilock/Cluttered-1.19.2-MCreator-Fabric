@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/luphie_antique_lamp"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/luphie_antique_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/luphie_antique_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/luphie_antique_lamp",
+      "y": 270
+    }
+  }
+}

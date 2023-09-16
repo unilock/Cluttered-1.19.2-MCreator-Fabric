@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/tarrey_town_planter_purple",
+  "textures": {
+    "all": "luphieclutteredmod:block/tarrey_town_planter_purple",
+    "particle": "luphieclutteredmod:block/tarrey_town_planter_purple",
+    "3": "luphieclutteredmod:block/tarrey_town_planter_purple"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LADDER"
+      },
+      {
+        "value": "Blocks.RED_FLOWER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LADDER"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Blocks.RED_FLOWER"
+      },
+      {
+        "value": "Blocks.LADDER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Plantladder"
+    },
+    "name": "plant_ladder_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "luphieclutteredmod:item/floweringpinkdoorpsrite2"
+    "layer0": "luphieclutteredmod:item/flowering_pink_door"
   },
   "render_type": "translucent"
 }

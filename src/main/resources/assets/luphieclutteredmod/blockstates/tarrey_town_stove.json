@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/tarrey_town_stove"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/tarrey_town_stove",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/tarrey_town_stove",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/tarrey_town_stove",
+      "y": 270
+    }
+  }
+}

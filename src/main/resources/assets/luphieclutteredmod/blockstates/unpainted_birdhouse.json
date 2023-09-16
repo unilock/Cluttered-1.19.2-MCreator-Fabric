@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/unpainted_birdhouse"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/unpainted_birdhouse",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/unpainted_birdhouse",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/unpainted_birdhouse",
+      "y": 270
+    }
+  }
+}

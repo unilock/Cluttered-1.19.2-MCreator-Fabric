@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/plant_ladder"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/plant_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/plant_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/plant_ladder",
+      "y": 270
+    }
+  }
+}

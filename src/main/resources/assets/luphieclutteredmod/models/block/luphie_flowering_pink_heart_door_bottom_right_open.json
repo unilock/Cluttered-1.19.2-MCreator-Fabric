@@ -1,8 +1,8 @@
 {
   "parent": "block/door_bottom_right_open",
   "textures": {
-    "bottom": "luphieclutteredmod:block/floweringpinkdoorbottomtext",
-    "top": "luphieclutteredmod:block/floweringpinkdoortoptext"
+    "bottom": "luphieclutteredmod:block/flowering_pink_door_bottom",
+    "top": "luphieclutteredmod:block/flowering_pink_door_top"
   },
   "render_type": "cutout"
 }

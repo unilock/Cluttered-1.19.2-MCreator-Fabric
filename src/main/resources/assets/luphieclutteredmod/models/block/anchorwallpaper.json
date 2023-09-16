@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:block/anchor_wallpaper",
+    "up": "luphieclutteredmod:block/anchor_wallpaper",
+    "north": "luphieclutteredmod:block/anchor_wallpaper",
+    "east": "luphieclutteredmod:block/anchor_wallpaper",
+    "south": "luphieclutteredmod:block/anchor_wallpaper",
+    "west": "luphieclutteredmod:block/anchor_wallpaper",
+    "particle": "luphieclutteredmod:block/anchor_wallpaper"
+  },
+  "render_type": "solid"
+}

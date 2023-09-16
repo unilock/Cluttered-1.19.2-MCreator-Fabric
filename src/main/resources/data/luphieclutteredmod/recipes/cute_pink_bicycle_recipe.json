@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:pink_bicycle"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:cute_pink_bicycle",
+    "count": 1
+  }
+}

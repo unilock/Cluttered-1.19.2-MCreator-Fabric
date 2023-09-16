@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PurpleCabinet"
+    },
+    "name": "purple_cabinet_recipe",
+    "namespace": "mod"
+  }
+}

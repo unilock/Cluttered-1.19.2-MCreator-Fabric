@@ -3,5 +3,6 @@
   "textures": {
     "texture": "luphieclutteredmod:block/pinktrapdoor",
     "particle": "luphieclutteredmod:block/pinktrapdoor"
-  }
+  },
+  "render_type": "cutout"
 }

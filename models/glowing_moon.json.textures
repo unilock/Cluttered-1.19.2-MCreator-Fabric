@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glowing_moon"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "luphieclutteredmod:item/purpleirondoorsprite"
+    "layer0": "luphieclutteredmod:item/purple_iron_door"
   },
   "render_type": "translucent"
 }

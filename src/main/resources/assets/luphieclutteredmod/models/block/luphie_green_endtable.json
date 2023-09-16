@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/green_endtable",
+  "textures": {
+    "all": "luphieclutteredmod:block/green_endtable",
+    "particle": "luphieclutteredmod:block/green_endtable",
+    "0": "luphieclutteredmod:block/green_endtable"
+  },
+  "render_type": "solid"
+}

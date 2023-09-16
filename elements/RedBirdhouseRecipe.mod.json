@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.CHEST"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      },
+      {
+        "value": "Blocks.OAK_FENCE"
+      },
+      {
+        "value": "Blocks.PLANKS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedBirdhouse"
+    },
+    "name": "red_birdhouse_recipe",
+    "namespace": "mod"
+  }
+}

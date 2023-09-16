@@ -1,7 +1,8 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "luphieclutteredmod:block/yellowplanks",
-    "particle": "luphieclutteredmod:block/yellowplanks"
-  }
+    "texture": "luphieclutteredmod:block/yellow_planks",
+    "particle": "luphieclutteredmod:block/yellow_planks"
+  },
+  "render_type": "solid"
 }

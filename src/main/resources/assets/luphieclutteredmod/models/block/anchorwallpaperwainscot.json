@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:block/anchor_wallpaper_wainscot",
+    "up": "luphieclutteredmod:block/anchor_wallpaper_wainscot",
+    "north": "luphieclutteredmod:block/anchor_wallpaper_wainscot",
+    "east": "luphieclutteredmod:block/anchor_wallpaper_wainscot",
+    "south": "luphieclutteredmod:block/anchor_wallpaper_wainscot",
+    "west": "luphieclutteredmod:block/anchor_wallpaper_wainscot",
+    "particle": "luphieclutteredmod:block/anchor_wallpaper_wainscot"
+  },
+  "render_type": "solid"
+}

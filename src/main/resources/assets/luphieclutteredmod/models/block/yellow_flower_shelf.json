@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/flower_shelf_yellow",
+  "textures": {
+    "all": "luphieclutteredmod:block/flower_shelf_yellow",
+    "particle": "luphieclutteredmod:block/flower_shelf_yellow",
+    "0": "luphieclutteredmod:block/flower_shelf_yellow"
+  },
+  "render_type": "solid"
+}

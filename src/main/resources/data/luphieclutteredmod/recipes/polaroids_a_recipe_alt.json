@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:luphie_polaroids_c"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_polaroids_a",
+    "count": 1
+  }
+}

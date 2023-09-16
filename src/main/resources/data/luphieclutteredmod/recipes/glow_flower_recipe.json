@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "1": {
+      "item": "minecraft:pink_tulip"
+    },
+    "2": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "4": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_glow_flower",
+    "count": 1
+  }
+}

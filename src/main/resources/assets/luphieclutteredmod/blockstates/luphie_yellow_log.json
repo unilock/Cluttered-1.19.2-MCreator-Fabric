@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "luphieclutteredmod:block/luphie_yellow_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "luphieclutteredmod:block/luphie_yellow_log"
+    },
+    "axis=z": {
+      "model": "luphieclutteredmod:block/luphie_yellow_log",
+      "x": 90
+    }
+  }
+}

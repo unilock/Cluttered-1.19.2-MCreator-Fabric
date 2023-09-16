@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:luphie_purple_log"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_purple_planks",
+    "count": 4
+  }
+}

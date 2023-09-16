@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_dye"
+    },
+    "1": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "2": {
+      "item": "minecraft:pink_dye"
+    },
+    "3": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "4": {
+      "item": "minecraft:oak_fence"
+    },
+    "5": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:pastel_pink_puzzle_piece_table",
+    "count": 1
+  }
+}

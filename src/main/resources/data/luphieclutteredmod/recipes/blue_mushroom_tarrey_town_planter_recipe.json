@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dirt"
+    },
+    "1": {
+      "item": "minecraft:dirt"
+    },
+    "2": {
+      "item": "minecraft:dirt"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_blue_mushroom_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:blue_mushroom_tarrey_town_planter",
+    "count": 3
+  }
+}

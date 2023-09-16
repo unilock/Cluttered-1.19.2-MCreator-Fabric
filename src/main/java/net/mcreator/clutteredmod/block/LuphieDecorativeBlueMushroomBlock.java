@@ -4,9 +4,7 @@ package net.mcreator.clutteredmod.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
@@ -25,8 +23,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class LuphieDecorativeBlueMushroomBlock extends Block {
-	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.FUNGUS).strength(1f, 10f)
-			.noCollision().nonOpaque().solidBlock((bs, br, bp) -> false);
+	public static Settings PROPERTIES = Settings.create().sounds(BlockSoundGroup.FUNGUS).strength(1f, 10f).noCollision().nonOpaque().solidBlock((bs, br, bp) -> false);
 
 	public LuphieDecorativeBlueMushroomBlock() {
 		super(PROPERTIES);

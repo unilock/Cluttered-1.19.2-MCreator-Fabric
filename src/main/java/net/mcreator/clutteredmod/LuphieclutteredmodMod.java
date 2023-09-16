@@ -14,7 +14,6 @@ package net.mcreator.clutteredmod;
 
 import net.fabricmc.api.ModInitializer;
 import net.mcreator.clutteredmod.init.*;
-import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -26,16 +25,14 @@ public class LuphieclutteredmodMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing LuphieclutteredmodMod");
 
-		LuphieclutteredmodModBlocks.load();
-		LuphieclutteredmodModBlockEntities.load();
-		LuphieclutteredmodModItems.load();
-		LuphieclutteredmodModPaintings.load();
-		LuphieclutteredmodModSounds.load();
-
 		LuphieclutteredmodModTabs.load();
-	}
 
-	public static Identifier id(String path) {
-		return new Identifier(MODID, path);
+		LuphieclutteredmodModBlocks.load();
+		LuphieclutteredmodModItems.load();
+		LuphieclutteredmodModBlockEntities.load();
+
+		LuphieclutteredmodModPaintings.load();
+
+		LuphieclutteredmodModSounds.load();
 	}
 }

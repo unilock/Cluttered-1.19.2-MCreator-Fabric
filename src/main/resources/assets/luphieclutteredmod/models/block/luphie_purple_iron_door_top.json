@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "luphieclutteredmod:blocks/purple_iron_door_bottom",
+    "top": "luphieclutteredmod:blocks/purple_iron_door_top"
+  }
+}

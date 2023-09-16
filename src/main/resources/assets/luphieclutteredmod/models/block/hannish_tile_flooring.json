@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/hannish_tile_flooring",
+  "textures": {
+    "all": "luphieclutteredmod:block/hannish_tile_flooring",
+    "particle": "luphieclutteredmod:block/hannish_tile_flooring",
+    "2": "luphieclutteredmod:block/hannish_tile_flooring"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:paper"
+    },
+    "1": {
+      "item": "minecraft:paper"
+    },
+    "2": {
+      "item": "minecraft:paper"
+    },
+    "3": {
+      "item": "minecraft:cyan_dye"
+    },
+    "4": {
+      "item": "minecraft:magenta_dye"
+    },
+    "5": {
+      "item": "minecraft:yellow_dye"
+    },
+    "6": {
+      "item": "minecraft:paper"
+    },
+    "7": {
+      "item": "minecraft:paper"
+    },
+    "8": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_polaroids_a",
+    "count": 1
+  }
+}

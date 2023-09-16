@@ -1,0 +1,42 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphiePurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGlowPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPinkPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieFloweringPurplePlanks"
+      },
+      {
+        "value": "CUSTOM:LuphieBlueMushroomPlanks"
+      },
+      {
+        "value": "CUSTOM:LuphiePinkPlanks"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

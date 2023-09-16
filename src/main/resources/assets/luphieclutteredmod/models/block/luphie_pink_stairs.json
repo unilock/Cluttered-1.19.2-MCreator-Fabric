@@ -1,9 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "luphieclutteredmod:block/pinkplanksredonetext",
-    "top": "luphieclutteredmod:block/pinkplanksredonetext",
-    "side": "luphieclutteredmod:block/pinkplanksredonetext"
-  },
-  "render_type": "solid"
-}

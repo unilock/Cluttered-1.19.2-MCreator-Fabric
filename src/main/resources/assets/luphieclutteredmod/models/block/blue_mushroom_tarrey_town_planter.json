@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/tarrey_town_planter_blue_mushroom",
+  "textures": {
+    "all": "luphieclutteredmod:block/tarrey_town_planter_blue_mushroom",
+    "particle": "luphieclutteredmod:block/tarrey_town_planter_blue_mushroom",
+    "3": "luphieclutteredmod:block/tarrey_town_planter_blue_mushroom"
+  },
+  "render_type": "solid"
+}

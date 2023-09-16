@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "flower_shelf_plant"
+      },
+      "name": "default"
+    }
+  }
+}

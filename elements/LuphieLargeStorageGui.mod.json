@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -16,10 +16,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 0,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #0",
           "x": 132,
           "y": 26
         }
@@ -29,11 +33,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 1,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
           "x": 150,
           "y": 26
         }
@@ -43,11 +51,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 2,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #2",
           "x": 168,
           "y": 26
         }
@@ -57,11 +69,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 3,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #3",
           "x": 186,
           "y": 26
         }
@@ -71,11 +87,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 4,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #4",
           "x": 204,
           "y": 26
         }
@@ -85,11 +105,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 5,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #5",
           "x": 222,
           "y": 26
         }
@@ -99,11 +123,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 6,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #6",
           "x": 240,
           "y": 26
         }
@@ -113,11 +141,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 7,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #7",
           "x": 258,
           "y": 26
         }
@@ -127,11 +159,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 8,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #8",
           "x": 276,
           "y": 26
         }
@@ -142,10 +178,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 9,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #9",
           "x": 132,
           "y": 44
         }
@@ -155,11 +195,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 10,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #10",
           "x": 150,
           "y": 44
         }
@@ -169,11 +213,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 11,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #11",
           "x": 168,
           "y": 44
         }
@@ -183,11 +231,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 12,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #12",
           "x": 186,
           "y": 44
         }
@@ -197,11 +249,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 13,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #13",
           "x": 204,
           "y": 44
         }
@@ -211,11 +267,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 14,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #14",
           "x": 222,
           "y": 44
         }
@@ -225,11 +285,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 15,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #15",
           "x": 240,
           "y": 44
         }
@@ -239,11 +303,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 16,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #16",
           "x": 258,
           "y": 44
         }
@@ -253,11 +321,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 17,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #17",
           "x": 276,
           "y": 44
         }
@@ -268,10 +340,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 18,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #18",
           "x": 132,
           "y": 62
         }
@@ -281,11 +357,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 19,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #19",
           "x": 150,
           "y": 62
         }
@@ -295,11 +375,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 20,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #20",
           "x": 168,
           "y": 62
         }
@@ -309,11 +393,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 21,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #21",
           "x": 186,
           "y": 62
         }
@@ -323,11 +411,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 22,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #22",
           "x": 204,
           "y": 62
         }
@@ -337,11 +429,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 23,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #23",
           "x": 222,
           "y": 62
         }
@@ -351,11 +447,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 24,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #24",
           "x": 240,
           "y": 62
         }
@@ -365,11 +465,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 25,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #25",
           "x": 258,
           "y": 62
         }
@@ -379,11 +483,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 26,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #26",
           "x": 276,
           "y": 62
         }
@@ -394,10 +502,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 27,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #27",
           "x": 132,
           "y": 80
         }
@@ -407,11 +519,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 28,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #28",
           "x": 150,
           "y": 80
         }
@@ -421,11 +537,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 29,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #29",
           "x": 168,
           "y": 80
         }
@@ -435,11 +555,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 30,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #30",
           "x": 186,
           "y": 80
         }
@@ -449,11 +573,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 31,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #31",
           "x": 204,
           "y": 80
         }
@@ -463,11 +591,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 32,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #32",
           "x": 222,
           "y": 80
         }
@@ -477,11 +609,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 33,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #33",
           "x": 240,
           "y": 80
         }
@@ -491,11 +627,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 34,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #34",
           "x": 258,
           "y": 80
         }
@@ -505,11 +645,15 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 35,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #35",
           "x": 276,
           "y": 80
         }
@@ -520,10 +664,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 36,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #36",
           "x": 132,
           "y": 98
         }
@@ -534,10 +682,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 37,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #37",
           "x": 150,
           "y": 98
         }
@@ -548,10 +700,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 38,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #38",
           "x": 168,
           "y": 98
         }
@@ -562,10 +718,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 39,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #39",
           "x": 186,
           "y": 98
         }
@@ -576,10 +736,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 40,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #40",
           "x": 204,
           "y": 98
         }
@@ -590,10 +754,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 41,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #41",
           "x": 222,
           "y": 98
         }
@@ -604,10 +772,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 42,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #42",
           "x": 240,
           "y": 98
         }
@@ -618,10 +790,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 43,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #43",
           "x": 258,
           "y": 98
         }
@@ -632,10 +808,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 44,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #44",
           "x": 276,
           "y": 98
         }
@@ -646,10 +826,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 45,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #45",
           "x": 132,
           "y": 116
         }
@@ -660,10 +844,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 46,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #46",
           "x": 150,
           "y": 116
         }
@@ -674,10 +862,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 47,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #47",
           "x": 168,
           "y": 116
         }
@@ -688,10 +880,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 48,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #48",
           "x": 186,
           "y": 116
         }
@@ -702,10 +898,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 49,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #49",
           "x": 204,
           "y": 116
         }
@@ -716,10 +916,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 50,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #50",
           "x": 222,
           "y": 116
         }
@@ -730,10 +934,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 51,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #51",
           "x": 240,
           "y": 116
         }
@@ -744,10 +952,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 52,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #52",
           "x": 258,
           "y": 116
         }
@@ -758,10 +970,14 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 53,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #53",
           "x": 276,
           "y": 116
         }
@@ -769,12 +985,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Cluttered",
+          "name": "label_cluttered",
+          "text": {
+            "fixedValue": "Cluttered"
+          },
           "color": {
             "value": -12566464,
             "falpha": 0.0
           },
-          "name": "Cluttered",
           "x": 132,
           "y": 16
         }
@@ -782,12 +1000,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Inventory",
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory"
+          },
           "color": {
             "value": -12566464,
             "falpha": 0.0
           },
-          "name": "Inventory",
           "x": 132,
           "y": 137
         }

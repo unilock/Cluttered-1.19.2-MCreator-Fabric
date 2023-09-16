@@ -3,5 +3,6 @@
   "textures": {
     "texture": "luphieclutteredmod:block/glowtrapdoor",
     "particle": "luphieclutteredmod:block/glowtrapdoor"
-  }
+  },
+  "render_type": "cutout"
 }

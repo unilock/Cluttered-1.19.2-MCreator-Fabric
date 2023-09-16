@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:lime_dye"
+    },
+    "3": {
+      "item": "minecraft:lime_dye"
+    },
+    "4": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "5": {
+      "item": "minecraft:lime_dye"
+    },
+    "7": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:green_flower_shelf",
+    "count": 1
+  }
+}

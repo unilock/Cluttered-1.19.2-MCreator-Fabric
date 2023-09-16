@@ -29,5 +29,8 @@ public class LuphieclutteredmodModPaintings {
 		Registry.register(Registries.PAINTING_VARIANT, new Identifier(LuphieclutteredmodMod.MODID, "luphie_catboy_painting"), new PaintingVariant(48, 48));
 		Registry.register(Registries.PAINTING_VARIANT, new Identifier(LuphieclutteredmodMod.MODID, "luphie_butterfly_painting"), new PaintingVariant(32, 16));
 		Registry.register(Registries.PAINTING_VARIANT, new Identifier(LuphieclutteredmodMod.MODID, "luphie_sunflower_painting"), new PaintingVariant(32, 32));
+		Registry.register(Registries.PAINTING_VARIANT, new Identifier(LuphieclutteredmodMod.MODID, "van_gogh_horse_painting"), new PaintingVariant(32, 16));
+		Registry.register(Registries.PAINTING_VARIANT, new Identifier(LuphieclutteredmodMod.MODID, "van_gogh_flame_nettle_painting"), new PaintingVariant(16, 32));
+		Registry.register(Registries.PAINTING_VARIANT, new Identifier(LuphieclutteredmodMod.MODID, "van_gogh_wheatfield_painting"), new PaintingVariant(32, 32));
 	}
 }

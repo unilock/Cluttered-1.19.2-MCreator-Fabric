@@ -3,5 +3,6 @@
   "textures": {
     "texture": "luphieclutteredmod:block/pinkplanksredonetext",
     "particle": "luphieclutteredmod:block/pinkplanksredonetext"
-  }
+  },
+  "render_type": "solid"
 }

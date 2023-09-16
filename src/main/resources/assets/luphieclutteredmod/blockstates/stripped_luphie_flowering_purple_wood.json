@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "luphieclutteredmod:block/stripped_luphie_flowering_purple_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "luphieclutteredmod:block/stripped_luphie_flowering_purple_wood"
+    },
+    "axis=z": {
+      "model": "luphieclutteredmod:block/stripped_luphie_flowering_purple_wood",
+      "x": 90
+    }
+  }
+}

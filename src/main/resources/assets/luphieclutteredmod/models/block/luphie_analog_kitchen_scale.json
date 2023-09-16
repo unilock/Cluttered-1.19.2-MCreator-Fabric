@@ -5,5 +5,5 @@
     "particle": "luphieclutteredmod:block/analogkitchenscaletext",
     "0": "luphieclutteredmod:block/analogkitchenscaletext"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

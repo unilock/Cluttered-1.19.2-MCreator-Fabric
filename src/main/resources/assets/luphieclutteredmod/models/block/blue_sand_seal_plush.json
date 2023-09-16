@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/sand_seal_plush_blue",
+  "textures": {
+    "all": "luphieclutteredmod:block/sand_seal_plush_blue",
+    "particle": "luphieclutteredmod:block/sand_seal_plush_blue",
+    "1": "luphieclutteredmod:block/sand_seal_plush_blue"
+  },
+  "render_type": "cutout"
+}

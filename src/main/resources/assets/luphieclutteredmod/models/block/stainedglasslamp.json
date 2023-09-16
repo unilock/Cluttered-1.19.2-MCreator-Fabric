@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/stained_glass_lamp",
+  "textures": {
+    "all": "luphieclutteredmod:block/stained_glass_lamp",
+    "particle": "luphieclutteredmod:block/stained_glass_lamp",
+    "2": "luphieclutteredmod:block/stained_glass_lamp"
+  },
+  "render_type": "translucent"
+}

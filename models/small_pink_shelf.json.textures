@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "small_pink_shelf"
+      },
+      "name": "default"
+    }
+  }
+}

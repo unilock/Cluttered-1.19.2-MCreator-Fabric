@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ladder"
+    },
+    "1": {
+      "tag": "minecraft:small_flowers"
+    },
+    "3": {
+      "item": "minecraft:ladder"
+    },
+    "4": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "5": {
+      "tag": "minecraft:small_flowers"
+    },
+    "6": {
+      "item": "minecraft:ladder"
+    },
+    "8": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:plant_ladder",
+    "count": 1
+  }
+}

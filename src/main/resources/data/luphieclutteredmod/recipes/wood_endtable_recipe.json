@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "item": "minecraft:oak_fence"
+    },
+    "5": {
+      "item": "minecraft:oak_fence"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_wood_endtable",
+    "count": 1
+  }
+}

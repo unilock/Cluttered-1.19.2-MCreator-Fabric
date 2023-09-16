@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_terracotta"
+    },
+    "1": {
+      "item": "minecraft:blue_terracotta"
+    },
+    "2": {
+      "item": "minecraft:light_gray_terracotta"
+    },
+    "3": {
+      "item": "minecraft:blue_terracotta"
+    },
+    "4": {
+      "item": "minecraft:light_gray_terracotta"
+    },
+    "5": {
+      "item": "minecraft:blue_terracotta"
+    },
+    "6": {
+      "item": "minecraft:yellow_terracotta"
+    },
+    "7": {
+      "item": "minecraft:blue_terracotta"
+    },
+    "8": {
+      "item": "minecraft:blue_terracotta"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:hannish_tile_flooring",
+    "count": 9
+  }
+}

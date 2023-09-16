@@ -3,5 +3,6 @@
   "textures": {
     "cross": "luphieclutteredmod:block/bluemushroom",
     "particle": "luphieclutteredmod:block/bluemushroom"
-  }
+  },
+  "render_type": "cutout"
 }

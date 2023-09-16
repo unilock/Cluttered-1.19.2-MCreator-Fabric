@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "Blocks.RED_FLOWER"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FloweringYellowLog"
+    },
+    "name": "flowering_yellow_log_recipe",
+    "namespace": "mod"
+  }
+}

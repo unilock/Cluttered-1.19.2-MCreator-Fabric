@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "6": {
+      "item": "minecraft:redstone"
+    },
+    "7": {
+      "item": "minecraft:furnace"
+    },
+    "8": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:tarrey_town_stove",
+    "count": 1
+  }
+}

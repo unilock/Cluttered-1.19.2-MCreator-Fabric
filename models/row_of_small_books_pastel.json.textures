@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "row_of_small_books_pastel"
+      },
+      "name": "default"
+    }
+  }
+}

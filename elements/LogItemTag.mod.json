@@ -1,0 +1,63 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "CUSTOM:LuphieStrippedGreenLog"
+      },
+      {
+        "value": "CUSTOM:Floweringpinklog"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:PurpleLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPurpleLog"
+      },
+      {
+        "value": "CUSTOM:GlowLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGlowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:StrippedYellowLog"
+      },
+      {
+        "value": "CUSTOM:FloweringYellowLog"
+      },
+      {
+        "value": "CUSTOM:StrippedFloweringLog"
+      },
+      {
+        "value": "CUSTOM:StrippedFloweringPinklog"
+      },
+      {
+        "value": "CUSTOM:StrippedFloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:PinkLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPinkLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

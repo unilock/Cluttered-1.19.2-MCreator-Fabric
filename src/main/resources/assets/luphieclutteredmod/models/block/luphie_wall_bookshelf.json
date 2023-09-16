@@ -1,9 +1,9 @@
 {
-  "parent": "luphieclutteredmod:custom/wallbookshelf",
+  "parent": "luphieclutteredmod:custom/row_of_small_books_shelved",
   "textures": {
-    "all": "luphieclutteredmod:block/wallbookshelf",
-    "particle": "luphieclutteredmod:block/wallbookshelf",
-    "0": "luphieclutteredmod:block/wallbookshelf"
+    "all": "luphieclutteredmod:block/row_of_small_books_shelved",
+    "particle": "luphieclutteredmod:block/row_of_small_books_shelved",
+    "1": "luphieclutteredmod:block/row_of_small_books_shelved"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

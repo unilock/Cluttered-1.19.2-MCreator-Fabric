@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_pane"
+    },
+    "1": {
+      "item": "minecraft:purple_dye"
+    },
+    "2": {
+      "item": "minecraft:glass_pane"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    },
+    "4": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_purple_planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:purple_cabinet",
+    "count": 1
+  }
+}

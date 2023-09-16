@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:stripped_luphie_pink_wood"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_pink_planks",
+    "count": 4
+  }
+}

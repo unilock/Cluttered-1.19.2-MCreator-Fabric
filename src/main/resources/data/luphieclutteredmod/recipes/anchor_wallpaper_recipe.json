@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_wool"
+    },
+    "1": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "2": {
+      "item": "minecraft:pink_wool"
+    },
+    "3": {
+      "item": "minecraft:pink_wool"
+    },
+    "4": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "5": {
+      "item": "minecraft:pink_wool"
+    },
+    "6": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "7": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "8": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:anchorwallpaper",
+    "count": 9
+  }
+}

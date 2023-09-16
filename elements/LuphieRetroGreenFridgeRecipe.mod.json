@@ -1,12 +1,14 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "xpReward": 0.0,
-    "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -38,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LuphieRetroWhiteFridge"
+      "value": "CUSTOM:LuphieRetroGreenFridge"
     },
     "name": "luphie_retro_green_fridge_recipe",
     "namespace": "mod"

@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/flower_desk_lamp",
+  "textures": {
+    "all": "luphieclutteredmod:block/flower_desk_lamp",
+    "particle": "luphieclutteredmod:block/flower_desk_lamp",
+    "0": "luphieclutteredmod:block/flower_desk_lamp"
+  },
+  "render_type": "cutout"
+}

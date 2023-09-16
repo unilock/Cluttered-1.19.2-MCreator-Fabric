@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/bicycle_purple",
+  "textures": {
+    "all": "luphieclutteredmod:block/bicycle_purple",
+    "particle": "luphieclutteredmod:block/bicycle_purple",
+    "1": "luphieclutteredmod:block/bicycle_purple"
+  },
+  "render_type": "cutout"
+}

@@ -1,9 +1,11 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "painting",
   "definition": {
     "texture": "frogman_washington.png",
     "width": 16,
-    "height": 32
+    "height": 32,
+    "title": "Luphie Frogman Washington Painting",
+    "author": "Unknown"
   }
 }

@@ -1,9 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "luphieclutteredmod:block/glowplanks",
-    "top": "luphieclutteredmod:block/glowplanks",
-    "side": "luphieclutteredmod:block/glowplanks"
-  },
-  "render_type": "solid"
-}

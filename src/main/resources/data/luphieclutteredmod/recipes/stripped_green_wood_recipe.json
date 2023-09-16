@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:stripped_luphie_green_log"
+    },
+    "1": {
+      "item": "luphieclutteredmod:stripped_luphie_green_log"
+    },
+    "2": {
+      "item": "luphieclutteredmod:stripped_luphie_green_log"
+    },
+    "3": {
+      "item": "luphieclutteredmod:stripped_luphie_green_log"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:stripped_luphie_green_wood",
+    "count": 3
+  }
+}

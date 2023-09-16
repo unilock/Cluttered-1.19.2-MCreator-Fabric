@@ -1,7 +1,7 @@
 {
   "parent": "block/door_bottom",
   "textures": {
-    "bottom": "luphieclutteredmod:block/mushdoorbottomhalf",
-    "top": "luphieclutteredmod:block/mushdoortophalf"
+    "bottom": "luphieclutteredmod:blocks/mushdoorbottomhalf",
+    "top": "luphieclutteredmod:blocks/mushdoortophalf"
   }
 }

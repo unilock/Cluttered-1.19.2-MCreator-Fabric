@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:stripped_luphie_flowering_pinklog"
+    },
+    "1": {
+      "item": "luphieclutteredmod:stripped_luphie_flowering_pinklog"
+    },
+    "2": {
+      "item": "luphieclutteredmod:stripped_luphie_flowering_pinklog"
+    },
+    "3": {
+      "item": "luphieclutteredmod:stripped_luphie_flowering_pinklog"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:stripped_luphie_flowering_pink_wood",
+    "count": 3
+  }
+}

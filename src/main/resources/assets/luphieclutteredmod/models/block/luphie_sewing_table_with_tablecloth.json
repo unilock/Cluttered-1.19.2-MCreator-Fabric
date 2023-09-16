@@ -5,5 +5,5 @@
     "particle": "luphieclutteredmod:block/sewingtablewclothtext",
     "0": "luphieclutteredmod:block/sewingtablewclothtext"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

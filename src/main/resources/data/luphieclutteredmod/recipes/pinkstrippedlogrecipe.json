@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    },
+    "3": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "5": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    },
+    "6": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    },
+    "7": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    },
+    "8": {
+      "item": "luphieclutteredmod:luphie_pink_log"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:stripped_luphie_pink_log",
+    "count": 8
+  }
+}

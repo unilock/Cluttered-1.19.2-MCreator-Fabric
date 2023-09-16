@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/wine_bottle_rack",
+  "textures": {
+    "all": "luphieclutteredmod:block/wine_bottle_rack",
+    "particle": "luphieclutteredmod:block/wine_bottle_rack",
+    "1": "luphieclutteredmod:block/wine_bottle_rack"
+  },
+  "render_type": "solid"
+}

@@ -1,9 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "luphieclutteredmod:block/bluemushroomplanks",
-    "top": "luphieclutteredmod:block/bluemushroomplanks",
-    "side": "luphieclutteredmod:block/bluemushroomplanks"
-  },
-  "render_type": "solid"
-}

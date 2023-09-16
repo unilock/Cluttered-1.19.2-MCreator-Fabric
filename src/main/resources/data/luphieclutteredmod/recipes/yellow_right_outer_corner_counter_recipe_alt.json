@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:luphie_yellow_left_outer_corner_counter"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_yellow_right_outer_corner_counter",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "luphieclutteredmod:block/checkered_strawberry_wallpaper_pink",
+    "up": "luphieclutteredmod:block/checkered_strawberry_wallpaper_pink",
+    "north": "luphieclutteredmod:block/checkered_strawberry_wallpaper_pink",
+    "east": "luphieclutteredmod:block/checkered_strawberry_wallpaper_pink",
+    "south": "luphieclutteredmod:block/checkered_strawberry_wallpaper_pink",
+    "west": "luphieclutteredmod:block/checkered_strawberry_wallpaper_pink",
+    "particle": "luphieclutteredmod:block/checkered_strawberry_wallpaper_pink"
+  },
+  "render_type": "solid"
+}

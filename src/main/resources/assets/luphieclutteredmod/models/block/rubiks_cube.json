@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/rubiks_cube",
+  "textures": {
+    "all": "luphieclutteredmod:block/rubiks_cube",
+    "particle": "luphieclutteredmod:block/rubiks_cube",
+    "2": "luphieclutteredmod:block/rubiks_cube"
+  },
+  "render_type": "solid"
+}

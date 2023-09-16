@@ -1,7 +1,7 @@
 {
   "parent": "block/door_bottom",
   "textures": {
-    "bottom": "luphieclutteredmod:block/floweringyellowdoorbot",
-    "top": "luphieclutteredmod:block/floweringyellowdoortop"
+    "bottom": "luphieclutteredmod:blocks/flowering_yellow_door_bottom",
+    "top": "luphieclutteredmod:blocks/flowering_yellow_door_top"
   }
 }

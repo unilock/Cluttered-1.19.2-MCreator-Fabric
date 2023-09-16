@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bucket"
+    },
+    "1": {
+      "item": "luphieclutteredmod:tarrey_town_stove"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:cluttered_tarrey_town_wood_stove",
+    "count": 1
+  }
+}

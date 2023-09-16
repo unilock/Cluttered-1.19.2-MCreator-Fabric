@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:luphie_pink_slab"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_pink_slab"
+    },
+    "2": {
+      "item": "luphieclutteredmod:luphie_pink_slab"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:small_pink_shelf",
+    "count": 1
+  }
+}

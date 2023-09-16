@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/puzzle_piece_table_pastel_pink",
+  "textures": {
+    "all": "luphieclutteredmod:block/puzzle_piece_table_pastel_pink",
+    "particle": "luphieclutteredmod:block/puzzle_piece_table_pastel_pink",
+    "3": "luphieclutteredmod:block/puzzle_piece_table_pastel_pink"
+  },
+  "render_type": "solid"
+}

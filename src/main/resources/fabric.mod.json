@@ -12,7 +12,7 @@
     "sources": "https://github.com/beelakes/Cluttered-1.19.2-MCreator-Fabric"
   },
   "license": "Academic Free License v3.0",
-  "icon": "icon.png",
+  "icon": "assets/luphieclutteredmod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [

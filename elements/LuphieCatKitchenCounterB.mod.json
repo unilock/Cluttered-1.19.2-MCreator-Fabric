@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "block",
   "definition": {
     "texture": "catkitchencounterbtext",
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "MISCELLANEOUS"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -99,14 +99,8 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
-    "hasInventory": false,
+    "isBonemealable": false,
+    "hasInventory": true,
     "guiBoundTo": "LuphieSmallStorageGui",
     "openGUIOnRightClick": true,
     "inventorySize": 27,
@@ -127,7 +121,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

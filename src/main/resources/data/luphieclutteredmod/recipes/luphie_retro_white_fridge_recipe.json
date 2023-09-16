@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "01 ",
     "345",
@@ -29,7 +30,7 @@
     }
   },
   "result": {
-    "item": "luphieclutteredmod:luphie_retro_green_fridge",
+    "item": "luphieclutteredmod:luphie_retro_white_fridge",
     "count": 1
   }
 }

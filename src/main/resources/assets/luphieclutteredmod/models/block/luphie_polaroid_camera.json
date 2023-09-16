@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/polaroid_camera",
+  "textures": {
+    "all": "luphieclutteredmod:block/polaroid_camera",
+    "particle": "luphieclutteredmod:block/polaroid_camera",
+    "1": "luphieclutteredmod:block/polaroid_camera"
+  },
+  "render_type": "solid"
+}

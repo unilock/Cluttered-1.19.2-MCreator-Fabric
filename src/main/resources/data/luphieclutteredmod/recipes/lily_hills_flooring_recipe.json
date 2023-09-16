@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_terracotta"
+    },
+    "1": {
+      "item": "minecraft:green_terracotta"
+    },
+    "2": {
+      "item": "minecraft:white_terracotta"
+    },
+    "3": {
+      "item": "minecraft:white_terracotta"
+    },
+    "4": {
+      "item": "minecraft:green_terracotta"
+    },
+    "5": {
+      "item": "minecraft:green_terracotta"
+    },
+    "6": {
+      "item": "minecraft:black_terracotta"
+    },
+    "7": {
+      "item": "minecraft:white_terracotta"
+    },
+    "8": {
+      "item": "minecraft:white_terracotta"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:lily_hills_flooring",
+    "count": 9
+  }
+}

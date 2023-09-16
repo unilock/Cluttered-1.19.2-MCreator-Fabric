@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PurpleFlowerShelf"
+    },
+    "name": "purple_flower_shelf_recipe",
+    "namespace": "mod"
+  }
+}

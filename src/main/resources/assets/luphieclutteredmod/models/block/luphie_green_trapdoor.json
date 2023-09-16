@@ -3,5 +3,6 @@
   "textures": {
     "texture": "luphieclutteredmod:block/greentrapdoor",
     "particle": "luphieclutteredmod:block/greentrapdoor"
-  }
+  },
+  "render_type": "solid"
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/lily_hills_flooring",
+  "textures": {
+    "all": "luphieclutteredmod:block/lily_hills_flooring",
+    "particle": "luphieclutteredmod:block/lily_hills_flooring",
+    "1": "luphieclutteredmod:block/lily_hills_flooring"
+  },
+  "render_type": "solid"
+}

@@ -1,9 +1,9 @@
 {
-  "parent": "luphieclutteredmod:custom/wallbookshelfpink",
+  "parent": "luphieclutteredmod:custom/row_of_small_books_pastel_shelved",
   "textures": {
-    "all": "luphieclutteredmod:block/wallbookshelfpinktext",
-    "particle": "luphieclutteredmod:block/wallbookshelfpinktext",
-    "0": "luphieclutteredmod:block/wallbookshelfpinktext"
+    "all": "luphieclutteredmod:block/row_of_books_pastel_shelved",
+    "particle": "luphieclutteredmod:block/row_of_books_pastel_shelved",
+    "2": "luphieclutteredmod:block/row_of_books_pastel_shelved"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

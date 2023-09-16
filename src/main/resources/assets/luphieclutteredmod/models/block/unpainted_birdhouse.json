@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/birdhouse_unpainted",
+  "textures": {
+    "all": "luphieclutteredmod:block/birdhouse_unpainted",
+    "particle": "luphieclutteredmod:block/birdhouse_unpainted",
+    "2": "luphieclutteredmod:block/birdhouse_unpainted"
+  },
+  "render_type": "solid"
+}

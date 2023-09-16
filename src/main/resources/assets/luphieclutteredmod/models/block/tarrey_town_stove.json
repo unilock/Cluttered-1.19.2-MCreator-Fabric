@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/tarrey_town_wood_stove",
+  "textures": {
+    "all": "luphieclutteredmod:block/tarrey_town_wood_stove",
+    "particle": "luphieclutteredmod:block/tarrey_town_wood_stove",
+    "1": "luphieclutteredmod:block/tarrey_town_wood_stove"
+  },
+  "render_type": "solid"
+}

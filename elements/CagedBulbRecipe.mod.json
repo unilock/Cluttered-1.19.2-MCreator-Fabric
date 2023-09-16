@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieCagedBulb"
+    },
+    "name": "caged_bulb_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/lily_hills_flooring"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/lily_hills_flooring",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/lily_hills_flooring",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/lily_hills_flooring",
+      "y": 270
+    }
+  }
+}

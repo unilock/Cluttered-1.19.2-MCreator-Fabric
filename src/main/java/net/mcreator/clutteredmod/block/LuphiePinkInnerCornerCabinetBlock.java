@@ -4,26 +4,26 @@ package net.mcreator.clutteredmod.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.mcreator.clutteredmod.block.entity.LuphiePinkInnerCornerCabinetBlockEntity;
 import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockEntityProvider;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.loot.context.LootContextParameterSet;
+import net.minecraft.screen.NamedScreenHandlerFactory;
+import net.minecraft.screen.ScreenHandler;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.text.Text;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.BlockMirror;
-import net.minecraft.util.BlockRotation;
-import net.minecraft.util.Hand;
+import net.minecraft.util.*;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -33,9 +33,8 @@ import net.minecraft.world.World;
 import java.util.Collections;
 import java.util.List;
 
-public class LuphiePinkInnerCornerCabinetBlock extends Block {
-	public static AbstractBlock.Settings PROPERTIES = FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f).nonOpaque()
-			.solidBlock((bs, br, bp) -> false);
+public class LuphiePinkInnerCornerCabinetBlock extends Block implements BlockEntityProvider {
+	public static Settings PROPERTIES = Settings.create().sounds(BlockSoundGroup.WOOD).strength(1f, 10f).nonOpaque().solidBlock((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
 	public LuphiePinkInnerCornerCabinetBlock() {
@@ -88,7 +87,56 @@ public class LuphiePinkInnerCornerCabinetBlock extends Block {
 	@Override
 	public ActionResult onUse(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, Hand hand, BlockHitResult hit) {
 		super.onUse(blockstate, world, pos, entity, hand, hit);
+		if (!world.isClient) {
+			NamedScreenHandlerFactory menuProvider = blockstate.createScreenHandlerFactory(world, pos);
+			if (menuProvider != null)
+				entity.openHandledScreen(menuProvider);
+		}
 		return ActionResult.SUCCESS;
+	}
+
+	@Override
+	public NamedScreenHandlerFactory createScreenHandlerFactory(BlockState state, World worldIn, BlockPos pos) {
+		BlockEntity tileEntity = worldIn.getBlockEntity(pos);
+		return tileEntity instanceof NamedScreenHandlerFactory ? (NamedScreenHandlerFactory) tileEntity : null;
+	}
+
+	@Override
+	public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+		return new LuphiePinkInnerCornerCabinetBlockEntity(pos, state);
+	}
+
+	@Override
+	public boolean onSyncedBlockEvent(BlockState state, World world, BlockPos pos, int eventID, int eventParam) {
+		super.onSyncedBlockEvent(state, world, pos, eventID, eventParam);
+		BlockEntity blockEntity = world.getBlockEntity(pos);
+		return blockEntity == null ? false : blockEntity.onSyncedBlockEvent(eventID, eventParam);
+	}
+
+	@Override
+	public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean isMoving) {
+		if (state.getBlock() != newState.getBlock()) {
+			BlockEntity blockEntity = world.getBlockEntity(pos);
+			if (blockEntity instanceof LuphiePinkInnerCornerCabinetBlockEntity be) {
+				ItemScatterer.spawn(world, pos, be);
+				world.updateComparators(pos, this);
+			}
+			super.onStateReplaced(state, world, pos, newState, isMoving);
+		}
+	}
+
+	@Override
+	public boolean hasComparatorOutput(BlockState state) {
+		return true;
+	}
+
+	@Override
+	public int getComparatorOutput(BlockState blockState, World world, BlockPos pos) {
+		BlockEntity tileentity = world.getBlockEntity(pos);
+		if (tileentity instanceof LuphiePinkInnerCornerCabinetBlockEntity)
+			return ScreenHandler.calculateComparatorOutput(tileentity);
+		else
+			return 0;
 	}
 
 	@Environment(EnvType.CLIENT)

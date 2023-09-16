@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/bicycle_pink",
+  "textures": {
+    "all": "luphieclutteredmod:block/bicycle_pink",
+    "particle": "luphieclutteredmod:block/bicycle_pink",
+    "1": "luphieclutteredmod:block/bicycle_pink"
+  },
+  "render_type": "cutout"
+}

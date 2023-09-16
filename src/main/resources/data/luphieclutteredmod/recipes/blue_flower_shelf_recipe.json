@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "3": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "4": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "5": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "7": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:blue_flower_shelf",
+    "count": 1
+  }
+}

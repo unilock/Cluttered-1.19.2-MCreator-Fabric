@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "luphieclutteredmod:block/stainedglasslamp"
+    },
+    "facing=east": {
+      "model": "luphieclutteredmod:block/stainedglasslamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "luphieclutteredmod:block/stainedglasslamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "luphieclutteredmod:block/stainedglasslamp",
+      "y": 270
+    }
+  }
+}

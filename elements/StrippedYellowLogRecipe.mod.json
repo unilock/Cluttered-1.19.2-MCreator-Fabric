@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedYellowLog"
+    },
+    "name": "stripped_yellow_log_recipe",
+    "namespace": "mod"
+  }
+}

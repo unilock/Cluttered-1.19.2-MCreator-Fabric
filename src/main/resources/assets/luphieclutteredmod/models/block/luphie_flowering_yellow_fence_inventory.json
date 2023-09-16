@@ -1,7 +1,8 @@
 {
   "parent": "block/fence_inventory",
   "textures": {
-    "texture": "luphieclutteredmod:block/floweryyellowplanksretext",
-    "particle": "luphieclutteredmod:block/floweryyellowplanksretext"
-  }
+    "texture": "luphieclutteredmod:block/flowering_yellow_planks",
+    "particle": "luphieclutteredmod:block/flowering_yellow_planks"
+  },
+  "render_type": "solid"
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/rito_wooden_books_a",
+  "textures": {
+    "all": "luphieclutteredmod:block/rito_wooden_books_a",
+    "particle": "luphieclutteredmod:block/rito_wooden_books_a",
+    "2": "luphieclutteredmod:block/rito_wooden_books_a"
+  },
+  "render_type": "cutout"
+}

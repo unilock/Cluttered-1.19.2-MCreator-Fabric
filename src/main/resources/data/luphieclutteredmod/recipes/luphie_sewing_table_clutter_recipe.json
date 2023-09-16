@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "012"
   ],
@@ -8,10 +9,10 @@
       "item": "minecraft:string"
     },
     "1": {
-      "tag": "minecraft:carpets"
+      "item": "minecraft:light_blue_carpet"
     },
     "2": {
-      "tag": "minecraft:wool"
+      "item": "minecraft:pink_wool"
     }
   },
   "result": {

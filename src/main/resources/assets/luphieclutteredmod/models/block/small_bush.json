@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/bush",
+  "textures": {
+    "all": "luphieclutteredmod:block/bush",
+    "particle": "luphieclutteredmod:block/bush",
+    "1": "luphieclutteredmod:block/bush"
+  },
+  "render_type": "cutout"
+}

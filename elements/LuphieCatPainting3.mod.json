@@ -1,9 +1,11 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "painting",
   "definition": {
     "texture": "blackcatpainting3.png",
     "width": 16,
-    "height": 16
+    "height": 16,
+    "title": "Luphie Cat Painting 3",
+    "author": "Unknown"
   }
 }

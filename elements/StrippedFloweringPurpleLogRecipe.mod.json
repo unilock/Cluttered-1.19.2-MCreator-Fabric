@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      },
+      {
+        "value": "CUSTOM:FloweringPurpleLog"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedFloweringPurpleLog"
+    },
+    "name": "stripped_flowering_purple_log_recipe",
+    "namespace": "mod"
+  }
+}

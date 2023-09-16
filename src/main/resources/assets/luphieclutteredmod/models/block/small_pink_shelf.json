@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/small_pink_shelf",
+  "textures": {
+    "all": "luphieclutteredmod:block/small_pink_shelf",
+    "particle": "luphieclutteredmod:block/small_pink_shelf",
+    "1": "luphieclutteredmod:block/small_pink_shelf"
+  },
+  "render_type": "cutout"
+}

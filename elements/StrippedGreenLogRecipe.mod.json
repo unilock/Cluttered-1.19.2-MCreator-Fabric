@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      },
+      {
+        "value": "CUSTOM:LuphieGreenLog"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuphieStrippedGreenLog"
+    },
+    "name": "stripped_green_log_recipe",
+    "namespace": "mod"
+  }
+}

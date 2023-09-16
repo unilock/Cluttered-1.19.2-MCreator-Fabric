@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:magenta_dye"
+    },
+    "4": {
+      "item": "minecraft:paper"
+    },
+    "5": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_polaroid_garland_a",
+    "count": 1
+  }
+}

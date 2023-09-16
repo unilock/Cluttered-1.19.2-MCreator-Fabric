@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:purple_dye"
+    },
+    "1": {
+      "item": "luphieclutteredmod:luphie_wood_endtable"
+    },
+    "2": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_amethyst_endtable",
+    "count": 1
+  }
+}

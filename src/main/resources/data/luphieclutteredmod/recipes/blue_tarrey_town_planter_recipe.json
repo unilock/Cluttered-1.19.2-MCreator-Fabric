@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_dye"
+    },
+    "2": {
+      "item": "minecraft:blue_dye"
+    },
+    "3": {
+      "item": "minecraft:dirt"
+    },
+    "4": {
+      "item": "minecraft:dirt"
+    },
+    "5": {
+      "item": "minecraft:dirt"
+    },
+    "6": {
+      "tag": "minecraft:planks"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:blue_tarrey_town_planter",
+    "count": 3
+  }
+}

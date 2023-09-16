@@ -3,5 +3,6 @@
   "textures": {
     "texture": "luphieclutteredmod:block/floweringpurpleplanks",
     "particle": "luphieclutteredmod:block/floweringpurpleplanks"
-  }
+  },
+  "render_type": "solid"
 }

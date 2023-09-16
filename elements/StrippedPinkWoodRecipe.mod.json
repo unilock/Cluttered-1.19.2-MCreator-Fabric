@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedPinkLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPinkLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedPinkLog"
+      },
+      {
+        "value": "CUSTOM:StrippedPinkLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedPinkWood"
+    },
+    "name": "stripped_pink_wood_recipe",
+    "namespace": "mod"
+  }
+}

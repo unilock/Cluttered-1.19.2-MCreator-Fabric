@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "van_gogh_horse_painting.png",
+    "width": 32,
+    "height": 16,
+    "title": "Van Gogh Horse Painting",
+    "author": "Unknown"
+  }
+}

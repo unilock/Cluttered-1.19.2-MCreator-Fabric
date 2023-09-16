@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luphieclutteredmod:stripped_luphie_flowering_purple_wood"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_flowering_purple_planks",
+    "count": 4
+  }
+}

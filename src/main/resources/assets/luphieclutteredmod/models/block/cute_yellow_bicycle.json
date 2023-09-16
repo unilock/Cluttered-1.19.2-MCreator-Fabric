@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/bicycle_with_flowers_yellow",
+  "textures": {
+    "all": "luphieclutteredmod:block/bicycle_with_flowers_yellow",
+    "particle": "luphieclutteredmod:block/bicycle_with_flowers_yellow",
+    "2": "luphieclutteredmod:block/bicycle_with_flowers_yellow"
+  },
+  "render_type": "cutout"
+}

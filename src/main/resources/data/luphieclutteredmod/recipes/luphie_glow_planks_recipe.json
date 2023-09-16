@@ -1,41 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "01",
+    "23"
   ],
   "key": {
     "0": {
-      "tag": "minecraft:planks"
+      "item": "luphieclutteredmod:luphie_glow_log"
     },
     "1": {
-      "tag": "minecraft:planks"
+      "item": "luphieclutteredmod:luphie_glow_log"
     },
     "2": {
-      "tag": "minecraft:planks"
+      "item": "luphieclutteredmod:luphie_glow_log"
     },
     "3": {
-      "tag": "minecraft:planks"
-    },
-    "4": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "5": {
-      "tag": "minecraft:planks"
-    },
-    "6": {
-      "tag": "minecraft:planks"
-    },
-    "7": {
-      "tag": "minecraft:planks"
-    },
-    "8": {
-      "tag": "minecraft:planks"
+      "item": "luphieclutteredmod:luphie_glow_log"
     }
   },
   "result": {
     "item": "luphieclutteredmod:luphie_glow_planks",
-    "count": 8
+    "count": 4
   }
 }

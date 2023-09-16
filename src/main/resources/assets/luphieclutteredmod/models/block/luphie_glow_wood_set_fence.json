@@ -3,5 +3,6 @@
   "textures": {
     "texture": "luphieclutteredmod:block/glowplanks",
     "particle": "luphieclutteredmod:block/glowplanks"
-  }
+  },
+  "render_type": "solid"
 }

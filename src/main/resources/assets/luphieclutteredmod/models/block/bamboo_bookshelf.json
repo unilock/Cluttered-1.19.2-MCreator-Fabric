@@ -1,0 +1,9 @@
+{
+  "parent": "luphieclutteredmod:custom/bamboo_bookshelf",
+  "textures": {
+    "all": "luphieclutteredmod:block/bamboo_bookshelf",
+    "particle": "luphieclutteredmod:block/bamboo_bookshelf",
+    "1": "luphieclutteredmod:block/bamboo_bookshelf"
+  },
+  "render_type": "solid"
+}

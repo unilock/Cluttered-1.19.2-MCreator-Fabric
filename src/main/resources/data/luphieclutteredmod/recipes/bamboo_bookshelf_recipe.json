@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bamboo"
+    },
+    "1": {
+      "item": "minecraft:book"
+    },
+    "2": {
+      "item": "minecraft:bamboo"
+    },
+    "3": {
+      "item": "minecraft:book"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:book"
+    },
+    "6": {
+      "item": "minecraft:bamboo"
+    },
+    "7": {
+      "item": "minecraft:book"
+    },
+    "8": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:bamboo_bookshelf",
+    "count": 1
+  }
+}

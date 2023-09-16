@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "luphieclutteredmod:stripped_luphie_flowering_log"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:luphie_flowering_yellow_planks",
+    "count": 4
+  }
+}

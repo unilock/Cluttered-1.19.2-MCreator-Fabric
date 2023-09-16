@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tarrey_town_wood_stove"
+      },
+      "name": "default"
+    }
+  }
+}

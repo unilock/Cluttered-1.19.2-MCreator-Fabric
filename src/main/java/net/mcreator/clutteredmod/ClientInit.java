@@ -21,6 +21,8 @@ import net.mcreator.clutteredmod.init.LuphieclutteredmodModBlocks;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
 		LuphieclutteredmodModBlocks.clientLoad();
+
 	}
 }

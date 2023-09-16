@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "c:glass_panes"
+    },
+    "1": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "2": {
+      "tag": "c:glass_panes"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "luphieclutteredmod:stainedglasslamp",
+    "count": 1
+  }
+}
